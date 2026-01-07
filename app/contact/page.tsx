@@ -15,42 +15,42 @@ export default function ContactPage() {
             Get in Touch
           </h1>
 
-          <p className="text-gray-700 leading-relaxed font-mono ">
+          <p className="text-gray-700 leading-relaxed ">
             If you want to talk about frontend development, creative
             technology, music production, collaborations, or anything else,
             I’d love to hear from you.  
           </p>
 
-          <p className="text-gray-700 leading-relaxed font-mono">
+          <p className="text-gray-700 leading-relaxed ">
             Reach out and I’ll get back to you as soon as possible.  
             I’m based in Portland, OR and open to freelance, full-time, 
             or creative project conversations.
           </p>
 
           {/* Contact Email */}
-          <div className="flex items-center gap-3 font-mono">
+          <div className="flex items-center gap-3 ">
             <Mail className="w-5 h-5 text-gray-600" />
             <a 
               href="mailto:gabiespinosa138@gmail.com"
               className="text-blue-700 hover:underline"
             >
-              gabiespinosa138@gmail.com
+              winterbeastpdx@gmail.com
             </a>
           </div>
 
           {/* Social Links */}
-          <div className="flex gap-4 mt-4 font-mono">
-            <a
+          <div className="flex gap-4 mt-4 ">
+            {/* <a
               href="https://www.linkedin.com/in/geespinosa"
               target="_blank"
               className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
             >
               <Linkedin className="w-5 h-5" />
               <span>LinkedIn</span>
-            </a>
+            </a> */}
 
             <a
-              href="https://www.instagram.com/_abriel_spinosa/" 
+              href="https://www.instagram.com/winterbeastpdx/" 
               target="_blank"
               className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
             >

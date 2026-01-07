@@ -56,10 +56,10 @@ export default function TreeNode({
   //
   // const [isOpen, setIsOpen] = useState(false);
 
-  const isOpen = openFolders[node.id] || false
+  const isOpen = openFolders[node.id] || false;
 
   function toggleOpen() {
-    toggleFolder(node.id)
+    toggleFolder(node.id);
   }
 
   const isFolder = node.type === "folder";
@@ -185,7 +185,7 @@ export default function TreeNode({
           NODE ROW (label + arrow)
          ───────────────────────────── */}
       <div
-        className="tree-node-row flex items-center font-mono text-black select-none relative"
+        className="tree-node-row flex items-center  text-black select-none relative"
         style={{
           paddingLeft: `${level * indentPx + 0.25}px`,
           lineHeight: "1.5rem",
@@ -197,7 +197,7 @@ export default function TreeNode({
         {/* FOLDER TOGGLE */}
         {isFolder ? (
           <button
-            // onClick={() => setIsOpen((prev) => !prev)}
+            className="font-mono"
             onClick={toggleOpen}
             style={{
               border: "none",
@@ -205,8 +205,6 @@ export default function TreeNode({
               cursor: "pointer",
               fontSize: "1.25rem",
               marginRight: 5.5,
-              // paddingRight: 5,
-              // width: arrowWidth,
               display: "inline-flex",
               justifyContent: "center",
               transform: isOpen ? "rotate(90deg)" : "rotate(0deg)",
@@ -221,7 +219,14 @@ export default function TreeNode({
           <span style={{ display: "inline-block" }} />
         )}
 
-        <div style={{display: "flex", alignItems: "center", flexGrow: 1, minWidth: 0}}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexGrow: 1,
+            minWidth: 0,
+          }}
+        >
           {/* LABEL */}
 
           <span
@@ -310,5 +315,3 @@ export default function TreeNode({
     </div>
   );
 }
-
-

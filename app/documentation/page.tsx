@@ -65,16 +65,11 @@ export default function ProjectsPage() {
   }, []);
 
   const {
-    // colorToggle,
     setColorToggle,
     highlightColor,
     setHighlightColor,
-    // verticalToggle,
     setVerticalToggle,
-    // horizontalToggle,
     setHorizontalToggle,
-    // selectedNode,
-    // setSelectedNode,
     openAllFolders,
     closeAllFolders,
   } = useDirectoryToggle();
@@ -101,8 +96,6 @@ export default function ProjectsPage() {
         style={{
           width: sidebarCollapse ? 48 : sidebarWidth,
           transition: !resizing ? "width 0.25s ease" : "none",
-          // overflow: "hidden",
-          // Optional: reduce right padding when expanded to let button move closer
           paddingRight: sidebarCollapse ? "2rem" : "1rem",
         }}
         className="p-8 bg-white min-h-screen sticky top-0 h-screen overflow-y-auto border-r border-gray-200 flex-shrink-0"
@@ -114,7 +107,7 @@ export default function ProjectsPage() {
         >
           {!sidebarCollapse && (
             <h1
-              className="font-mono text-black text-xl"
+              className="text-black text-xl"
               style={{ textOverflow: "ellipsis", whiteSpace: "nowrap" }}
             >
               Projects Directory
