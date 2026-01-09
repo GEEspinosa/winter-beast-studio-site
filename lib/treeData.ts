@@ -1,7 +1,5 @@
 import type { TreeNodeProps } from "@/components/TreeNode";
 import { idIncrement } from "../utils/id-increment";
-// import { photoWebsiteReadme } from "./siteREADMEs/photoWebsiteReadme";
-// import { attritionReadme } from "./siteREADMEs/attritionReadme";
 
 export const treeData: TreeNodeProps["node"][] = [
   {
@@ -79,15 +77,47 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "40 Miles (2024)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
           },
           {
             id: idIncrement(),
-            name: "A Pale Horse (2023)",
-            fileType: "wb-album",
-            type: "file",
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "40 Miles (2024)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                  {
+                    id: idIncrement(),
+                    name: "A Pale Horse (2023)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -98,9 +128,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Taurobolium (2023)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Taurobolium (2023)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -111,9 +173,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "The Invisible Seam (2020)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "The Invisible Seam (2020)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -124,15 +218,47 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Unnamed LP (WIP)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
           },
           {
             id: idIncrement(),
-            name: "Unnamed EP (WIP)",
-            fileType: "wb-album",
-            type: "file",
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed EP (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -143,9 +269,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Unnamed LP (WIP)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -156,9 +314,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Unnamed LP (WIP)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -169,9 +359,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Unnamed LP (WIP)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -182,9 +404,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Unnamed LP (WIP)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
@@ -195,9 +449,41 @@ export const treeData: TreeNodeProps["node"][] = [
         children: [
           {
             id: idIncrement(),
-            name: "Singles (WIP)",
+            name: "Overview",
             fileType: "wb-album",
             type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Singles (WIP)",
+                    fileType: "wb-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
           },
         ],
       },
