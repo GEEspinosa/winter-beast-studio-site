@@ -51,11 +51,9 @@ export default function TreeNode({
     openFolders,
     toggleFolder,
   } = useDirectoryToggle();
-  //
-  // FOLDER STATE
-  //
-  // const [isOpen, setIsOpen] = useState(false);
 
+  // FOLDER STATE
+ 
   const isOpen = openFolders[node.id] || false;
 
   function toggleOpen() {

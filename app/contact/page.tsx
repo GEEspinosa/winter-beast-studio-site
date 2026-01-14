@@ -1,5 +1,5 @@
 import ContactForm from "@/components/ContactForm";
-import { Mail, Linkedin, Instagram } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function ContactPage() {
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
               target="_blank"
               className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
             >
-              <Instagram className="w-5 h-5" />
+              {/* <Instagram className="w-5 h-5" /> */}
               <span>Instagram</span>
             </a>
           </div>

@@ -10,7 +10,7 @@ export const treeData: TreeNodeProps["node"][] = [
   },
   {
     id: idIncrement(),
-    name: "Recording Sessions",
+    name: "Artists",
     type: "folder",
     children: [
       {

@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { toRGBAWithAlpha } from "../utils/rgba-with-alpha";
 
 const PRESET_COLORS = [
-  "rgba(255, 0, 0, 0.22)",
   "rgba(0, 128, 255, 0.22)",
+  "rgba(255, 0, 0, 0.22)",
   "rgba(0, 255, 0, 0.22)",
   "rgba(255, 165, 0, 0.22)",
   "rgba(128, 0, 128, 0.22)",

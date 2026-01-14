@@ -10,7 +10,7 @@ import { treeData } from "../../lib/treeData";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function ProjectsPage() {
-  const [sidebarCollapse, setSidebarCollapse] = useState(false);
+  // const [sidebarCollapse, setSidebarCollapse] = useState(false);
   const [sidebarWidth, setSidebarWidth] = useState(500);
   const [resizing, setResizing] = useState(false);
   const resizerRef = useRef<HTMLDivElement>(null);
@@ -65,6 +65,8 @@ export default function ProjectsPage() {
   }, []);
 
   const {
+    sidebarCollapse,
+    setSidebarCollapse,
     setColorToggle,
     highlightColor,
     setHighlightColor,
@@ -85,6 +87,8 @@ export default function ProjectsPage() {
   function toggleHorizontalHandler() {
     setHorizontalToggle((prev) => !prev);
   }
+
+  console.log("sidebarCollapse from context:", sidebarCollapse);
 
   return (
     <main

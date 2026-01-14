@@ -3,11 +3,10 @@ import { TreeNodeProps } from "@/components/TreeNode";
 
 interface DirectoryToggleContextTypes {
   colorToggle: boolean;
-  setColorToggle: React.Dispatch<React.SetStateAction<boolean>> ;
- 
+  setColorToggle: React.Dispatch<React.SetStateAction<boolean>>;
+
   highlightColor: string;
   setHighlightColor: React.Dispatch<React.SetStateAction<string>>;
-
 
   verticalToggle: boolean;
   setVerticalToggle: React.Dispatch<React.SetStateAction<boolean>>;
@@ -16,8 +15,12 @@ interface DirectoryToggleContextTypes {
   setHorizontalToggle: React.Dispatch<React.SetStateAction<boolean>>;
 
   selectedNode: TreeNodeProps["node"] | null;
-  setSelectedNode: React.Dispatch<React.SetStateAction<TreeNodeProps["node"] | null>>;
+  setSelectedNode: React.Dispatch<
+    React.SetStateAction<TreeNodeProps["node"] | null>
+  >;
 
+  sidebarCollapse: boolean;
+  setSidebarCollapse: React.Dispatch<React.SetStateAction<boolean>>;
 
   ///folder open/close management
 

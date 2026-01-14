@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import DirectoryToggleContext from "@/context/DirectoryToggleContext";
 import { TreeNodeProps } from "@/components/TreeNode";
 
+
+
 export function ClientProvider({
   children,
   tree,
@@ -11,13 +13,16 @@ export function ClientProvider({
   children: React.ReactNode;
   tree: TreeNodeProps["node"][];
 }) {
+  const [sidebarCollapse, setSidebarCollapse] = useState(true)
   const [colorToggle, setColorToggle] = useState(true);
-  const [highlightColor, setHighlightColor] = useState("rgba(255, 0, 0, 0.22)");
+  const [highlightColor, setHighlightColor] = useState("rgba(0, 128, 255, 0.22)");
   const [verticalToggle, setVerticalToggle] = useState(true);
   const [horizontalToggle, setHorizontalToggle] = useState(true);
   const [selectedNode, setSelectedNode] = useState<
     TreeNodeProps["node"] | null
   >(null);
+
+  console.log("ClientProvider mounted");
 
   //openFolders state and toggle functions
   const [openFolders, setOpenFolders] = useState<Record<number, boolean>>({});
@@ -25,10 +30,6 @@ export function ClientProvider({
   function toggleFolder(id: number) {
     setOpenFolders((prev) => ({ ...prev, [id]: !prev[id] }));
   }
-
-  // function setFolderOpen(id: number, value: boolean) {
-  //   setOpenFolders((prev) => ({ ...prev, [id]: value }));
-  // }
 
   function collectFolderIds(nodes: TreeNodeProps["node"][]): number[] {
     const ids: number[] = [];
@@ -58,6 +59,8 @@ export function ClientProvider({
   return (
     <DirectoryToggleContext.Provider
       value={{
+        sidebarCollapse,
+        setSidebarCollapse,
         colorToggle,
         setColorToggle,
         highlightColor,
