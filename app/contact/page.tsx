@@ -1,5 +1,7 @@
 import ContactForm from "@/components/ContactForm";
-import { Mail } from "lucide-react";
+import { Mail} from "lucide-react";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
+
 
 export default function ContactPage() {
 
@@ -40,21 +42,21 @@ export default function ContactPage() {
 
           {/* Social Links */}
           <div className="flex gap-4 mt-4 ">
-            {/* <a
+            <a
               href="https://www.linkedin.com/in/geespinosa"
               target="_blank"
               className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
             >
-              <Linkedin className="w-5 h-5" />
+              <FaLinkedin className="w-5 h-5" />
               <span>LinkedIn</span>
-            </a> */}
+            </a>
 
             <a
               href="https://www.instagram.com/winterbeastpdx/" 
               target="_blank"
               className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
             >
-              {/* <Instagram className="w-5 h-5" /> */}
+              <FaInstagram className="w-5 h-5" />
               <span>Instagram</span>
             </a>
           </div>
