@@ -10,7 +10,6 @@ import { treeData } from "../../lib/treeData";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function ProjectsPage() {
-  // const [sidebarCollapse, setSidebarCollapse] = useState(false);
   const [sidebarWidth, setSidebarWidth] = useState(500);
   const [resizing, setResizing] = useState(false);
   const resizerRef = useRef<HTMLDivElement>(null);
@@ -88,10 +87,8 @@ export default function ProjectsPage() {
     setHorizontalToggle((prev) => !prev);
   }
 
-  console.log("sidebarCollapse from context:", sidebarCollapse);
-
   return (
-    <main
+    <section
       ref={containerRef}
       className="flex h-screen overflow-hidden select-none"
     >
@@ -182,6 +179,6 @@ export default function ProjectsPage() {
       <section className="p-8 flex-1 overflow-y-auto">
         <ContentViewer />
       </section>
-    </main>
+    </section>
   );
 }

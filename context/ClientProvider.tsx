@@ -22,8 +22,6 @@ export function ClientProvider({
     TreeNodeProps["node"] | null
   >(null);
 
-  console.log("ClientProvider mounted");
-
   //openFolders state and toggle functions
   const [openFolders, setOpenFolders] = useState<Record<number, boolean>>({});
 

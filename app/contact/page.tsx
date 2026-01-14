@@ -5,15 +5,13 @@ import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function ContactPage() {
 
-
-
   return (
-    <main className="p-8 max-w-5xl mx-auto ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+    <section className="p-8 max-w-5xl mx-auto ">
+      <div className="p-8 bg-blue-100 rounded grid grid-cols-1 md:grid-cols-2 gap-12 items-start ">
 
         {/* LEFT SIDE — CTA + INFO */}
         <section className="space-y-6 ">
-          <h1 className="text-4xl font-bold tracking-tight font-sans font-semibold">
+          <h1 className="text-4xl text-gray-700 font-bold tracking-tight font-sans font-semibold">
             Get in Touch
           </h1>
 
@@ -42,19 +40,19 @@ export default function ContactPage() {
 
           {/* Social Links */}
           <div className="flex gap-4 mt-4 ">
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/geespinosa"
               target="_blank"
               className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
             >
               <FaLinkedin className="w-5 h-5" />
               <span>LinkedIn</span>
-            </a>
+            </a> */}
 
             <a
               href="https://www.instagram.com/winterbeastpdx/" 
               target="_blank"
-              className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
+              className="flex items-center gap-2 text-gray-800 p-4 bg-gray-100 rounded border hover:text-white hover:bg-black transition"
             >
               <FaInstagram className="w-5 h-5" />
               <span>Instagram</span>
@@ -69,6 +67,6 @@ export default function ContactPage() {
         </section>
 
       </div>
-    </main>
+    </section>
   );
 }
