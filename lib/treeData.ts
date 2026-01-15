@@ -5,7 +5,7 @@ export const treeData: TreeNodeProps["node"][] = [
   {
     id: idIncrement(),
     name: "Documentation Orientation",
-    fileType: "wb-album",
+    fileType: "general-overview",
     type: "file",
   },
   {
@@ -21,7 +21,8 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            artistName: "Hail",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -37,19 +38,19 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                   {
                     id: idIncrement(),
                     name: "Transgression (2024)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                   {
                     id: idIncrement(),
                     name: "We Are Nothing (2023)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -78,7 +79,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -94,13 +95,13 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "40 Miles (2024)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                   {
                     id: idIncrement(),
                     name: "A Pale Horse (2023)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -129,7 +130,8 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
+            artistName: "Hollow Senses",
             type: "file",
           },
           {
@@ -145,7 +147,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Taurobolium (2023)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -174,7 +176,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -190,7 +192,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "The Invisible Seam (2020)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -219,7 +221,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -235,13 +237,13 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                   {
                     id: idIncrement(),
                     name: "Unnamed EP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -270,7 +272,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -286,7 +288,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -315,7 +317,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -331,7 +333,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -360,7 +362,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -376,7 +378,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -405,7 +407,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -421,7 +423,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],
@@ -450,7 +452,7 @@ export const treeData: TreeNodeProps["node"][] = [
           {
             id: idIncrement(),
             name: "Overview",
-            fileType: "wb-album",
+            fileType: "artist-overview",
             type: "file",
           },
           {
@@ -466,7 +468,7 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Singles (WIP)",
-                    fileType: "wb-album",
+                    fileType: "artist-album",
                     type: "file",
                   },
                 ],

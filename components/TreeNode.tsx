@@ -3,17 +3,16 @@ import { useState, useRef, useEffect } from "react";
 import { useDirectoryToggle } from "../context/DirectoryToggleContext";
 
 type FileType =
-  | "github-repo"
-  | "live-demo"
-  | "readme"
-  | "component"
-  | "wb-album"
-  | "pre-wb-album";
+  "general-overview"
+  | "artist-overview"
+  | "artist-album"
+
 
 export interface TreeNodeProps {
   node: {
     id: number;
     name: string;
+    artistName?: string;
     type: "file" | "folder";
     fileType?: FileType;
     children?: TreeNodeProps["node"][];

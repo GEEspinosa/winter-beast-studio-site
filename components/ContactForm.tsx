@@ -72,7 +72,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-md mx-auto p-6 bg-gray-50 rounded-lg shadow-md flex flex-col gap-4 font-mono "
+      className="max-w-md mx-auto p-6 bg-gray-50 rounded-lg shadow-md flex flex-col gap-4 font-mono text-black"
       noValidate
     >
       <input
@@ -106,7 +106,7 @@ export default function ContactForm() {
         placeholder="Message"
         required
         rows={5}
-        className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
+        className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none "
       />
       <button
         type="submit"
