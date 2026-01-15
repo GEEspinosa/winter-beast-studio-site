@@ -38,18 +38,21 @@ export const treeData: TreeNodeProps["node"][] = [
                   {
                     id: idIncrement(),
                     name: "Unnamed LP (WIP)",
+                    artistName: "Hail",
                     fileType: "artist-album",
                     type: "file",
                   },
                   {
                     id: idIncrement(),
                     name: "Transgression (2024)",
+                    artistName: "Hail",
                     fileType: "artist-album",
                     type: "file",
                   },
                   {
                     id: idIncrement(),
                     name: "We Are Nothing (2023)",
+                    artistName: "Hail",
                     fileType: "artist-album",
                     type: "file",
                   },

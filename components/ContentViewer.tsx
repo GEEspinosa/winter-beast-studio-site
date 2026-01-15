@@ -1,14 +1,9 @@
-// import GitHubRepoView from "./GitHubRepoView";
-// import READMEView from "./READMEView";
-// import LiveDemoView from "./LiveDemoView";
-// import PreWinterBeastAlbumView from "./PreWinterBeastAlbumView";
-// import WinterBeastAlbumView from "./WinterBeastAlbumView";
-// import { preWinterBeastAlbumsData } from "@/lib/albumData/preWinterBeastAlbumData";
-// import { winterBeastAlbumsData } from "@/lib/albumData/winterBeastAlbumData";
 import { artistData } from "../lib/artistData";
+// import type { Album, Artist } from "../lib/types/artist";
 
 import { useDirectoryToggle } from "../context/DirectoryToggleContext";
 import ArtistOverviewView from "./views/ArtistOverviewView";
+import AlbumView from "./views/AlbumView";
 
 export default function ContentViewer() {
   const { selectedNode } = useDirectoryToggle();
@@ -20,13 +15,35 @@ export default function ContentViewer() {
 
   switch (selectedNode.fileType) {
     case "artist-overview": {
-      const artist = artistData.find((a) => a.artistName === selectedNode.artistName);
-      console.log("selectedNode.name:", selectedNode.name);
+      const artist = artistData.find(
+        (a) => a.artistName === selectedNode.artistName
+      );
       if (!artist) {
         return <div>Artist data not found.</div>;
       }
       return <ArtistOverviewView artist={artist} />;
     }
+
+    case "artist-album": {
+      const artist = artistData.find(
+        (a) => a.artistName === selectedNode.artistName
+      );
+
+      if (!artist) {
+        return <div>Artist data not found.</div>;
+      }
+
+      const album = artist.output.find(
+        (o) => o.selectOutputName === selectedNode.name
+      );
+
+      if (!album) {
+        return <div>Album info coming soon.</div>;
+      }
+
+      return <AlbumView album={album} />;
+    }
+
     // other cases...
   }
 }

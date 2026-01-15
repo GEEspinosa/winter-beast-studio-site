@@ -1,4 +1,6 @@
-export const artistData = [
+import type {Artist} from "../lib/types/artist"
+
+export const artistData: Artist [] = [
   {
     artistName: "Hail",
     overview: "placeholder descriptions, maybe markup",
@@ -28,25 +30,25 @@ export const artistData = [
     artistName: "Hollow Senses",
     overview: "placeholder descriptions, maybe markup",
     output: [
-      {
-        outputName: "Taurobolium",
-        year: "2023",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-art/hollow-senses-taurobolium-album-art.jpeg",
-        yourCredits: "Mixer & Engineer for noise/synthesis interludes",
-        links: [
-          {
-            label: "Bandcamp",
-            url: "https://hollowsenses.bandcamp.com/album/taurobolium",
-          },
-          {
-            label: "Spotify",
-            url: "https://open.spotify.com/album/1bxslNvsQCOjeCJyT8ycJV?si=rCwiq7-1QhqjGXMiKZLbRQ",
-          },
-        ],
-      },
+      // {
+      //   outputName: "Taurobolium",
+      //   year: "2023",
+      //   rlabel: "",
+      //   locations: ["WinterBeast"],
+      //   albumArtUrl:
+      //     "/images/album-art/hollow-senses-taurobolium-album-art.jpeg",
+      //   yourCredits: "Mixer & Engineer for noise/synthesis interludes",
+      //   links: [
+      //     {
+      //       label: "Bandcamp",
+      //       url: "https://hollowsenses.bandcamp.com/album/taurobolium",
+      //     },
+      //     {
+      //       label: "Spotify",
+      //       url: "https://open.spotify.com/album/1bxslNvsQCOjeCJyT8ycJV?si=rCwiq7-1QhqjGXMiKZLbRQ",
+      //     },
+      //   ],
+      // },
     ],
     media: {
       photos: [],
