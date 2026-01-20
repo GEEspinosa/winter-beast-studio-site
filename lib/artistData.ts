@@ -11,7 +11,7 @@ export const artistData: Artist [] = [
         year: "2024",
         rlabel: "",
         locations: ["WinterBeast"],
-        albumArtUrl: "/images/album-art/hail-transgression-album-art.jpeg",
+        albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [
           {
