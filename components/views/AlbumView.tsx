@@ -1,24 +1,8 @@
-// type Album = {
-//   selectOutputName: string;
-//   outputName: string;
-//   artistName: string;
-//   year: string;
-//   rlabel: string;
-//   locations: string[];
-//   albumArtUrl: string;
-//   yourCredits: string;
-//   links: {
-//     label: string;
-//     url: string;
-//   }[];
-//   // add other props if needed
-// };
-
 import type {Album} from "../../lib/types/artist";
 
 export default function AlbumView({ album }: { album: Album }) {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-gray-50 rounded shadow-md space-y-6">
+    <div className="max-w-4xl mx-auto p-6 m-2 bg-gray-50 rounded shadow-md space-y-6">
       {/* Album Header */}
       <header className="flex items-center space-x-6">
         {album.albumArtUrl && (

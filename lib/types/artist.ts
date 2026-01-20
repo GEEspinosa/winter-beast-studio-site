@@ -17,6 +17,7 @@ export type Album = {
 
 export type Artist = {
   artistName: string;
+  artistBanner: string;
   overview: string;
   output: Album[];
   media: {

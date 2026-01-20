@@ -3,7 +3,9 @@ import type { Artist } from "../lib/types/artist";
 export const artistData: Artist[] = [
   {
     artistName: "Hail",
-    overview: "placeholder descriptions, maybe markup",
+    artistBanner: "/images/artist-banners/WB: Hail Cover.png",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Transgression (2024)",
@@ -43,9 +45,55 @@ export const artistData: Artist[] = [
       videos: [],
     },
   },
-  
+
+  {
+    artistName: "Old Town Diamonds",
+    artistBanner: "",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    output: [
+      {
+        selectOutputName: "40 Miles (2024)",
+        artistName: "Old Town Diamonds",
+        outputName: "Transgression",
+        year: "2024",
+        rlabel: "",
+        locations: ["WinterBeast"],
+        albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
+        yourCredits: "Co-producer, Engineer, and Mixer",
+        links: [
+          {
+            label: "Bandcamp",
+            url: "https://hailpdx.bandcamp.com/album/transgression",
+          },
+        ],
+      },
+      {
+        selectOutputName: "A Pale Horse (2023)",
+        artistName: "Old Town Diamonds",
+        outputName: "A Pale Horse",
+        year: "2023",
+        rlabel: "",
+        locations: ["WinterBeast"],
+        albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
+        yourCredits: "Co-producer, Engineer, and Mixer",
+        links: [
+          {
+            label: "Bandcamp",
+            url: "https://hailpdx.bandcamp.com/album/we-are-nothing",
+          },
+        ],
+      },
+    ],
+    media: {
+      photos: [],
+      videos: [],
+    },
+  },
+
   {
     artistName: "Hollow Senses",
+    artistBanner: "/images/artist-banners/WB: Hollow Senses Cover.png",
     overview: "placeholder descriptions, maybe markup",
     output: [
       {
@@ -78,6 +126,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Fliege",
+    artistBanner: "",
     overview: "placeholder descriptions, maybe markup",
     output: [
       {
@@ -109,24 +158,4 @@ export const artistData: Artist[] = [
   },
 ];
 
-//   },
-//   {
-//     artist: "Fliege",
-//     selectName: "Fliege - The Invisible Seam (2020)",
-//     name: "The Invisible Seam",
-//     year: "2020",
-//     rlabel: "",
-//     locations: ["WinterBeast"],
-//     albumArtUrl: "/images/album-art/fliege-the-invisible-seam-album-art.jpeg",
-//     yourCredits: "Mixer",
-//     links: [
-//       {
-//         label: "Bandcamp",
-//         url: "https://dasfliege.bandcamp.com/album/the-invisible-seam",
-//       },
-//       {
-//         label: "Spotify",
-//         url: "https://open.spotify.com/album/6VmekE9fuafbZw0KyR7ma4?si=kImuRcnIRsaYpWJJGEmRnw",
-//       },
-//     ],
-//   },
+
