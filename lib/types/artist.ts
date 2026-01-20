@@ -6,6 +6,7 @@ export type AlbumLink = {
 export type Album = {
   selectOutputName: string;
   outputName: string;
+  artistName: string;
   year: string;
   rlabel: string;
   locations: string[];

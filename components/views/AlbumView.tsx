@@ -1,17 +1,20 @@
-type Album = {
-  selectOutputName: string;
-  outputName: string;
-  year: string;
-  rlabel: string;
-  locations: string[];
-  albumArtUrl: string;
-  yourCredits: string;
-  links: {
-    label: string;
-    url: string;
-  }[];
-  // add other props if needed
-};
+// type Album = {
+//   selectOutputName: string;
+//   outputName: string;
+//   artistName: string;
+//   year: string;
+//   rlabel: string;
+//   locations: string[];
+//   albumArtUrl: string;
+//   yourCredits: string;
+//   links: {
+//     label: string;
+//     url: string;
+//   }[];
+//   // add other props if needed
+// };
+
+import type {Album} from "../../lib/types/artist";
 
 export default function AlbumView({ album }: { album: Album }) {
   return (
@@ -29,7 +32,7 @@ export default function AlbumView({ album }: { album: Album }) {
           <h1 className="text-3xl font-bold font-sans text-gray-800">
             {album.outputName}
           </h1>
-          {/* <p className="text-xl font-semibold text-gray-700 font-sans">{album.artist}</p> */}
+          <p className="text-xl font-semibold text-gray-700 font-sans">{album.artistName}</p>
           <p className="text-md text-gray-600 font-mono">{album.year}</p>
           {album.yourCredits && (
             <p className="mt-2 italic text-gray-700 font-mono">
