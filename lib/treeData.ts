@@ -83,6 +83,7 @@ export const treeData: TreeNodeProps["node"][] = [
             id: idIncrement(),
             name: "Overview",
             fileType: "artist-overview",
+            artistName: "Old Town Diamonds",
             type: "file",
           },
           {
