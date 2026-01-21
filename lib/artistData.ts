@@ -105,7 +105,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/hollow-senses-taurobolium-album-art.jpeg",
-        yourCredits: "Mixer & Engineer for noise/synthesis interludes",
+        yourCredits: "Mixer & Noise/Synthesis Interludes Engineer",
         links: [
           {
             label: "Bandcamp",

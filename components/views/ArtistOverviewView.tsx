@@ -10,9 +10,29 @@ export default function ArtistOverviewView({ artist }: { artist: Artist }) {
 
   const [activePanel, setActivePanel] = useState<ActivePanel>(null);
 
+  const hasReleases = artist.output.some(
+    (album) => !album.selectOutputName.toLowerCase().includes("wip")
+  );
+
+  const hasImages = artist.media.photos.length > 0;
+  const hasVideos = artist.media.videos.length > 0;
+
+const tabs: {
+  key: Exclude<ActivePanel, null>;
+  label: string;
+  enabled: boolean;
+}[] = [
+  { key: "releases", label: "Releases", enabled: hasReleases },
+  { key: "images", label: "Images", enabled: hasImages },
+  { key: "videos", label: "Videos", enabled: hasVideos },
+] as const; 
+
+// Type guard to filter enabled tabs and preserve literal key types
+const enabledTabs = tabs.filter((t): t is typeof t & { key: ActivePanel } => t.enabled);
+
   return (
-    <section className="mb-8 max-w-4xl mx-auto px-4 text-white-900 ">
-      {/* <h2 className="text-3xl font-semibold mb-4">{artist.artistName}</h2> */}
+    <section className="mb-8 max-w-4xl mx-auto px-4 text-white">
+      {/* Artist Banner */}
       <Image
         src={artist.artistBanner}
         width={1200}
@@ -21,50 +41,83 @@ export default function ArtistOverviewView({ artist }: { artist: Artist }) {
         alt={`${artist.artistName} banner`}
       />
 
+      {/* Overview Text */}
       <p className="leading-relaxed mb-6">{artist.overview}</p>
 
-      {/* Toggle button */}
-
-      <div className="inline-grid grid-cols-3 border border-white mb-2">
-        <button
-          onClick={() =>
-            setActivePanel((prev) => (prev === "releases" ? null : "releases"))
-          }
-          className={`px-4 py-2 text-sm transition
-      ${activePanel === "releases" ? "bg-white text-black" : "bg-black text-white"}
-      border-r border-white last:border-r-0`}
-        >
-          Releases
-        </button>
-
-        <button
-          onClick={() => setActivePanel((prev) => (prev === "images" ? null : "images"))}
-          className={`px-4 py-2 text-sm transition
-      ${activePanel === "images" ? "bg-white text-black" : "bg-black text-white"}
-      border-r border-white last:border-r-0`}
-        >
-          Images
-        </button>
-
-        <button
-          onClick={() => setActivePanel((prev) => (prev === "videos" ? null : "videos"))}
-          className={`px-4 py-2 text-sm transition
-      ${activePanel === "videos" ? "bg-white text-black" : "bg-black text-white"}`}
-        >
-          Videos
-        </button>
+      {/* Tab Buttons */}
+      <div className="inline-grid grid-flow-col auto-cols-fr border border-white mb-4">
+        {enabledTabs.map(({ key, label }, index) => (
+          <button
+            key={key}
+            aria-pressed={activePanel === key}
+            onClick={() =>
+              setActivePanel((prev) => (prev === key ? null : key))
+            }
+            className={`
+              px-4 py-2 text-sm transition
+              ${activePanel === key ? "bg-white text-black" : "bg-black text-white"}
+              ${index !== enabledTabs.length - 1 ? "border-r border-white" : ""}
+            `}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
-      {/* Render all albums */}
-      <div className="border border-white bg-gray-900 p-6">
-        {artist.output?.length ? (
-          artist.output.map((album) => (
-            <AlbumView key={album.selectOutputName} album={album} />
-          ))
-        ) : (
-          <p className="text-gray-400 italic">No releases yet.</p>
-        )}
-      </div>
+      {/* Conditional Content Panels */}
+      {activePanel === "releases" && (
+        <div className="border border-white bg-gray-900 p-6">
+          {artist.output?.length ? (
+            artist.output.map((album) => (
+              <AlbumView key={album.selectOutputName} album={album} />
+            ))
+          ) : (
+            <p className="text-gray-400 italic">No releases yet.</p>
+          )}
+        </div>
+      )}
+
+      {activePanel === "images" && (
+        <div className="border border-white bg-gray-900 p-6">
+          {artist.media.photos.length ? (
+            // Replace with your actual images gallery component or markup
+            <div className="grid grid-cols-3 gap-4">
+              {artist.media.photos.map((src, i) => (
+                <Image
+                  key={i}
+                  src={src}
+                  alt={`${artist.artistName} photo ${i + 1}`}
+                  width={300}
+                  height={200}
+                  className="object-cover rounded"
+                />
+              ))}
+            </div>
+          ) : (
+            <p className="text-gray-400 italic">No images available.</p>
+          )}
+        </div>
+      )}
+
+      {activePanel === "videos" && (
+        <div className="border border-white bg-gray-900 p-6">
+          {artist.media.videos.length ? (
+            // Replace with your video player/gallery component or markup
+            <div className="space-y-4">
+              {artist.media.videos.map((videoUrl, i) => (
+                <video
+                  key={i}
+                  src={videoUrl}
+                  controls
+                  className="w-full rounded"
+                />
+              ))}
+            </div>
+          ) : (
+            <p className="text-gray-400 italic">No videos available.</p>
+          )}
+        </div>
+      )}
     </section>
   );
 }
