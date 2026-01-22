@@ -231,6 +231,81 @@ export const artistData: Artist[] = [
       videos: [],
     },
   },
+
+  {
+    artistName: "Refrigerated Nurses",
+    artistBanner: "/images/artist-banners/WB: Refrigerated Nurses Cover.png",
+    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    output: [
+      {
+        selectOutputName: "Untitled LP (WIP)",
+        artistName: "Refrigerated Nurses",
+        outputName: "Untitled LP",
+        year: "Unreleased",
+        rlabel: "",
+        locations: ["WinterBeast"],
+        albumArtUrl:
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+        yourCredits: "Engineer and Mixer",
+        links: [
+        ],
+      },
+    ],
+    media: {
+      photos: [],
+      videos: [],
+    },
+  },
+
+  {
+    artistName: "The Hellcows",
+    artistBanner: "/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
+    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    output: [
+      {
+        selectOutputName: "Singles (WIP)",
+        artistName: "The Hellcows",
+        outputName: "Untitled Singles",
+        year: "Unreleased",
+        rlabel: "",
+        locations: ["WinterBeast"],
+        albumArtUrl:
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+        yourCredits: "Engineer and Mixer",
+        links: [
+        ],
+      },
+    ],
+    media: {
+      photos: [],
+      videos: [],
+    },
+  },
+
+  {
+    artistName: "Notnauts",
+    artistBanner: "/images/artist-banners/WB: Notnauts Cover Darker.png",
+    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    output: [
+      {
+        selectOutputName: "Untitled LP (WIP)",
+        artistName: "The Hellcows",
+        outputName: "Untitled LP",
+        year: "Unreleased",
+        rlabel: "",
+        locations: ["WinterBeast"],
+        albumArtUrl:
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+        yourCredits: "Engineer and Mixer",
+        links: [
+        ],
+      },
+    ],
+    media: {
+      photos: [],
+      videos: [],
+    },
+  },
 ];
 
 

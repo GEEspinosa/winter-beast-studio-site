@@ -370,144 +370,147 @@ export const treeData: TreeNodeProps["node"][] = [
           },
         ],
       },
-      // {
-      //   id: idIncrement(),
-      //   name: "Refridgerated Nurses",
-      //   type: "folder",
-      //   children: [
-      //     {
-      //       id: idIncrement(),
-      //       name: "Overview",
-      //       fileType: "artist-overview",
-      //       type: "file",
-      //     },
-      //     {
-      //       id: idIncrement(),
-      //       name: "Media",
-      //       type: "folder",
-      //       children: [
-      //         {
-      //           id: idIncrement(),
-      //           name: "Output",
-      //           type: "folder",
-      //           children: [
-      //             {
-      //               id: idIncrement(),
-      //               name: "Unnamed LP (WIP)",
-      //               artistName: "Refridgerated Nurses",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //           ],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Images",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Motions",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: idIncrement(),
-      //   name: "Notnauts",
-      //   type: "folder",
-      //   children: [
-      //     {
-      //       id: idIncrement(),
-      //       name: "Overview",
-      //       fileType: "artist-overview",
-      //       type: "file",
-      //     },
-      //     {
-      //       id: idIncrement(),
-      //       name: "Media",
-      //       type: "folder",
-      //       children: [
-      //         {
-      //           id: idIncrement(),
-      //           name: "Output",
-      //           type: "folder",
-      //           children: [
-      //             {
-      //               id: idIncrement(),
-      //               name: "Unnamed LP (WIP)",
-      //               artistName: "Notnauts",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //           ],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Images",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Motions",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: idIncrement(),
-      //   name: "Hellcows",
-      //   type: "folder",
-      //   children: [
-      //     {
-      //       id: idIncrement(),
-      //       name: "Overview",
-      //       fileType: "artist-overview",
-      //       type: "file",
-      //     },
-      //     {
-      //       id: idIncrement(),
-      //       name: "Media",
-      //       type: "folder",
-      //       children: [
-      //         {
-      //           id: idIncrement(),
-      //           name: "Output",
-      //           type: "folder",
-      //           children: [
-      //             {
-      //               id: idIncrement(),
-      //               name: "Singles (WIP)",
-      //               artistName: "Hellcows",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //           ],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Images",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Motions",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        id: idIncrement(),
+        name: "Refrigerated Nurses",
+        type: "folder",
+        children: [
+          {
+            id: idIncrement(),
+            name: "Overview",
+            artistName: "Refrigerated Nurses",
+            fileType: "artist-overview",
+            type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    artistName: "Refrigerated Nurses",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: idIncrement(),
+        name: "Notnauts",
+        type: "folder",
+        children: [
+          {
+            id: idIncrement(),
+            name: "Overview",
+            artistName: "Notnauts",
+            fileType: "artist-overview",
+            type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    artistName: "Notnauts",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: idIncrement(),
+        name: "The Hellcows",
+        type: "folder",
+        children: [
+          {
+            id: idIncrement(),
+            name: "Overview",
+            artistName: "The Hellcows",
+            fileType: "artist-overview",
+            type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Singles (WIP)",
+                    artistName: "The Hellcows",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
 
       // {
       //   id: idIncrement(),
