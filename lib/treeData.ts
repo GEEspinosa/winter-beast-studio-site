@@ -222,151 +222,154 @@ export const treeData: TreeNodeProps["node"][] = [
           },
         ],
       },
-      // {
-      //   id: idIncrement(),
-      //   name: "L'Acephale",
-      //   type: "folder",
-      //   children: [
-      //     {
-      //       id: idIncrement(),
-      //       name: "Overview",
-      //       fileType: "artist-overview",
-      //       type: "file",
-      //     },
-      //     {
-      //       id: idIncrement(),
-      //       name: "Media",
-      //       type: "folder",
-      //       children: [
-      //         {
-      //           id: idIncrement(),
-      //           name: "Output",
-      //           type: "folder",
-      //           children: [
-      //             {
-      //               id: idIncrement(),
-      //               name: "Unnamed LP (WIP)",
-      //               artistName: "L'Acephale",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //             {
-      //               id: idIncrement(),
-      //               name: "Unnamed EP (WIP)",
-      //               artistName: "L'Acephale",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //           ],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Images",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Motions",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: idIncrement(),
-      //   name: "Mistons",
-      //   type: "folder",
-      //   children: [
-      //     {
-      //       id: idIncrement(),
-      //       name: "Overview",
-      //       fileType: "artist-overview",
-      //       type: "file",
-      //     },
-      //     {
-      //       id: idIncrement(),
-      //       name: "Media",
-      //       type: "folder",
-      //       children: [
-      //         {
-      //           id: idIncrement(),
-      //           name: "Output",
-      //           type: "folder",
-      //           children: [
-      //             {
-      //               id: idIncrement(),
-      //               name: "Unnamed LP (WIP)",
-      //               artistName: "Mistons",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //           ],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Images",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Motions",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: idIncrement(),
-      //   name: "Entrain",
-      //   type: "folder",
-      //   children: [
-      //     {
-      //       id: idIncrement(),
-      //       name: "Overview",
-      //       fileType: "artist-overview",
-      //       type: "file",
-      //     },
-      //     {
-      //       id: idIncrement(),
-      //       name: "Media",
-      //       type: "folder",
-      //       children: [
-      //         {
-      //           id: idIncrement(),
-      //           name: "Output",
-      //           type: "folder",
-      //           children: [
-      //             {
-      //               id: idIncrement(),
-      //               name: "Unnamed LP (WIP)",
-      //               artistName: "Entrain",
-      //               fileType: "artist-album",
-      //               type: "file",
-      //             },
-      //           ],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Images",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //         {
-      //           id: idIncrement(),
-      //           name: "Motions",
-      //           type: "folder",
-      //           children: [],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        id: idIncrement(),
+        name: "L'Acephale",
+        type: "folder",
+        children: [
+          {
+            id: idIncrement(),
+            name: "Overview",
+            artistName: "L'Acephale",
+            fileType: "artist-overview",
+            type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    artistName: "L'Acephale",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed EP (WIP)",
+                    artistName: "L'Acephale",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: idIncrement(),
+        name: "The Mistons",
+        type: "folder",
+        children: [
+          {
+            id: idIncrement(),
+            name: "Overview",
+            artistName: "The Mistons",
+            fileType: "artist-overview",
+            type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    artistName: "The Mistons",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: idIncrement(),
+        name: "Entrain",
+        type: "folder",
+        children: [
+          {
+            id: idIncrement(),
+            name: "Overview",
+            artistName: "Entrain",
+            fileType: "artist-overview",
+            type: "file",
+          },
+          {
+            id: idIncrement(),
+            name: "Media",
+            type: "folder",
+            children: [
+              {
+                id: idIncrement(),
+                name: "Output",
+                type: "folder",
+                children: [
+                  {
+                    id: idIncrement(),
+                    name: "Unnamed LP (WIP)",
+                    artistName: "Entrain",
+                    fileType: "artist-album",
+                    type: "file",
+                  },
+                ],
+              },
+              {
+                id: idIncrement(),
+                name: "Images",
+                type: "folder",
+                children: [],
+              },
+              {
+                id: idIncrement(),
+                name: "Motions",
+                type: "folder",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
       // {
       //   id: idIncrement(),
       //   name: "Refridgerated Nurses",
