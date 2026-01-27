@@ -118,6 +118,16 @@ const artists = [
 export default function DocumentationOrientation() {
   const { setSelectedNode } = useDirectoryToggle();
 
+  const { navigateToNode } = useDirectoryToggle();
+
+ function handleArtistClick(artistName: string) {
+  navigateToNode(node => 
+    node.type === "file" && 
+    node.fileType === "artist-overview" && 
+    node.artistName === artistName
+  );
+}
+
   return (
     <section className="mb-8 max-w-6xl mx-auto px-4 text-white">
       <h1 className="text-4xl font-bold mb-8">Documentation Home</h1>
@@ -133,13 +143,7 @@ export default function DocumentationOrientation() {
             role="button"
             tabIndex={0}
             onClick={() =>
-              setSelectedNode({
-                id: -1,
-                name: "Overview",
-                artistName: name,
-                type: "file",
-                fileType: "artist-overview",
-              })
+              handleArtistClick(name)
             }
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === " ") {

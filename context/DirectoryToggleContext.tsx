@@ -28,6 +28,10 @@ interface DirectoryToggleContextTypes {
   toggleFolder: (id: number) => void;
   openAllFolders: () => void;
   closeAllFolders: () => void;
+
+  navigateToNode: (
+    predicate: (node: TreeNodeProps["node"]) => boolean
+  ) => void;
 }
 
 //this will be exported by default for the provider/wrapper
