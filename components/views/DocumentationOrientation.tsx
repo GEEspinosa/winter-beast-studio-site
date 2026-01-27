@@ -74,7 +74,7 @@ import { useDirectoryToggle } from "../../context/DirectoryToggleContext";
 const artists = [
   {
     name: "Hail",
-    bannerUrl: "/images/artist-banners/WB: Hail Cover.png",
+    bannerUrl: "/images/artist-banners/WB: Hail Cover 2.png",
   },
   {
     name: "Old Town Diamonds",
@@ -86,7 +86,7 @@ const artists = [
   },
   {
     name: "Fliege",
-    bannerUrl: "/images/artist-banners/WB: Fliege Cover 2.png",
+    bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png",
   },
   {
     name: "L'Acephale",
@@ -94,7 +94,7 @@ const artists = [
   },
   {
     name: "The Mistons",
-    bannerUrl: "/images/artist-banners/WB: The Mistons Cover Mask.png",
+    bannerUrl: "/images/artist-banners/WB: The Mistons Cover Mask 2.png",
   },
   {
     name: "Entrain",
@@ -102,7 +102,7 @@ const artists = [
   },
   {
     name: "Refrigerated Nurses",
-    bannerUrl: "/images/artist-banners/WB: Refrigerated Nurses Cover.png",
+    bannerUrl: "/images/artist-banners/WB: Refrigerated Nurses Cover 2.png",
   },
   {
     name: "Notnauts",
@@ -110,7 +110,7 @@ const artists = [
   },
   {
     name: "The Hellcows",
-    bannerUrl: "/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
+    bannerUrl: "/images/artist-banners/WB: The Hell Cows Cover_Darker3.png",
   },
   // ...
 ];
@@ -120,13 +120,14 @@ export default function DocumentationOrientation() {
 
   const { navigateToNode } = useDirectoryToggle();
 
- function handleArtistClick(artistName: string) {
-  navigateToNode(node => 
-    node.type === "file" && 
-    node.fileType === "artist-overview" && 
-    node.artistName === artistName
-  );
-}
+  function handleArtistClick(artistName: string) {
+    navigateToNode(
+      (node) =>
+        node.type === "file" &&
+        node.fileType === "artist-overview" &&
+        node.artistName === artistName,
+    );
+  }
 
   return (
     <section className="mb-8 max-w-6xl mx-auto px-4 text-white">
@@ -142,9 +143,7 @@ export default function DocumentationOrientation() {
             key={name}
             role="button"
             tabIndex={0}
-            onClick={() =>
-              handleArtistClick(name)
-            }
+            onClick={() => handleArtistClick(name)}
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === " ") {
                 setSelectedNode({
@@ -156,20 +155,29 @@ export default function DocumentationOrientation() {
                 });
               }
             }}
-            className="group relative block  overflow-hidden border border-white hover:border-blue-400 transition cursor-pointer"
+            className="group relative block overflow-hidden border border-white"
             aria-label={`View ${name} artist overview`}
-            style={{ aspectRatio: "3 / 2" }} // <-- container aspect ratio
+            style={{ aspectRatio: "3 / 2" }}
           >
             <img
               src={bannerUrl}
               alt={`${name} banner`}
               className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition duration-500"
             />
+
+            {/* Blue tint overlay on hover */}
+            <div
+              className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-1000 transition duration-500 rounded"
+              style={{
+                backgroundColor: "rgba(0, 128, 255, 0.22)",
+                mixBlendMode: "multiply",
+              }}
+            />
           </div>
         ))}
 
         {/* Example for experiments or other sections */}
-        <div
+        {/* <div
           role="button"
           tabIndex={0}
           onClick={() =>
@@ -192,7 +200,7 @@ export default function DocumentationOrientation() {
           aria-label="View Experiments"
         >
           <span className="text-white text-2xl font-semibold">Experiments</span>
-        </div>
+        </div> */}
       </div>
     </section>
   );
