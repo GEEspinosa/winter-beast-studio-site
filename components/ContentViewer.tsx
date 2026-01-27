@@ -4,16 +4,26 @@ import { artistData } from "../lib/artistData";
 import { useDirectoryToggle } from "../context/DirectoryToggleContext";
 import ArtistOverviewView from "./views/ArtistOverviewView";
 import AlbumView from "./views/AlbumView";
+import DocumentationOrientation from "./views/DocumentationOrientation";
 
 export default function ContentViewer() {
   const { selectedNode } = useDirectoryToggle();
 
+    // Show DocumentationOrientation if nothing selected or a folder selected (default view)
   if (!selectedNode || selectedNode.type === "folder") {
-    return <div className="">Please select a file for viewing.</div>;
+    return <DocumentationOrientation />;
   }
-  console.log("selectedNode.fileType:", selectedNode.fileType);
+
+  // if (!selectedNode || selectedNode.type === "folder") {
+  //   return <div className="">Please select a file for viewing.</div>;
+  // }
+  // console.log("selectedNode.fileType:", selectedNode.fileType);
 
   switch (selectedNode.fileType) {
+
+    case "general-overview": {
+      return <DocumentationOrientation/>
+    }
     case "artist-overview": {
       const artist = artistData.find(
         (a) => a.artistName === selectedNode.artistName
@@ -48,27 +58,3 @@ export default function ContentViewer() {
   }
 }
 
-// case "readme":
-//   return <READMEView content={selectedNode.content ?? ""} />;
-// case "live-demo":
-//   return <LiveDemoView demoURL={selectedNode.url!} />;
-// case "pre-wb-album": {
-//   const album = preWinterBeastAlbumsData.find(
-//     (a) => a.selectName === selectedNode.name
-//   );
-
-//   if (!album) {
-//     return <div>Album data not found.</div>;
-//   }
-//   return <PreWinterBeastAlbumView album={album} />;
-// }
-// case "wb-album": {
-//   const album = winterBeastAlbumsData.find(
-//     (a) => a.selectName === selectedNode.name
-//   );
-
-//   if (!album) {
-//     return <div>Album data not found.</div>;
-//   }
-//   return <WinterBeastAlbumView album={album} />;
-// }
