@@ -3,10 +3,10 @@ import { useState, useRef, useEffect } from "react";
 import { useDirectoryToggle } from "../context/DirectoryToggleContext";
 import { DirectoryNode } from "@/lib/types/directory";
 
-type FileType =
-  "general-overview"
-  | "artist-overview"
-  | "artist-album"
+// type FileType =
+//   "general-overview"
+//   | "artist-overview"
+//   | "artist-album"
 
 
 // export interface TreeNodeProps {

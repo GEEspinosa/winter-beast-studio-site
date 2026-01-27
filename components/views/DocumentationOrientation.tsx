@@ -1,72 +1,3 @@
-// "use client";
-
-// import Link from "next/link";
-// import Image from "next/image";
-
-// const artists = [
-//   {
-//     name: "Hail",
-//     bannerUrl: "/images/artist-banners/WB: Hail Cover.png",
-//     href: "/documentation/artists/hail",
-//   },
-//   {
-//     name: "Old Town Diamonds",
-//     bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png",
-//     href: "/documentation/artists/old-town-diamonds",
-//   },
-//   // Add other artists here
-// ];
-
-// export default function DocumentationOrientation() {
-//   return (
-//     <section className="mb-8 max-w-6xl mx-auto px-4 text-white">
-//       <h1 className="text-4xl font-bold mb-8">Documentation Home</h1>
-
-//       <p className="mb-8 max-w-3xl leading-relaxed">
-//         Welcome to WinterBeast documentation. Explore artist archives,
-//         experiments, and other studio materials through the sections below.
-//       </p>
-
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-//         {artists.map(({ name, bannerUrl, href }) => (
-//           <Link
-//             key={name}
-//             href={href}
-//             className="group relative block rounded-lg overflow-hidden border border-white hover:border-blue-400 transition"
-//             aria-label={`Go to ${name} documentation`}
-//           >
-//             <div className="relative w-full" style={{ paddingTop: "66.66%" }}>
-//               <Image
-//                 src={bannerUrl}
-//                 alt={`${name} banner`}
-//                 fill
-//                 className="object-cover grayscale group-hover:grayscale-0 transition duration-500"
-//                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-//                 priority
-//               />
-//             </div>
-//             <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4 opacity-0 group-hover:opacity-100 transition duration-300">
-//               <h2 className="text-xl font-semibold text-white">{name}</h2>
-//             </div>
-//           </Link>
-//         ))}
-
-//         <Link
-//           href="/documentation/experiments"
-//           className="group relative block rounded-lg overflow-hidden border border-white hover:border-blue-400 transition"
-//           aria-label="Go to experiments documentation"
-//         >
-//           <div className="flex items-center justify-center h-48 bg-gray-800">
-//             <span className="text-white text-2xl font-semibold">
-//               Experiments
-//             </span>
-//           </div>
-//         </Link>
-//       </div>
-//     </section>
-//   );
-// }
-
 "use client";
 
 import { useDirectoryToggle } from "../../context/DirectoryToggleContext";
@@ -116,9 +47,10 @@ const artists = [
 ];
 
 export default function DocumentationOrientation() {
-  const { setSelectedNode } = useDirectoryToggle();
+  const { setSelectedNode, navigateToNode, highlightColor } =
+    useDirectoryToggle();
 
-  const { navigateToNode } = useDirectoryToggle();
+  //   const { navigateToNode } = useDirectoryToggle();
 
   function handleArtistClick(artistName: string) {
     navigateToNode(
@@ -130,54 +62,64 @@ export default function DocumentationOrientation() {
   }
 
   return (
-    <section className="mb-8 max-w-6xl mx-auto px-4 text-white">
-      <h1 className="text-4xl font-bold mb-8">Documentation Home</h1>
-      <p className="mb-8 max-w-3xl leading-relaxed">
-        Welcome to WinterBeast documentation. Explore artist archives,
-        experiments, and other studio materials below.
-      </p>
+    <>
+      <section className="mb-8 max-w-6xl mx-auto px-4 text-white">
+        <h1 className="text-4xl font-bold mb-8">Documentation Home</h1>
+        <p className="mb-8 max-w-3xl leading-relaxed">
+          Welcome to WinterBeast documentation. Explore artist archives,
+          experiments, and other studio materials below.
+        </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {artists.map(({ name, bannerUrl }) => (
-          <div
-            key={name}
-            role="button"
-            tabIndex={0}
-            onClick={() => handleArtistClick(name)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" || e.key === " ") {
-                setSelectedNode({
-                  id: -1,
-                  name: "Overview",
-                  artistName: name,
-                  type: "file",
-                  fileType: "artist-overview",
-                });
-              }
-            }}
-            className="group relative block overflow-hidden border border-white"
-            aria-label={`View ${name} artist overview`}
-            style={{ aspectRatio: "3 / 2" }}
-          >
-            <img
-              src={bannerUrl}
-              alt={`${name} banner`}
-              className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition duration-500"
-            />
+        <div className="w-full mb-6">
+          <img
+            src="/images/artist-banners/WB:Artists Cover 2 1048.png"
+            alt="Artists banner"
+            className="w-full object-contain grayscale transition duration-500 border border-white"
+            style={{ maxHeight: "500px" }}
+          />
+        </div>
 
-            {/* Blue tint overlay on hover */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {artists.map(({ name, bannerUrl }) => (
             <div
-              className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-1000 transition duration-500 rounded"
-              style={{
-                backgroundColor: "rgba(0, 128, 255, 0.22)",
-                mixBlendMode: "multiply",
+              key={name}
+              role="button"
+              tabIndex={0}
+              onClick={() => handleArtistClick(name)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  setSelectedNode({
+                    id: -1,
+                    name: "Overview",
+                    artistName: name,
+                    type: "file",
+                    fileType: "artist-overview",
+                  });
+                }
               }}
-            />
-          </div>
-        ))}
+              className="group relative block overflow-hidden border border-white"
+              aria-label={`View ${name} artist overview`}
+              style={{ aspectRatio: "3 / 2" }}
+            >
+              <img
+                src={bannerUrl}
+                alt={`${name} banner`}
+                className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition duration-500"
+              />
 
-        {/* Example for experiments or other sections */}
-        {/* <div
+              {/* Blue tint overlay on hover */}
+              <div
+                className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-1000 transition duration-500 rounded"
+                style={{
+                  backgroundColor: highlightColor,
+                  mixBlendMode: "multiply",
+                }}
+              />
+            </div>
+          ))}
+
+          {/* Example for experiments or other sections */}
+          {/* <div
           role="button"
           tabIndex={0}
           onClick={() =>
@@ -201,7 +143,8 @@ export default function DocumentationOrientation() {
         >
           <span className="text-white text-2xl font-semibold">Experiments</span>
         </div> */}
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   );
 }
