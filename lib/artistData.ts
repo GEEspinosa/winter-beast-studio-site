@@ -1,4 +1,5 @@
-import type { Artist } from "../lib/types/artist";
+import type { Artist } from "../lib/types/artist"; 
+import { hailGalleryArray } from "./artist-gallery-arrays/hail-gallery-array"; 
 
 export const artistData: Artist[] = [
   {
@@ -41,7 +42,7 @@ export const artistData: Artist[] = [
       },
     ],
     media: {
-      photos: [],
+      photos: hailGalleryArray,
       videos: [],
     },
   },
@@ -94,7 +95,8 @@ export const artistData: Artist[] = [
   {
     artistName: "Hollow Senses",
     artistBanner: "/images/artist-banners/WB: Hollow Senses Cover.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Taurobolium (2023)",
@@ -127,7 +129,8 @@ export const artistData: Artist[] = [
   {
     artistName: "Fliege",
     artistBanner: "/images/artist-banners/WB: Fliege Cover 2.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "The Invisible Seam (2020)",
@@ -160,7 +163,8 @@ export const artistData: Artist[] = [
   {
     artistName: "L'Acephale",
     artistBanner: "/images/artist-banners/WB: LAcephale Cover 4.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Untitled LP (WIP)",
@@ -172,8 +176,7 @@ export const artistData: Artist[] = [
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
-        links: [
-        ],
+        links: [],
       },
     ],
     media: {
@@ -185,7 +188,8 @@ export const artistData: Artist[] = [
   {
     artistName: "The Mistons",
     artistBanner: "/images/artist-banners/WB: The Mistons Cover Mask.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Untitled LP (WIP)",
@@ -197,8 +201,7 @@ export const artistData: Artist[] = [
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
-        links: [
-        ],
+        links: [],
       },
     ],
     media: {
@@ -210,7 +213,8 @@ export const artistData: Artist[] = [
   {
     artistName: "Entrain",
     artistBanner: "/images/artist-banners/WB: Entrain Cover 2.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Untitled LP (WIP)",
@@ -222,8 +226,7 @@ export const artistData: Artist[] = [
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
-        links: [
-        ],
+        links: [],
       },
     ],
     media: {
@@ -235,7 +238,8 @@ export const artistData: Artist[] = [
   {
     artistName: "Refrigerated Nurses",
     artistBanner: "/images/artist-banners/WB: Refrigerated Nurses Cover.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Untitled LP (WIP)",
@@ -247,8 +251,7 @@ export const artistData: Artist[] = [
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
-        links: [
-        ],
+        links: [],
       },
     ],
     media: {
@@ -260,7 +263,8 @@ export const artistData: Artist[] = [
   {
     artistName: "The Hellcows",
     artistBanner: "/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Singles (WIP)",
@@ -272,8 +276,7 @@ export const artistData: Artist[] = [
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
-        links: [
-        ],
+        links: [],
       },
     ],
     media: {
@@ -285,7 +288,8 @@ export const artistData: Artist[] = [
   {
     artistName: "Notnauts",
     artistBanner: "/images/artist-banners/WB: Notnauts Cover Darker.png",
-    overview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
       {
         selectOutputName: "Untitled LP (WIP)",
@@ -297,8 +301,7 @@ export const artistData: Artist[] = [
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
-        links: [
-        ],
+        links: [],
       },
     ],
     media: {
@@ -307,5 +310,3 @@ export const artistData: Artist[] = [
     },
   },
 ];
-
-

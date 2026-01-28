@@ -4,31 +4,36 @@ import { useState } from "react";
 import Image from "next/image";
 import { Artist } from "../../lib/types/artist";
 import AlbumView from "./AlbumView";
+import { ImageViewer } from "./ImageViewer";
 
 export default function ArtistOverviewView({ artist }: { artist: Artist }) {
   type ActivePanel = "releases" | "images" | "videos" | null;
 
   const [activePanel, setActivePanel] = useState<ActivePanel>(null);
+  const [viewerOpen, setViewerOpen] = useState(false);
+  const [viewerIndex, setViewerIndex] = useState(0);
 
   const hasReleases = artist.output.some(
-    (album) => !album.selectOutputName.toLowerCase().includes("wip")
+    (album) => !album.selectOutputName.toLowerCase().includes("wip"),
   );
 
   const hasImages = artist.media.photos.length > 0;
   const hasVideos = artist.media.videos.length > 0;
 
-const tabs: {
-  key: Exclude<ActivePanel, null>;
-  label: string;
-  enabled: boolean;
-}[] = [
-  { key: "releases", label: "Releases", enabled: hasReleases },
-  { key: "images", label: "Images", enabled: hasImages },
-  { key: "videos", label: "Videos", enabled: hasVideos },
-] as const; 
+  const tabs: {
+    key: Exclude<ActivePanel, null>;
+    label: string;
+    enabled: boolean;
+  }[] = [
+    { key: "releases", label: "Releases", enabled: hasReleases },
+    { key: "images", label: "Images", enabled: hasImages },
+    { key: "videos", label: "Videos", enabled: hasVideos },
+  ] as const;
 
-// Type guard to filter enabled tabs and preserve literal key types
-const enabledTabs = tabs.filter((t): t is typeof t & { key: ActivePanel } => t.enabled);
+  // Type guard to filter enabled tabs and preserve literal key types
+  const enabledTabs = tabs.filter(
+    (t): t is typeof t & { key: ActivePanel } => t.enabled,
+  );
 
   return (
     <section className="mb-8 max-w-4xl mx-auto px-4 text-white">
@@ -78,26 +83,46 @@ const enabledTabs = tabs.filter((t): t is typeof t & { key: ActivePanel } => t.e
       )}
 
       {activePanel === "images" && (
-        <div className="border border-white bg-gray-900 p-6">
-          {artist.media.photos.length ? (
-            // Replace with your actual images gallery component or markup
-            <div className="grid grid-cols-3 gap-4">
-              {artist.media.photos.map((src, i) => (
-                <Image
-                  key={i}
-                  src={src}
-                  alt={`${artist.artistName} photo ${i + 1}`}
-                  width={300}
-                  height={200}
-                  className="object-cover rounded"
-                />
-              ))}
+  <div className="border border-white bg-gray-900 p-6">
+    {artist.media.photos.length ? (
+      <div
+        className="
+          grid 
+          grid-cols-1
+          md:grid-cols-2
+          lg:grid-cols-3
+          gap-4
+          auto-rows-[1fr]
+        "
+      >
+        {artist.media.photos.map((src, i) => (
+          <button
+            key={src}
+            onClick={() => {
+              setViewerIndex(i);
+              setViewerOpen(true);
+            }}
+            className="focus:outline-none"
+          >
+            <div className="relative w-full aspect-square bg-white p-2 flex items-center justify-center min-h-0">
+              <Image
+                src={src}
+                alt={`${artist.artistName} photo ${i + 1}`}
+                fill
+                className="p-1 object-contain"
+                sizes="(max-width: 768px) 100vw, 300px"
+                priority={false}
+              />
             </div>
-          ) : (
-            <p className="text-gray-400 italic">No images available.</p>
-          )}
-        </div>
-      )}
+          </button>
+        ))}
+      </div>
+    ) : (
+      <p className="text-gray-400 italic">No images available.</p>
+    )}
+  </div>
+)}
+
 
       {activePanel === "videos" && (
         <div className="border border-white bg-gray-900 p-6">
@@ -117,6 +142,14 @@ const enabledTabs = tabs.filter((t): t is typeof t & { key: ActivePanel } => t.e
             <p className="text-gray-400 italic">No videos available.</p>
           )}
         </div>
+      )}
+
+      {viewerOpen && (
+        <ImageViewer
+          images={artist.media.photos}
+          startIndex={viewerIndex}
+          onClose={() => setViewerOpen(false)}
+        />
       )}
     </section>
   );
