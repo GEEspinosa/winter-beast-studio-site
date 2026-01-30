@@ -83,10 +83,10 @@ export default function ArtistOverviewView({ artist }: { artist: Artist }) {
       )}
 
       {activePanel === "images" && (
-  <div className="border border-white bg-gray-900 p-6">
-    {artist.media.photos.length ? (
-      <div
-        className="
+        <div className="border border-white bg-gray-900 p-6">
+          {artist.media.photos.length ? (
+            <div
+              className="
           grid 
           grid-cols-1
           md:grid-cols-2
@@ -94,35 +94,34 @@ export default function ArtistOverviewView({ artist }: { artist: Artist }) {
           gap-4
           auto-rows-[1fr]
         "
-      >
-        {artist.media.photos.map((src, i) => (
-          <button
-            key={src}
-            onClick={() => {
-              setViewerIndex(i);
-              setViewerOpen(true);
-            }}
-            className="focus:outline-none"
-          >
-            <div className="relative w-full aspect-square bg-white p-2 flex items-center justify-center min-h-0">
-              <Image
-                src={src}
-                alt={`${artist.artistName} photo ${i + 1}`}
-                fill
-                className="p-1 object-contain"
-                sizes="(max-width: 768px) 100vw, 300px"
-                priority={false}
-              />
+            >
+              {artist.media.photos.map((src, i) => (
+                <button
+                  key={src}
+                  onClick={() => {
+                    setViewerIndex(i);
+                    setViewerOpen(true);
+                  }}
+                  className="focus:outline-none"
+                >
+                  <div className="relative w-full aspect-square bg-white p-2 flex items-center justify-center min-h-0">
+                    <Image
+                      src={src}
+                      alt={`${artist.artistName} photo ${i + 1}`}
+                      fill
+                      className="p-1 object-contain"
+                      sizes="(max-width: 768px) 100vw, 300px"
+                      priority={false}
+                    />
+                  </div>
+                </button>
+              ))}
             </div>
-          </button>
-        ))}
-      </div>
-    ) : (
-      <p className="text-gray-400 italic">No images available.</p>
-    )}
-  </div>
-)}
-
+          ) : (
+            <p className="text-gray-400 italic">No images available.</p>
+          )}
+        </div>
+      )}
 
       {activePanel === "videos" && (
         <div className="border border-white bg-gray-900 p-6">

@@ -32,7 +32,7 @@ export const treeData: TreeNodeProps["node"][] = [
             children: [
               {
                 id: idIncrement(),
-                name: "Output",
+                name: "Releases",
                 type: "folder",
                 children: [
                   {
@@ -61,8 +61,9 @@ export const treeData: TreeNodeProps["node"][] = [
               {
                 id: idIncrement(),
                 name: "Images",
-                type: "folder",
-                children: [],
+                artistName: "Hail",
+                fileType: "gallery-view",
+                type: "file",
               },
               {
                 id: idIncrement(),
@@ -93,7 +94,7 @@ export const treeData: TreeNodeProps["node"][] = [
             children: [
               {
                 id: idIncrement(),
-                name: "Output",
+                name: "Releases",
                 type: "folder",
                 children: [
                   {

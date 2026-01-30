@@ -1,7 +1,8 @@
 export type FileType =
   | "general-overview"
   | "artist-overview"
-  | "artist-album";
+  | "artist-album"
+  | "gallery-view";
 
 export type DirectoryNode = {
   id: number;

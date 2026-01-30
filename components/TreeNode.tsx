@@ -3,29 +3,6 @@ import { useState, useRef, useEffect } from "react";
 import { useDirectoryToggle } from "../context/DirectoryToggleContext";
 import { DirectoryNode } from "@/lib/types/directory";
 
-// type FileType =
-//   "general-overview"
-//   | "artist-overview"
-//   | "artist-album"
-
-
-// export interface TreeNodeProps {
-//   node: {
-//     id: number;
-//     name: string;
-//     artistName?: string;
-//     type: "file" | "folder";
-//     fileType?: FileType;
-//     children?: TreeNodeProps["node"][];
-//     content?: string;
-//     url?: string;
-//   };
-//   level?: number;
-//   isLast?: boolean; // is this node the last among its siblings?
-//   ancestorsLast?: boolean[]; // list tracking which ancestors were last siblings
-//   colorToggle?: boolean;
-// }
-
 export interface TreeNodeProps {
   node: DirectoryNode;
   level?: number;

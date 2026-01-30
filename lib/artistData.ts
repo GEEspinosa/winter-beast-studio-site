@@ -1,5 +1,5 @@
-import type { Artist } from "../lib/types/artist"; 
-import { hailGalleryArray } from "./artist-gallery-arrays/hail-gallery-array"; 
+import type { Artist } from "../lib/types/artist";
+import { hailGalleryArray } from "./artist-gallery-arrays/hail-gallery-array";
 
 export const artistData: Artist[] = [
   {
@@ -56,18 +56,13 @@ export const artistData: Artist[] = [
       {
         selectOutputName: "40 Miles (2024)",
         artistName: "Old Town Diamonds",
-        outputName: "Transgression",
+        outputName: "40 Miles",
         year: "2024",
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
         yourCredits: "Co-producer, Engineer, and Mixer",
-        links: [
-          {
-            label: "Bandcamp",
-            url: "https://hailpdx.bandcamp.com/album/transgression",
-          },
-        ],
+        links: [],
       },
       {
         selectOutputName: "A Pale Horse (2023)",
@@ -78,12 +73,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
         yourCredits: "Co-producer, Engineer, and Mixer",
-        links: [
-          {
-            label: "Bandcamp",
-            url: "https://hailpdx.bandcamp.com/album/we-are-nothing",
-          },
-        ],
+        links: [],
       },
     ],
     media: {
@@ -141,7 +131,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Mixer",
+        yourCredits: "Mixer & Vocal Engineer",
         links: [
           {
             label: "Bandcamp",
