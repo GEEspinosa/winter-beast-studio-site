@@ -3,20 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-
-
 const links = [
   // { href: "/", label: "Home" },
   { href: "/", label: "Home" },
-  { href: "/studio", label: "The Studio" },
-  { href: "/sessions", label: "Sessions" },
+  // { href: "/studio", label: "The Studio" },
   { href: "/documentation", label: "Documentation" },
-  { href: "/contact", label: "Contact" },
+  { href: "/sessions", label: "Sessions" },
+
+  // { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
   const pathname = usePathname();
-
 
   return (
     <header className="relative z-20 flex items-center justify-between p-6 border-b border-gray-200 bg-white ">
