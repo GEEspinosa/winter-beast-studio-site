@@ -16,6 +16,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
+        homepagePriority: 1,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [
           {
@@ -32,6 +33,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
+        homepagePriority: 3,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [
           {
@@ -60,7 +62,9 @@ export const artistData: Artist[] = [
         year: "2024",
         rlabel: "",
         locations: ["WinterBeast"],
-        albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
+        albumArtUrl:
+          "/images/album-covers/old-town-diamonds-40-miles-album-art.webp",
+        homepagePriority: 2,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [],
       },
@@ -71,7 +75,9 @@ export const artistData: Artist[] = [
         year: "2023",
         rlabel: "",
         locations: ["WinterBeast"],
-        albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
+        albumArtUrl:
+          "/images/album-covers/old-town-diamonds-a-pale-horse-album-art.webp",
+        homepagePriority: 4,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [],
       },
@@ -97,6 +103,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/hollow-senses-taurobolium-album-art.jpeg",
+        homepagePriority: 5,
         yourCredits: "Mixer & Noise/Synthesis Interludes Engineer",
         links: [
           {
@@ -131,6 +138,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+        homepagePriority: 6,
         yourCredits: "Mixer & Vocal Engineer",
         links: [
           {

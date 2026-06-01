@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ClientProvider tree={treeData}>
-          <Header />
+          {/* <Header /> */}
           <main className="flex-grow">{children}</main>
           <Footer />
         </ClientProvider>

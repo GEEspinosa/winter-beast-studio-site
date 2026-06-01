@@ -11,6 +11,7 @@ export type Album = {
   rlabel: string;
   locations: string[];
   albumArtUrl: string;
+  homepagePriority?: number;
   yourCredits: string;
   links: AlbumLink[];
 };
