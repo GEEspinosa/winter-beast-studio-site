@@ -2,6 +2,40 @@ import type { Artist } from "../lib/types/artist";
 import { hailGalleryArray } from "./artist-gallery-arrays/hail-gallery-array";
 
 export const artistData: Artist[] = [
+{
+    artistName: "Zothique",
+    artistBanner: "",
+    overview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    output: [
+      {
+        selectOutputName: "Abominations of Yondo (2026)",
+        artistName: "Zothique",
+        outputName: "Abomindations of Yondo",
+        year: "2026",
+        rlabel: "Fiadh",
+        locations: ["WinterBeast"],
+        albumArtUrl: "/images/album-covers/zothique-abominations-album-art2.webp",
+        homepagePriority: 1,
+        yourCredits: "Drum Audio Engineer and Mixer",
+        links: [
+          {
+            label: "Bandcamp",
+            url: "",
+          },
+        ],
+      },
+
+    ],
+    media: {
+      photos: [],
+      videos: [],
+    },
+  },
+
+
+
+
   {
     artistName: "Hail",
     artistBanner: "/images/artist-banners/WB: Hail Cover.png",
@@ -16,7 +50,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
-        homepagePriority: 1,
+        homepagePriority: 2,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [
           {
@@ -33,7 +67,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
-        homepagePriority: 3,
+        homepagePriority: 4,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [
           {
@@ -63,8 +97,8 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/images/album-covers/old-town-diamonds-40-miles-album-art.webp",
-        homepagePriority: 2,
+          "/images/album-covers/otd-40-miles-album-art2.webp",
+        homepagePriority: 3,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [],
       },
@@ -77,7 +111,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/old-town-diamonds-a-pale-horse-album-art.webp",
-        homepagePriority: 4,
+        homepagePriority: 5,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [],
       },
@@ -103,7 +137,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/hollow-senses-taurobolium-album-art.jpeg",
-        homepagePriority: 5,
+        homepagePriority: 6,
         yourCredits: "Mixer & Noise/Synthesis Interludes Engineer",
         links: [
           {
@@ -138,7 +172,7 @@ export const artistData: Artist[] = [
         locations: ["WinterBeast"],
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        homepagePriority: 6,
+        homepagePriority: 7,
         yourCredits: "Mixer & Vocal Engineer",
         links: [
           {
