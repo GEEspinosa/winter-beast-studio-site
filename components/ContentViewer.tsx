@@ -2,6 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { artistData } from "../lib/artistData";
 import { ImageViewer } from "./views/ImageViewer";
+import PreWinterbeastEraView from "../components/views/PreWinterBeastEraView";
 
 import { useDirectoryToggle } from "../context/DirectoryToggleContext";
 import ArtistOverviewView from "./views/ArtistOverviewView";
@@ -62,7 +63,7 @@ export default function ContentViewer() {
         (a) => a.artistName === selectedNode.artistName,
       );
 
-      console.log(artist)
+      console.log(artist);
 
       if (!artist) {
         return <div>Artist data not found.</div>;
@@ -106,18 +107,19 @@ export default function ContentViewer() {
           )}
 
           {viewerOpen && (
-                  <ImageViewer
-                    images={artist.media.photos}
-                    startIndex={viewerIndex}
-                    onClose={() => setViewerOpen(false)}
-                  />
-                )}
+            <ImageViewer
+              images={artist.media.photos}
+              startIndex={viewerIndex}
+              onClose={() => setViewerOpen(false)}
+            />
+          )}
         </div>
-
-        
       );
     }
 
+    case "pre-winterbeast-overview": {
+      return <PreWinterbeastEraView />;
+    }
     // other cases...
   }
 }
