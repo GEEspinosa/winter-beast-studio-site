@@ -10,8 +10,7 @@ export type DirectoryNode = {
   name: string;
 
   artistName?: string;
-   eraId?: string;
-
+  eraId?: string;
   type: "file" | "folder";
   fileType?: FileType;
 

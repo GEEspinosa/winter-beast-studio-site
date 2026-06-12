@@ -559,68 +559,13 @@ export const treeData: TreeNodeProps["node"][] = [
         eraId: "2011-2014",
         type: "folder",
         children: [
-          // {
-          //   id: idIncrement(),
-          //   name: "Hail",
-          //   type: "folder",
-          //   children: [
-          //     {
-          //       id: idIncrement(),
-          //       name: "Overview",
-          //       artistName: "Hail",
-          //       fileType: "artist-overview",
-          //       type: "file",
-          //     },
-          //     {
-          //       id: idIncrement(),
-          //       name: "Media",
-          //       type: "folder",
-          //       children: [
-          //         {
-          //           id: idIncrement(),
-          //           name: "Releases",
-          //           type: "folder",
-          //           children: [
-          //             {
-          //               id: idIncrement(),
-          //               name: "Unnamed LP (WIP)",
-          //               artistName: "Hail",
-          //               fileType: "artist-album",
-          //               type: "file",
-          //             },
-          //             {
-          //               id: idIncrement(),
-          //               name: "Transgression (2024)",
-          //               artistName: "Hail",
-          //               fileType: "artist-album",
-          //               type: "file",
-          //             },
-          //             {
-          //               id: idIncrement(),
-          //               name: "We Are Nothing (2023)",
-          //               artistName: "Hail",
-          //               fileType: "artist-album",
-          //               type: "file",
-          //             },
-          //           ],
-          //         },
-          //         {
-          //           id: idIncrement(),
-          //           name: "Images",
-          //           artistName: "Hail",
-          //           fileType: "gallery-view",
-          //           type: "file",
-          //         },
-          //         {
-          //           id: idIncrement(),
-          //           name: "Motions",
-          //           type: "folder",
-          //           children: [],
-          //         },
-          //       ],
-          //     },
-          //   ],
-          // },
+          {
+            id: idIncrement(),
+            name: "Overview",
+            type: "file",
+            fileType: "pre-winterbeast-overview",
+            eraId: "2011-2014",
+          },
         ],
       },
       {
@@ -629,68 +574,13 @@ export const treeData: TreeNodeProps["node"][] = [
         eraId: "2006-2011",
         type: "folder",
         children: [
-          // {
-          //   id: idIncrement(),
-          //   name: "Hail",
-          //   type: "folder",
-          //   children: [
-          //     {
-          //       id: idIncrement(),
-          //       name: "Overview",
-          //       artistName: "Hail",
-          //       fileType: "artist-overview",
-          //       type: "file",
-          //     },
-          //     {
-          //       id: idIncrement(),
-          //       name: "Media",
-          //       type: "folder",
-          //       children: [
-          //         {
-          //           id: idIncrement(),
-          //           name: "Releases",
-          //           type: "folder",
-          //           children: [
-          //             {
-          //               id: idIncrement(),
-          //               name: "Unnamed LP (WIP)",
-          //               artistName: "Hail",
-          //               fileType: "artist-album",
-          //               type: "file",
-          //             },
-          //             {
-          //               id: idIncrement(),
-          //               name: "Transgression (2024)",
-          //               artistName: "Hail",
-          //               fileType: "artist-album",
-          //               type: "file",
-          //             },
-          //             {
-          //               id: idIncrement(),
-          //               name: "We Are Nothing (2023)",
-          //               artistName: "Hail",
-          //               fileType: "artist-album",
-          //               type: "file",
-          //             },
-          //           ],
-          //         },
-          //         {
-          //           id: idIncrement(),
-          //           name: "Images",
-          //           artistName: "Hail",
-          //           fileType: "gallery-view",
-          //           type: "file",
-          //         },
-          //         {
-          //           id: idIncrement(),
-          //           name: "Motions",
-          //           type: "folder",
-          //           children: [],
-          //         },
-          //       ],
-          //     },
-          //   ],
-          // },
+          {
+            id: idIncrement(),
+            name: "Overview",
+            type: "file",
+            fileType: "pre-winterbeast-overview",
+            eraId: "2006-2011",
+          },
         ],
       },
     ],

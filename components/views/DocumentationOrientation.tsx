@@ -118,14 +118,11 @@
 //             </div>
 //           ))}
 
-      
 //         </div>
 //       </section>
 //     </>
 //   );
 // }
-
-
 
 // "use client";
 
@@ -207,7 +204,6 @@
 //   );
 // }
 
-
 "use client";
 
 import { useDirectoryToggle } from "../../context/DirectoryToggleContext";
@@ -215,30 +211,48 @@ import ArchiveGrid from "../ArchiveGrid";
 
 const artists = [
   { name: "Hail", bannerUrl: "/images/artist-banners/WB: Hail Cover 2.png" },
-  { name: "Old Town Diamonds", bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png" },
-  { name: "Hollow Senses", bannerUrl: "/images/artist-banners/WB: Hollow Senses Cover.png" },
-  { name: "Fliege", bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png" },
-  { name: "Zothique", bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png" },
+  {
+    name: "Old Town Diamonds",
+    bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png",
+  },
+  {
+    name: "Hollow Senses",
+    bannerUrl: "/images/artist-banners/WB: Hollow Senses Cover.png",
+  },
+  {
+    name: "Fliege",
+    bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png",
+  },
+  {
+    name: "Zothique",
+    bannerUrl: "/images/artist-banners/WB: Zothique Cover2.webp",
+  },
 ];
 
 const preWinterbeast = [
   {
-    id: "2008-2011",
-    title: "2008–2011",
-    subtitle: "Freelance Recording",
-    imageUrl: "/images/archive/prewb-1.webp",
+    id: "2006-2011",
+    period: "2006–2011",
+    title: "Freelance Recording",
+    location: "NYC / Bay Area / Montreal",
+    description:
+      "Freelance recording work in Brooklyn-based commercial and artist-run studios, beginning with internships at a commercial facility and Fischerspooner’s rehearsal space, later working as a freelance engineer under a producer across multiple sessions and projects.",
   },
   {
     id: "2011-2014",
-    title: "2011–2014",
-    subtitle: "HellHole Studios",
-    imageUrl: "/images/archive/prewb-2.webp",
+    period: "2011–2014",
+    title: "Hellhole",
+    location: "Portland, OR",
+    description:
+      "Work centered around a dedicated studio space in Portland, developing fixed-location recording workflows, full-session engineering practice, and longer-form collaborative projects in a consistent room environment.",
   },
   {
     id: "2014-2018",
-    title: "2014–2018",
-    subtitle: "Freelance / Transitional",
-    imageUrl: "/images/archive/prewb-3.webp",
+    period: "2014–2018",
+    title: "Transition Years",
+    location: "Portland, OR",
+    description:
+      "Work spanning Portland-based freelance recording and transitional studio practice, bridging mobile and fixed-location sessions while shifting toward more structured long-form collaboration and production workflows.",
   },
 ];
 
@@ -255,7 +269,7 @@ export default function DocumentationOrientation() {
         (node) =>
           node.type === "file" &&
           node.fileType === "artist-overview" &&
-          node.artistName === a.name
+          node.artistName === a.name,
       );
     },
   }));
@@ -263,21 +277,22 @@ export default function DocumentationOrientation() {
   const legacyItems = preWinterbeast.map((e) => ({
     id: e.id,
     title: e.title,
-    subtitle: e.subtitle,
-    imageUrl: e.imageUrl,
+    period: e.period,
+    description: e.description,
+    location: e.location,
+    // imageUrl: e.imageUrl,
     onSelect: () => {
       navigateToNode(
         (node) =>
           node.type === "file" &&
           node.fileType === "pre-winterbeast-overview" &&
-          node.eraId === e.id
+          node.eraId === e.id,
       );
     },
   }));
 
   return (
     <section className="mb-12 max-w-6xl mx-auto px-4 text-white">
-
       <h1 className="text-3xl mb-4">Documentation</h1>
 
       <p className="text-sm text-zinc-400 mb-12 max-w-2xl">
@@ -298,9 +313,77 @@ export default function DocumentationOrientation() {
         <h2 className="text-xs uppercase tracking-[0.22em] text-[#cdb654] mb-6">
           Pre-Winterbeast
         </h2>
-        <ArchiveGrid items={legacyItems} />
-      </div>
+        {/* <ArchiveGrid items={legacyItems} /> */}
 
+        {/* <div
+          role="button"
+          onClick={() => legacyItems[0].onSelect()}
+          className="border border-white p-6 hover:bg-white/5 transition"
+        >
+          <div className="text-xs uppercase tracking-[0.2em] text-[#cdb654]">
+            2011–2014
+          </div>
+
+          <div className="text-lg mt-2">Freelance Recording</div>
+
+          <div className="text-sm text-zinc-400 mt-2 max-w-2xl">
+            NYC / Bay Area / Montreal • formative recording work across small rooms, mobile
+            setups, and early collaboration systems.
+          </div>
+        </div>
+
+        <div
+          role="button"
+          onClick={() => legacyItems[1].onSelect()}
+          className="border border-white p-6 hover:bg-white/5 transition"
+        >
+          <div className="text-xs uppercase tracking-[0.2em] text-[#cdb654]">
+            2006–2011
+          </div>
+
+          <div className="text-lg mt-2">Hellhole</div>
+
+          <div className="text-sm text-zinc-400 mt-2 max-w-2xl">
+            Portland, OR • personal studio space.
+          </div>
+        </div>
+
+        <div
+          role="button"
+          onClick={() => legacyItems[2].onSelect()}
+          className="border border-white p-6 hover:bg-white/5 transition"
+        >
+          <div className="text-xs uppercase tracking-[0.2em] text-[#cdb654]">
+            2014–2018
+          </div>
+
+          <div className="text-lg mt-2">Freelance Recording</div>
+
+          <div className="text-sm text-zinc-400 mt-2 max-w-2xl">
+            Portland, OR • formative recording work across small rooms, mobile
+            setups, and early collaboration systems.
+          </div>
+        </div> */}
+
+        {legacyItems.map((e) => (
+          <div
+            key={e.id}
+            role="button"
+            onClick={e.onSelect}
+            className="border border-white p-6 hover:bg-white/5 transition mb-6"
+          >
+            <div className="text-xs uppercase tracking-[0.2em] text-[#cdb654]">
+              {e.period}
+            </div>
+
+            <div className="text-lg mt-2">{e.title}</div>
+
+            <div className="text-sm text-zinc-400 mt-2 max-w-2xl">
+              {e.location} • {e.description}
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
