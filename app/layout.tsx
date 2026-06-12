@@ -2,6 +2,7 @@
 import Footer from "../components/Footer";
 import { treeData } from "../lib/treeData";
 import { ClientProvider } from "../context/ClientProvider";
+import ConditionalHeader from "../components/ConditionalHeader";
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -34,7 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ClientProvider tree={treeData}>
-          {/* <Header /> */}
+         <ConditionalHeader /> 
           <main className="flex-grow">{children}</main>
           <Footer />
         </ClientProvider>
