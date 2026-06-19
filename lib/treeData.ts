@@ -533,56 +533,64 @@ export const treeData: TreeNodeProps["node"][] = [
   //   type: "folder",
   //   children: [],
   // },
+  // {
+  //   id: idIncrement(),
+  //   name: "Pre-Winterbeast",
+  //   type: "folder",
+  //   children: [
+  //     {
+  //       id: idIncrement(),
+  //       name: "Transition 2014-2018",
+  //       eraId: "2014-2018",
+  //       type: "folder",
+  //       children: [
+  //         {
+  //           id: idIncrement(),
+  //           name: "Overview",
+  //           type: "file",
+  //           fileType: "pre-winterbeast-overview",
+  //           eraId: "2014-2018",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: idIncrement(),
+  //       name: "Hellhole 2011-2014",
+  //       eraId: "2011-2014",
+  //       type: "folder",
+  //       children: [
+  //         {
+  //           id: idIncrement(),
+  //           name: "Overview",
+  //           type: "file",
+  //           fileType: "pre-winterbeast-overview",
+  //           eraId: "2011-2014",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: idIncrement(),
+  //       name: "Freelance 2006-2011",
+  //       eraId: "2006-2011",
+  //       type: "folder",
+  //       children: [
+  //         {
+  //           id: idIncrement(),
+  //           name: "Overview",
+  //           type: "file",
+  //           fileType: "pre-winterbeast-overview",
+  //           eraId: "2006-2011",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
   {
-    id: idIncrement(),
-    name: "Pre-Winterbeast",
-    type: "folder",
-    children: [
-      {
-        id: idIncrement(),
-        name: "Transition 2014-2018",
-        eraId: "2014-2018",
-        type: "folder",
-        children: [
-          {
-            id: idIncrement(),
-            name: "Overview",
-            type: "file",
-            fileType: "pre-winterbeast-overview",
-            eraId: "2014-2018",
-          },
-        ],
-      },
-      {
-        id: idIncrement(),
-        name: "Hellhole 2011-2014",
-        eraId: "2011-2014",
-        type: "folder",
-        children: [
-          {
-            id: idIncrement(),
-            name: "Overview",
-            type: "file",
-            fileType: "pre-winterbeast-overview",
-            eraId: "2011-2014",
-          },
-        ],
-      },
-      {
-        id: idIncrement(),
-        name: "Freelance 2006-2011",
-        eraId: "2006-2011",
-        type: "folder",
-        children: [
-          {
-            id: idIncrement(),
-            name: "Overview",
-            type: "file",
-            fileType: "pre-winterbeast-overview",
-            eraId: "2006-2011",
-          },
-        ],
-      },
-    ],
-  },
+  id: idIncrement(),
+  name: "Pre-Winterbeast",
+  type: "file",
+  fileType: "pre-winterbeast-overview",
+  eraId: "pre-winterbeast",
+},
 ];

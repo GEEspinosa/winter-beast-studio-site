@@ -12,14 +12,13 @@ export type EraData = {
   id: string;
 
   title: string;
-  period: string;
   location: string;
+  description: string;
+
+  context?: string;
 
   heroImage?: string;
 
-  description: string;
-
   releases: Release[];
-
   images?: string[];
 };
