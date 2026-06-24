@@ -127,7 +127,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/images/album-covers/old-town-diamonds-a-pale-horse-album-art.webp",
+          "/images/album-covers/Old Town Diamonds_A Pale Horse2.webp",
         homepagePriority: 6,
         yourCredits: "Co-producer, Engineer, and Mixer",
         links: [],
@@ -153,7 +153,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/images/album-covers/hollow-senses-taurobolium-album-art.jpeg",
+          "/images/album-covers/hollow-senses-taurobolium-album-art2.webp",
         homepagePriority: 7,
         yourCredits: "Mixer & Noise/Synthesis Interludes Engineer",
         links: [

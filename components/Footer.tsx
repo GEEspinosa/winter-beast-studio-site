@@ -11,13 +11,13 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[#2f2f2f] px-6 py-10 text-sm text-zinc-500 bg-[#181818]">
+    <footer className=" px-6 py-10 text-sm text-zinc-500 bg-black">
 
       <div className="flex flex-col md:flex-row justify-between gap-6">
 
         {/* identity */}
-        <p className="tracking-wide text-zinc-500">
-          © Gabriel E Espinosa 2025
+        <p className="tracking-wide text-zinc-100">
+          © Gabriel E Espinosa 2026
         </p>
 
         {/* contact layer */}
@@ -25,7 +25,7 @@ export default function Footer() {
 
           <a
             href="mailto:winterbeastpdx@gmail.com"
-            className="text-zinc-400 hover:text-[#e6e6e6] transition"
+            className="text-zinc-100 hover:text-[#e6e6e6] transition"
           >
             winterbeastpdx@gmail.com
           </a>
@@ -34,7 +34,7 @@ export default function Footer() {
             href="https://www.instagram.com/winterbeastpdx/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-zinc-400 hover:text-[#e6e6e6] transition"
+            className="flex items-center gap-2 text-zinc-100 hover:text-[#e6e6e6] transition"
           >
             <FaInstagram className="w-4 h-4" />
             Instagram
