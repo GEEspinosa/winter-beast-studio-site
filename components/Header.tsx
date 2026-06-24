@@ -18,9 +18,18 @@ export default function Header() {
 
   return (
     <header className="relative z-20 flex items-center justify-between p-6 border-b border-gray-200 bg-white ">
-      <Link href="/" className="text-2xl font-semibold text-gray-900 ">
-        WinterBeast
-      </Link>
+      <Link
+  href="/"
+  className="flex items-center gap-3 text-2xl font-semibold text-gray-900"
+>
+  <img
+    src="/images/header-footer/sketch-skull.webp"
+    alt="WinterBeast skull logo"
+    className="h-8 w-8 object-contain"
+  />
+  <span>WinterBeast</span>
+</Link>
+      
       <nav className="flex space-x-8 text-gray-700 text-sm font-medium">
         {links.map(({ href, label }) => {
           const isActive = pathname === href;

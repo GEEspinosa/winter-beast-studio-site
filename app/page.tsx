@@ -659,9 +659,7 @@ export default function Home() {
         <div className="absolute inset-2 border border-white/30 pointer-events-none" />
         <div className="absolute inset-3 border border-white/30 pointer-events-none" />
         <div className="absolute inset-4 border border-white/30 pointer-events-none" />
-        {/* <div className="absolute inset-6 border border-white/30 pointer-events-none" /> */}
-        {/* <div className="absolute inset-7 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-8 border border-white/30 pointer-events-none" /> */}
+        
       </section>
 
       {/* RELEASES */}
@@ -747,7 +745,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto columns-1 sm:columns-2 lg:columns-3 gap-3">
           {homePageImages.map((src) => (
             <div key={src} className="mb-3 break-inside-avoid  p-[2px]">
-              <img src={src} className="w-full h-auto block" />
+              <img src={src} className="w-full h-auto block hover:invert" />
             </div>
           ))}
         </div>

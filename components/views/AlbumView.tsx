@@ -49,14 +49,6 @@ export default function AlbumView({ album }: { album: Album }) {
           </ul>
         </section>
       )}
-
-      {/* Notes or Anecdotes */}
-      {/* {album.notes && (
-        <section>
-          <h2 className="font-semibold text-lg mb-2">Notes</h2>
-          <p className="whitespace-pre-wrap text-gray-700">{album.notes}</p>
-        </section>
-      )} */}
     </div>
   );
 }
