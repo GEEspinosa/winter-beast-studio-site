@@ -604,14 +604,16 @@
 //   );
 // }
 
+import HeroImage from "@/components/HeroImage";
 import { homePageImages } from "../lib/homePageImages";
 import { featuredHomepageReleases } from "@/lib/selectors/featuredHomepageReleasesSelector";
+
 
 export default function Home() {
   return (
     <main className="bg-black text-[#e6e6e6]">
       {/* HERO */}
-      <section className="relative min-h-[92vh] flex items-end overflow-hidden">
+      <section className="relative min-h-[92vh] flex items-end overflow-hidden ">
         <div className="absolute inset-0">
           <img
             src="/images/home-page/WinterBeast black n white blue paint Cover.webp"
@@ -620,13 +622,7 @@ export default function Home() {
           />
         </div>
 
-        
-
         <div className="absolute inset-0 bg-black/30" />
-
-
-
-
 
         <div className="relative z-10 px-6 md:px-12 lg:px-20 pb-20  mx-auto w-full">
           <p className="text-[20px] uppercase tracking-[0.28em] t">
@@ -642,6 +638,21 @@ export default function Home() {
             long-form collaboration.
           </p>
         </div>
+
+        {/* RIGHT FILM FRAME */}
+        <div className="hidden md:block absolute right-10 lg:right-16 top-1/2 -translate-y-1/2">
+          <div className="relative w-[320px] lg:w-[380px] aspect-[2/3] border border-white/20 bg-black/10">
+            {/* <img
+              src="/images/home-page/cherry blossom-banner.jpg"
+              alt=""
+              className="absolute inset-0 w-full h-full object-cover grayscale brightness-150 contrast-120 opacity-80 transition duration-300 hover:invert"
+            /> */}
+            <HeroImage/>
+            <div className="absolute inset-2 border border-white/10 pointer-events-none" />
+          </div>
+        </div>
+
+        <div className="absolute inset-2 border border-white/10 pointer-events-none" />
       </section>
 
       {/* RELEASES */}
