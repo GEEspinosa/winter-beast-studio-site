@@ -19,7 +19,7 @@ export default function ReleasesGrid({ releases }: { releases: Album[] }) {
           >
             <img
               src={release.albumArtUrl}
-              className="w-full aspect-square object-cover"
+              className="w-full aspect-square object-cover hover:invert "
             />
             <div className="p-3">
               <p className="text-[16px]">{release.artistName}</p>

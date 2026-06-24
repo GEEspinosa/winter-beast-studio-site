@@ -608,6 +608,7 @@ import HeroImage from "@/components/HeroImage";
 import { homePageImages } from "../lib/homePageImages";
 import ReleasesGrid from "@/components/ReleasesGrid";
 import { featuredHomepageReleases } from "@/lib/selectors/featuredHomepageReleasesSelector";
+import HomePageGallerySection from "@/components/HomePageGallerySection";
 
 
 
@@ -740,7 +741,7 @@ export default function Home() {
       </section>
 
       {/* GALLERY */}
-      <section className="px-6 md:px-12 lg:px-20 py-16">
+      {/* <section className="px-6 md:px-12 lg:px-20 py-16">
         <p className="max-w-6xl mx-auto mt-6 text-[20px] uppercase tracking-[0.22em]  mb-10">
           Gallery
         </p>
@@ -754,7 +755,9 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
+
+      <HomePageGallerySection/>
     </main>
   );
 }

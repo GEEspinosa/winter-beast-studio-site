@@ -29,7 +29,7 @@ export default function AlbumViewModal({
     leading-none
   "
       >
-        <span className="text-2xl">×</span>
+        <span className="text-4xl">×</span>
       </button>
 
       {/* Content */}
