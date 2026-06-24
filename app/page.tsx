@@ -641,18 +641,27 @@ export default function Home() {
 
         {/* RIGHT FILM FRAME */}
         <div className="hidden md:block absolute right-10 lg:right-16 top-1/2 -translate-y-1/2">
-          <div className="relative w-[320px] lg:w-[380px] aspect-[2/3] border border-white/20 bg-black/10">
+          <div className="relative w-[320px] lg:w-[380px] aspect-[2/3] border border-white/30 bg-black/10">
             {/* <img
               src="/images/home-page/cherry blossom-banner.jpg"
               alt=""
               className="absolute inset-0 w-full h-full object-cover grayscale brightness-150 contrast-120 opacity-80 transition duration-300 hover:invert"
             /> */}
             <HeroImage/>
-            <div className="absolute inset-2 border border-white/10 pointer-events-none" />
+            <div className="absolute inset-1 border border-white/30 pointer-events-none" />
+            <div className="absolute inset-2 border border-white/30 pointer-events-none" />
+            <div className="absolute inset-3 border border-white/30 pointer-events-none" />
+            <div className="absolute inset-4 border border-white/30 pointer-events-none" />
           </div>
         </div>
 
-        <div className="absolute inset-2 border border-white/10 pointer-events-none" />
+        <div className="absolute inset-1 border border-white/30 pointer-events-none" />
+        <div className="absolute inset-2 border border-white/30 pointer-events-none" />
+        <div className="absolute inset-3 border border-white/30 pointer-events-none" />
+        <div className="absolute inset-4 border border-white/30 pointer-events-none" />
+        {/* <div className="absolute inset-6 border border-white/30 pointer-events-none" /> */}
+        {/* <div className="absolute inset-7 border border-white/30 pointer-events-none" />
+        <div className="absolute inset-8 border border-white/30 pointer-events-none" /> */}
       </section>
 
       {/* RELEASES */}

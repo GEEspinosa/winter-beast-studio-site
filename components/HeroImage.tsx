@@ -88,7 +88,7 @@ export default function HeroImage() {
       // }}
       className="
         absolute inset-0 w-full h-full object-cover
-        grayscale contrast-125 brightness-150 opacity-80
+        grayscale contrast-100 brightness-100 opacity-80
         transition duration-300
         hover:invert
       "
