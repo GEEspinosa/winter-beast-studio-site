@@ -13,13 +13,13 @@ export default function AlbumView({ album }: { album: Album }) {
           />
         )}
         <div>
-          <h1 className="text-3xl font-bold font-sans text-gray-800">
+          <h1 className="text-[20px] font-bold font-sans text-gray-800">
             {album.outputName}
           </h1>
-          <p className="text-xl font-semibold text-gray-700 font-sans">{album.artistName}</p>
-          <p className="text-md text-gray-600 font-mono">{album.year}</p>
+          <p className="text-[18px] font-semibold text-gray-700 font-sans">{album.artistName}</p>
+          <p className="text-[14px] text-gray-600 font-mono">{album.year}</p>
           {album.yourCredits && (
-            <p className="mt-2 italic text-gray-700 font-mono">
+            <p className="mt-2 text-[12px] italic text-gray-700 ">
               Credits: {album.yourCredits}
             </p>
           )}
@@ -29,7 +29,7 @@ export default function AlbumView({ album }: { album: Album }) {
       {/* Links Section */}
       {album.links && album.links.length > 0 && (
         <section>
-          <h2 className="font-semibold text-gray-700 font-sans text-lg mb-2">
+          <h2 className="font-semibold text-gray-700 font-sans text-[12px] mb-2">
             Links
           </h2>
 
@@ -40,7 +40,7 @@ export default function AlbumView({ album }: { album: Album }) {
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
+                  className="flex items-center text-[12px] gap-2 text-gray-800 p-4 bg-gray-200 rounded hover:text-white hover:bg-black transition"
                 >
                   {label}
                 </a>

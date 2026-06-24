@@ -606,7 +606,9 @@
 
 import HeroImage from "@/components/HeroImage";
 import { homePageImages } from "../lib/homePageImages";
+import ReleasesGrid from "@/components/ReleasesGrid";
 import { featuredHomepageReleases } from "@/lib/selectors/featuredHomepageReleasesSelector";
+
 
 
 export default function Home() {
@@ -669,7 +671,7 @@ export default function Home() {
             Selected Work
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {featuredHomepageReleases.map((release) => (
               <div
                 key={release.selectOutputName}
@@ -686,9 +688,12 @@ export default function Home() {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
+          <ReleasesGrid releases={featuredHomepageReleases} />
+
         </div>
       </section>
+
 
       {/* PRACTICE */}
       <section className="relative px-6 md:px-12 lg:px-20 py-24 overflow-hidden border-t border-white/10">
