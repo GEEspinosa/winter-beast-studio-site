@@ -25,6 +25,12 @@ export default function HeroImage() {
       "/images/home-page-film-icon/yuppie-vineyard-film-icon.webp",
       "/images/home-page-film-icon/netarts-beach-film-icon.webp",
       "/images/home-page-film-icon/gorge-waterfall-wa-film-icon.webp",
+      "/images/home-page-film-icon/netarts-crooked-tree-film-icon.webp",
+      "/images/home-page-film-icon/black-butte-trees-film-icon.webp",
+      "/images/home-page-film-icon/porter-point-beach-stream-film-icon.webp",
+      "/images/home-page-film-icon/tabor-tree-glare-shutter-leaves-film-icon.webp",
+      "/images/home-page-film-icon/misty-gorge-trees-film-icon.webp",
+      "/images/home-page-film-icon/tabor-res-reflection-film-icon.webp"
     ],
     []
   );
