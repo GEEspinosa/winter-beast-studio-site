@@ -30,7 +30,8 @@ export default function HeroImage() {
       "/images/home-page-film-icon/porter-point-beach-stream-film-icon.webp",
       "/images/home-page-film-icon/tabor-tree-glare-shutter-leaves-film-icon.webp",
       "/images/home-page-film-icon/misty-gorge-trees-film-icon.webp",
-      "/images/home-page-film-icon/tabor-res-reflection-film-icon.webp"
+      "/images/home-page-film-icon/tabor-res-reflection-film-icon.webp",
+      "/images/home-page-film-icon/mary-s-young-tree-film-icon.webp"
     ],
     []
   );
