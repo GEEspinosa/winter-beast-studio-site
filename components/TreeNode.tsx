@@ -168,7 +168,7 @@ export default function TreeNode({
           NODE ROW (label + arrow)
          ───────────────────────────── */}
       <div
-        className="tree-node-row flex items-center  text-black select-none relative"
+        className="tree-node-row flex items-center text-[18px] text-black select-none relative"
         style={{
           paddingLeft: `${level * indentPx + 0.25}px`,
           lineHeight: "1.5rem",

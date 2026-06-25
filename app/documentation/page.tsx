@@ -133,7 +133,7 @@ export default function ProjectsPage() {
 
         {!sidebarCollapse && (
           <>
-            <div className="flex flex-row text-black items-center space-x-3 mb-4">
+            <div className="flex flex-row text-[14px] text-black items-center space-x-3 mb-4">
               <button onClick={toggleColorHandler}>color</button>
               <ColorPicker
                 value={highlightColor}
