@@ -1,10 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { homePageImages } from "@/lib/homePageImages";
 
 export default function HomePageGallerySection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (selectedImage) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [selectedImage]);
 
   return (
     <section className="px-6 md:px-12 lg:px-20 py-16">
@@ -36,19 +48,11 @@ export default function HomePageGallerySection() {
       {/* MODAL */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-6"
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-6 overflow-y-auto"
           onClick={() => setSelectedImage(null)}
         >
           <div
-            className="
-        relative
-        w-[min(1000px,92vw)]
-        bg-black
-        text-[#e6e6e6]
-        shadow-2xl
-        overflow-hidden
-        border border-white/10
-      "
+            className="relative w-[min(1000px,92vw)] max-h-[90vh] bg-black text-[#e6e6e6] shadow-2xl overflow-y-auto border border-white/10"
             onClick={(e) => e.stopPropagation()}
           >
             {/* FRAME (match AlbumViewModal) */}
