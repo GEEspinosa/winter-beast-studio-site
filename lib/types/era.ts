@@ -6,6 +6,15 @@ export type Release = {
   credits?: string;
   description?: string;
   notes?: string;
+
+  label?: string;
+  format?: string;
+  runtime?: string;
+
+  trackListing?: {
+    title: string;
+    duration?: string;
+  }[];
 };
 
 export type EraData = {

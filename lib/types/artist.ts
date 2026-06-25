@@ -14,6 +14,13 @@ export type Album = {
   homepagePriority?: number;
   yourCredits: string;
   links: AlbumLink[];
+  format?: string;
+  runtime?: string;
+
+  trackListing?: {
+    title: string;
+    duration?: string;
+  }[];
 };
 
 export type Artist = {
