@@ -99,46 +99,45 @@
 //   );
 // }
 
-
 import { FaInstagram } from "react-icons/fa";
 
-export default function HomeFooter() {
+export default function Footer() {
   return (
     <footer className="bg-black border-t border-white/10">
       <div className="max-w-6xl mx-auto px-6 py-8">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
           <div className="space-y-1">
-  <p className="uppercase tracking-[0.22em] text-[12px] text-zinc-500">
-    Winterbeast
-  </p>
+            <p className="uppercase tracking-[0.22em] text-[12px] text-zinc-500">
+              Winterbeast
+            </p>
 
-  <p className="text-[13px] text-zinc-200">
-    © Gabriel E Espinosa 2026
-  </p>
-</div>
+            <p className="text-[13px] text-zinc-200">
+              © Gabriel E Espinosa 2026
+            </p>
+          </div>
 
-<div className="flex items-center gap-6">
-  <a
-    href="mailto:winterbeastpdx@gmail.com"
-    className="text-[13px] text-zinc-200 hover:text-white transition"
-  >
-    winterbeastpdx@gmail.com
-  </a>
+          <div className="flex items-center gap-6">
+            <a
+              href="mailto:winterbeastpdx@gmail.com"
+              className="text-[13px] text-zinc-200 hover:text-white transition"
+            >
+              winterbeastpdx@gmail.com
+            </a>
 
-  <a
-    href="https://www.instagram.com/winterbeastpdx/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center gap-2 text-[13px] text-zinc-400 hover:text-white transition"
-  >
-    <FaInstagram className="w-4 h-4" />
-    Instagram
-  </a>
+            <a
+              href="https://www.instagram.com/winterbeastpdx/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[13px] text-zinc-400 hover:text-white transition"
+            >
+              <FaInstagram className="w-4 h-4" />
+              Instagram
+            </a>
 
-  <img
-    src="/images/header-footer/sketch-skull.webp"
-    alt=""
-    className="
+            <img
+              src="/images/header-footer/sketch-skull.webp"
+              alt=""
+              className="
       w-16
       h-16
       object-contain
@@ -149,8 +148,8 @@ export default function HomeFooter() {
       select-none
       pointer-events-none
     "
-  />
-</div>
+            />
+          </div>
         </div>
       </div>
     </footer>

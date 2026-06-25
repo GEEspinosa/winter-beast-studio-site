@@ -605,7 +605,7 @@
 // }
 
 import HeroImage from "@/components/HeroImage";
-import { homePageImages } from "../lib/homePageImages";
+// import { homePageImages } from "../lib/homePageImages";
 import ReleasesGrid from "@/components/ReleasesGrid";
 import { featuredHomepageReleases } from "@/lib/selectors/featuredHomepageReleasesSelector";
 import HomePageGallerySection from "@/components/HomePageGallerySection";

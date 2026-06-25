@@ -45,7 +45,7 @@
 // }
 
 
-import Footer from "../components/HomeFooter";
+import Footer from "../components/Footer";
 import { treeData } from "../lib/treeData";
 import { ClientProvider } from "../context/ClientProvider";
 import ConditionalHeader from "../components/ConditionalHeader";
