@@ -2,7 +2,7 @@ import type { Artist } from "../lib/types/artist";
 import { hailGalleryArray } from "./artist-gallery-arrays/hail-gallery-array";
 
 export const artistData: Artist[] = [
-{
+  {
     artistName: "Zothique",
     artistBanner: "",
     overview:
@@ -14,27 +14,63 @@ export const artistData: Artist[] = [
         outputName: "Abomindations of Yondo",
         year: "2026",
         rlabel: "Fiadh Productions",
-        locations: ["WinterBeast"],
-        albumArtUrl: "/images/album-covers/zothique-abominations-album-art2.webp",
+        locations: ["WinterBeast", "Dead Air Studios"],
+        albumArtUrl:
+          "/images/album-covers/zothique-abominations-of-yondo-album-art3.webp",
         homepagePriority: 2,
-        yourCredits: "Drum Audio Engineer and Mixer",
+        yourCredits: "Drum Recording & Mixing",
+
+        trackListing: [
+          {
+            title: "Averoigne",
+            duration: "5:46",
+          },
+          {
+            title: "Satan Unrepentant",
+            duration: "6:42",
+          },
+          {
+            title: "Ecclesiates",
+            duration: "4:10",
+          },
+          {
+            title: "Ode to the Abyss",
+            duration: "9:26",
+          },
+          {
+            title: "Abominations of Yondo",
+            duration: "11:04",
+          },
+          
+        ],
+
+        personnel: [
+          {
+            name: "Set Sothis Nox La",
+            role: "Guitar, Vocals, Bass, Sounds",
+          },
+          {
+            name: "Netanel Suna Lar",
+            role: "Drums",
+          },
+          {
+            name: "Will Killingsworth",
+            role: "Mastering",
+          },
+        ],
         links: [
           {
             label: "Bandcamp",
-            url: "",
+            url: "https://fiadh.bandcamp.com/album/abominations-of-yondo",
           },
         ],
       },
-
     ],
     media: {
       photos: [],
       videos: [],
     },
   },
-
-
-
 
   {
     artistName: "Hail",
@@ -48,14 +84,57 @@ export const artistData: Artist[] = [
         outputName: "Child of A Cursed Temple",
         year: "2026",
         rlabel: "Fiadh Productions",
-        locations: ["WinterBeast"],
+        locations: ["WinterBeast", "Sky Onion Mastering"],
         albumArtUrl: "/images/album-covers/hail-child-temp-album-art.webp",
         homepagePriority: 1,
-        yourCredits: "Co-producer, Engineer, and Mixer",
+        yourCredits: "Production, Recording, & Mixing",
+
+         trackListing: [
+          {
+            title: "Child of a Cursed Temple",
+            duration: "3:35",
+          },
+          {
+            title: "Technocracy Corpse",
+            duration: "5:07",
+          },
+          {
+            title: "Nina",
+            duration: "5:03",
+          },
+          {
+            title: "Solaris",
+            duration: "15:18",
+          },
+          
+        ],
+
+        personnel: [
+          {
+            name: "Carl Annala",
+            role: "Vocals, guitar, noises, composition",
+          },
+          {
+            name: "Set Sothis Nox La",
+            role: "Vocals, guitar, noises",
+          },
+          {
+            name: "Lloyd Frank",
+            role: "Bass, noises",
+          },
+          {
+            name: "Bryan Souder",
+            role: "Drums, percussion and noises",
+          },
+          {
+            name: "Gus Elg",
+            role: "Mastering",
+          },
+        ],
         links: [
           {
             label: "Bandcamp",
-            url: "",
+            url: "https://hailpdx.bandcamp.com/album/child-of-a-cursed-temple",
           },
         ],
       },
@@ -65,10 +144,55 @@ export const artistData: Artist[] = [
         outputName: "Transgression",
         year: "2024",
         rlabel: "Fiadh Productions",
-        locations: ["WinterBeast"],
+        locations: ["WinterBeast", "Sky Onion Mastering"],
         albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
         homepagePriority: 3,
-        yourCredits: "Co-producer, Engineer, and Mixer",
+        yourCredits: "Production, Recording, & Mixing",
+
+
+         trackListing: [
+          {
+            title: "Transgression Anxiety Collapse",
+            duration: "6:52",
+          },
+          {
+            title: "Facecrime",
+            duration: "5:29",
+          },
+          {
+            title: "Edifice of Culture",
+            duration: "5:46",
+          },
+          {
+            title: "Towers",
+            duration: "5:02",
+          },
+          
+        ],
+
+        personnel: [
+          {
+            name: "Carl Annala",
+            role: "Vocals, guitar, noises, composition",
+          },
+          {
+            name: "Set Sothis Nox La",
+            role: "Vocals, guitar, noises",
+          },
+          {
+            name: "Lloyd Frank",
+            role: "Bass, noises",
+          },
+          {
+            name: "Bryan Souder",
+            role: "Drums, percussion and noises",
+          },
+          {
+            name: "Gus Elg",
+            role: "Mastering",
+          },
+        ],
+
         links: [
           {
             label: "Bandcamp",
@@ -82,10 +206,55 @@ export const artistData: Artist[] = [
         outputName: "We Are Nothing",
         year: "2023",
         rlabel: "Fiadh Productions",
-        locations: ["WinterBeast"],
+        locations: ["WinterBeast", "Sky Onion Mastering"],
         albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
         homepagePriority: 5,
-        yourCredits: "Co-producer, Engineer, and Mixer",
+        yourCredits: "Production, Recording, & Mixing",
+
+        trackListing: [
+          {
+            title: "Yes I Can",
+            duration: "3:38",
+          },
+          {
+            title: "Hound of Heaven",
+            duration: "7:21",
+          },
+          {
+            title: "We Are Nothing",
+            duration: "3:51",
+          },
+          {
+            title: "Cut The Blood",
+            duration: "14:20",
+          },
+          
+        ],
+
+        personnel: [
+          {
+            name: "Carl Annala",
+            role: "Vocals, guitar, noises, composition",
+          },
+          {
+            name: "Set Sothis Nox La",
+            role: "Vocals, guitar, noises",
+          },
+          {
+            name: "Lloyd Frank",
+            role: "Bass, noises",
+          },
+          {
+            name: "Bryan Souder",
+            role: "Drums, percussion and noises",
+          },
+          {
+            name: "Gus Elg",
+            role: "Mastering",
+          },
+        ],
+
+
         links: [
           {
             label: "Bandcamp",
@@ -112,11 +281,59 @@ export const artistData: Artist[] = [
         outputName: "40 Miles",
         year: "2024",
         rlabel: "Devil's Boat Records",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/otd-40-miles-album-art2.webp",
+        locations: ["WinterBeast", "Sky Onion Mastering"],
+        albumArtUrl: "/images/album-covers/otd-40-miles-album-art2.webp",
         homepagePriority: 4,
-        yourCredits: "Co-producer, Engineer, and Mixer",
+        yourCredits: "Production, Recording, & Mixing",
+        trackListing: [
+          {
+            title: "40 Miles",
+            duration: "3:23",
+          },
+          {
+            title: "So Upset",
+            duration: "1:58",
+          },
+          {
+            title: "Dark Eyes",
+            duration: "1:40",
+          },
+          {
+            title: "Otis Yuck",
+            duration: "2:20",
+          },
+           {
+            title: "Killing Time",
+            duration: "3:59",
+          },
+        ],
+
+        personnel: [
+          {
+            name: "Brian Koeling",
+            role: "Vocals",
+          },
+          {
+            name: "Carl Annala",
+            role: "Guitar, backing vocals",
+          },
+          {
+            name: "Christine Sorenson",
+            role: "Keys, percussion, backing vocals",
+          },
+          {
+            name: "Mark Vermeys",
+            role: "Bass",
+          },
+          {
+            name: "David Owen",
+            role: "Drums, backing vocals",
+          },
+          {
+            name: "Gus Elg",
+            role: "Mastering",
+          },
+        ],
         links: [
           {
             label: "Bandcamp",
@@ -129,12 +346,74 @@ export const artistData: Artist[] = [
         artistName: "Old Town Diamonds",
         outputName: "A Pale Horse",
         year: "2023",
+        releaseDate: "January 15th, 2023",
         rlabel: "",
-        locations: ["WinterBeast"],
+        locations: ["WinterBeast", "Sky Onion Mastering"],
         albumArtUrl:
           "/images/album-covers/Old Town Diamonds_A Pale Horse2.webp",
         homepagePriority: 6,
-        yourCredits: "Co-producer, Engineer, and Mixer",
+        yourCredits: "Production, Engineering, & Mixing",
+         trackListing: [
+          {
+            title: "Casting My Spell",
+            duration: "",
+          },
+          {
+            title: "Down in The Hole",
+            duration: "",
+          },
+          {
+            title: "God's Gonna Cut You Down",
+            duration: "",
+          },
+          {
+            title: "Goo Goo Muck",
+            duration: "",
+          },
+           {
+            title: "Human Fly",
+            duration: "",
+          },
+          {
+            title: "Sea of Heartbreak",
+            duration: "",
+          },
+          {
+            title: "Voodoo Working",
+            duration: "",
+          },
+          {
+            title: "When The Man Comes Around",
+            duration: "",
+          },
+        ],
+
+        personnel: [
+          {
+            name: "Brian Koeling",
+            role: "Vocals",
+          },
+          {
+            name: "Carl Annala",
+            role: "Guitar, backing vocals",
+          },
+          {
+            name: "Christine Sorenson",
+            role: "Keys, percussion, backing vocals",
+          },
+          {
+            name: "Mark Vermeys",
+            role: "Bass",
+          },
+          {
+            name: "David Owen",
+            role: "Drums, backing vocals",
+          },
+          {
+            name: "Gus Elg",
+            role: "Mastering",
+          },
+        ],
         links: [
           {
             label: "Artist Page",
@@ -161,11 +440,53 @@ export const artistData: Artist[] = [
         outputName: "Taurobolium",
         year: "2023",
         rlabel: "",
-        locations: ["WinterBeast"],
+        locations: ["WinterBeast", "Archaic Sound", "Telegraph Mastering"],
         albumArtUrl:
           "/images/album-covers/hollow-senses-taurobolium-album-art2.webp",
         homepagePriority: 7,
-        yourCredits: "Mixer & Noise/Synthesis Interludes Engineer",
+        yourCredits: "Mixing & Noise/Synthesis Interludes Recording",
+
+         trackListing: [
+          {
+            title: "Ninth Stone",
+            duration: "8:44",
+          },
+          {
+            title: "Saturn",
+            duration: "11:42",
+          },
+          {
+            title: "Argenta",
+            duration: "13:43",
+          },
+          {
+            title: "Powderkeg",
+            duration: "6:59",
+          },
+        ],
+
+        personnel: [
+          {
+            name: "Ryan Lipynsky",
+            role: "Vocals",
+          },
+          {
+            name: "Rachel Brown",
+            role: "Vocals",
+          },
+          {
+            name: "Gabriel Cruz",
+            role: "Drums",
+          },
+          {
+            name: "Nikhil Kamineni",
+            role: "Guitars, bass, synths, noise",
+          },
+          {
+            name: "Adam Gonsalves",
+            role: "Mastering",
+          },
+        ],
         links: [
           {
             label: "Bandcamp",
@@ -196,11 +517,77 @@ export const artistData: Artist[] = [
         outputName: "The Invisible Seam",
         year: "2020",
         rlabel: "",
-        locations: ["WinterBeast"],
+        locations: ["WinterBeast", "AudioSiege", "Various Locations"],
         albumArtUrl:
           "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         homepagePriority: 8,
-        yourCredits: "Mixer & Vocal Engineer",
+        yourCredits: "Mixing & Vocal Recording",
+
+        trackListing: [
+          {
+            title: "My Flesh is Afraid (But I Am Not)",
+            duration: "3:35",
+          },
+          {
+            title: "Four Suns",
+            duration: "4:17",
+          },
+          {
+            title: "A Confession",
+            duration: "4:08",
+          },
+          {
+            title: "March of Whips",
+            duration: "4:29",
+          },
+           {
+            title: "Love Plague",
+            duration: "4:24",
+          },
+           {
+            title: "The Invisible Seam",
+            duration: "3:55",
+          },
+           {
+            title: "Blood of the Earth",
+            duration: "4:59",
+          },
+           {
+            title: "Die Raval",
+            duration: "2:41",
+          },
+           {
+            title: "The Censer",
+            duration: "3:08",
+          },
+           {
+            title: "A Light in the Black Pane",
+            duration: "6:26",
+          },
+        ],
+
+        personnel: [
+          {
+            name: "Coleman Bentley",
+            role: "Guitars, clean vocals, drum programming, samples",
+          },
+          {
+            name: "Peter Rittweger",
+            role: "Vocals",
+          },
+          {
+            name: "Chris Palermo",
+            role: "Synths, keyboards",
+          },
+          {
+            name: "Nikhil Kamineni",
+            role: "Vocal Production",
+          },
+          {
+            name: "Brad Boatright",
+            role: "Mastering",
+          },
+        ],
         links: [
           {
             label: "Bandcamp",

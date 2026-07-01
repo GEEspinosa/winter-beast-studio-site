@@ -16,6 +16,11 @@ export type Album = {
   links: AlbumLink[];
   format?: string;
   runtime?: string;
+  releaseDate?: string;
+  personnel?: {
+    name: string;
+    role: string;
+  }[];
 
   trackListing?: {
     title: string;
@@ -32,4 +37,16 @@ export type Artist = {
     photos: string[];
     videos: string[];
   };
+};
+
+
+export type GalleryImage = {
+  url: string;
+  project?: string; 
+  location?: string;
+  priority: number;
+  context?: string;  // e.g. "Hail", "Winterbeast sessions"
+  date?: string;      // or year, or range
+  description?: string;
+  photoInfo?: string;
 };
