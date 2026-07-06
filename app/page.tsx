@@ -718,9 +718,9 @@ export default function Home() {
 
             <p>
               Live, overdub, or hybrid tracking with an emphasis on microphones,
-              acoustic space, and sound sources. Editing, comping, punch-ins,
-              reamping, and layered sound construction are part of the process,
-              whether aiming to faithfully document a performance or to develop
+              acoustic space, and sound sources pushing air. Editing, compiling takes, punch-ins,
+              reamping, and layering textures are typical parts of the process,
+              depending on aims, whether that is faithfully capturing performances or developing
               adventurous, album-oriented recordings that extend beyond what
               could exist on stage.
             </p>
@@ -731,7 +731,7 @@ export default function Home() {
             </p>
 
             <p className="text-zinc-200">
-              EPs and full-length records developed over time as complete works.
+              Emphasis on EPs and full-lengths where artists want to be hands-on, willing to outdo good enough takes, test new directions, balance hard work with play, and make their records in a laid back, welcoming, but always focused studio environment. The space makes albums and friendships, becoming a second home for all collaborators and participants that put themselves into Winterbeast projects.
             </p>
           </div>
         </div>

@@ -280,7 +280,7 @@ export const artistData: Artist[] = [
         artistName: "Old Town Diamonds",
         outputName: "40 Miles",
         year: "2024",
-        rlabel: "Devil's Boat Records",
+        rlabel: "",
         locations: ["WinterBeast", "Sky Onion Mastering"],
         albumArtUrl: "/images/album-covers/otd-40-miles-album-art2.webp",
         homepagePriority: 4,
