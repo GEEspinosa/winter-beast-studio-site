@@ -706,7 +706,7 @@ export default function Home() {
           <div className="md:col-span-8 space-y-6 text-[18px] leading-relaxed">
             <p>
               Analog front-end into digital multitrack recording and in-the-box
-              mixing. A purposeful microphone collection and a modular live room
+              mixing. A purposefully selected microphone collection and a modular live room
               with movable acoustic baffles.
             </p>
 
