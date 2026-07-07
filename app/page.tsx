@@ -640,26 +640,21 @@ export default function Home() {
         </div>
 
         {/* RIGHT FILM FRAME */}
-        <div className="hidden md:block absolute right-10 lg:right-16 top-1/2 -translate-y-1/2">
+        {/* <div className="hidden md:block absolute right-10 lg:right-16 top-1/2 -translate-y-1/2">
           <div className="relative w-[320px] lg:w-[380px] aspect-[2/3] border border-white/30 bg-black/10">
-            {/* <img
-              src="/images/home-page/cherry blossom-banner.jpg"
-              alt=""
-              className="absolute inset-0 w-full h-full object-cover grayscale brightness-150 contrast-120 opacity-80 transition duration-300 hover:invert"
-            /> */}
-            <HeroImage/>
+          
+            <HeroImage />
             <div className="absolute inset-1 border border-white/30 pointer-events-none" />
             <div className="absolute inset-2 border border-white/30 pointer-events-none" />
             <div className="absolute inset-3 border border-white/30 pointer-events-none" />
             <div className="absolute inset-4 border border-white/30 pointer-events-none" />
           </div>
-        </div>
+        </div> */}
 
         <div className="absolute inset-1 border border-white/30 pointer-events-none" />
         <div className="absolute inset-2 border border-white/30 pointer-events-none" />
         <div className="absolute inset-3 border border-white/30 pointer-events-none" />
         <div className="absolute inset-4 border border-white/30 pointer-events-none" />
-        
       </section>
 
       {/* RELEASES */}
@@ -688,10 +683,8 @@ export default function Home() {
             ))}
           </div> */}
           <ReleasesGrid releases={featuredHomepageReleases} />
-
         </div>
       </section>
-
 
       {/* PRACTICE */}
       <section className="relative px-6 md:px-12 lg:px-20 py-24 overflow-hidden border-t border-white/10">
@@ -713,25 +706,35 @@ export default function Home() {
           <div className="md:col-span-8 space-y-6 text-[18px] leading-relaxed">
             <p>
               Analog front-end into digital multitrack recording and in-the-box
-              mixing.
+              mixing. A purposeful microphone collection and a modular live room
+              with movable acoustic baffles.
             </p>
 
             <p>
               Live, overdub, or hybrid tracking with an emphasis on microphones,
-              acoustic space, and sound sources pushing air. Editing, compiling takes, punch-ins,
-              reamping, and layering textures are typical parts of the process,
-              depending on aims, whether that is faithfully capturing performances or developing
-              adventurous, album-oriented recordings that extend beyond what
-              could exist on stage.
+              acoustic space, and sound sources pushing air. Editing, compiling
+              takes, punch-ins, reamping, and layered textures are typical parts
+              of the process, depending on the aims of the project, whether that
+              means faithfully documenting performances or developing
+              album-oriented recordings that extend beyond what could exist on
+              stage.
             </p>
 
             <p>
-              Projects develop through extended collaboration, iteration, and
-              revision.
+              Records develop through extended collaboration, iteration, and
+              revision rather than a fixed production formula.
             </p>
 
             <p className="text-zinc-200">
-              Emphasis on EPs and full-lengths where artists want to be hands-on, willing to outdo good enough takes, test new directions, balance hard work with play, and make their records in a laid back, welcoming, but always focused studio environment. The space makes albums and friendships, becoming a second home for all collaborators and participants that put themselves into Winterbeast projects.
+              WinterBeast intentionally takes on only a handful of projects each
+              year, focusing on EPs and full-length albums for artists who want
+              to be deeply involved in the process, push beyond
+              {' "good enough"'} takes, explore new directions, and give
+              recordings the time they need to become their strongest versions.
+              Sessions are relaxed, welcoming, and focused, creating the space
+              for artists to be fully present, sink into the process, and take
+              creative risks. The studio becomes a second home for the artists
+              and collaborators who invest themselves in WinterBeast projects.
             </p>
           </div>
         </div>
@@ -754,7 +757,7 @@ export default function Home() {
         </div>
       </section> */}
 
-      <HomePageGallerySection/>
+      <HomePageGallerySection />
     </main>
   );
 }

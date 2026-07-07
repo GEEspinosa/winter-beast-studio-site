@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="absolute inset-2 border border-white/10 pointer-events-none z-10" />
 
             <img
-              src="/images/about/gabriel.webp"
+              src="/images/about/portrait/about-portrait-beach-gabi.webp"
               alt="Gabriel Espinosa at Winterbeast"
               className="
       w-full
