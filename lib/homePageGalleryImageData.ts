@@ -16,13 +16,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Bass + Synth dubs",
   // },
-  {
-    url: "/images/home-page/nikhil-synth-interludes-hollow-senses.webp",
-    project: "Hollow Senses",
-    date: "Mar. 2023",
-    priority: idIncrement(),
-    description: "Synth interlude tracking",
-  },
+  // {
+  //   url: "/images/home-page/nikhil-synth-interludes-hollow-senses.webp",
+  //   project: "Hollow Senses",
+  //   date: "Mar. 2023",
+  //   priority: idIncrement(),
+  //   description: "Synth interlude tracking",
+  // },
   // {
   //   url: "/images/home-page/ursula-live-drums-notnauts.webp",
   //   project: "Notnauts",
@@ -58,7 +58,7 @@ export const homePageGalleryImageData: GalleryImage[] = [
     priority: idIncrement(),
     description: "Control Room",
   },
-  //  {
+  // {
   //   url: "/images/home-page/brian-guitar-doubling-lacephale.webp",
   //   project: "L'Acephale",
   //   date: "Feb 2023",
@@ -74,18 +74,19 @@ export const homePageGalleryImageData: GalleryImage[] = [
   // },
   {
     url: "/images/home-page/drums-micd-up-zothique.webp",
-    project: "Zothique",
+    // project: "Zothique",
+    project: "studio",
     date: "2023",
     priority: idIncrement(),
     description: "Drums mic'd up",
   },
-  {
-    url: "/images/home-page/christine-key-dubs-otd.webp",
-    project: "Old Town Diamonds",
-    date: "Oct. 2023",
-    priority: idIncrement(),
-    description: "Finishing touches with key dubs",
-  },
+  // {
+  //   url: "/images/home-page/christine-key-dubs-otd.webp",
+  //   project: "Old Town Diamonds",
+  //   date: "Oct. 2023",
+  //   priority: idIncrement(),
+  //   description: "Finishing touches with key dubs",
+  // },
   // {
   //   url: "/images/home-page/knock-knock-jokes-listening-back-otd.webp",
   //   project: "Old Town Diamonds",
@@ -142,13 +143,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Layering sax through amps",
   // },
-  {
-    url: "/images/home-page/lloyd-live-noise-tracking-hail.webp",
-    project: "Hail",
-    date: "Lost 2020",
-    priority: idIncrement(),
-    description: "Group noise tracking",
-  },
+  // {
+  //   url: "/images/home-page/lloyd-live-noise-tracking-hail.webp",
+  //   project: "Hail",
+  //   date: "Lost 2020",
+  //   priority: idIncrement(),
+  //   description: "Group noise tracking",
+  // },
   // {
   //   url: "/images/home-page/brian-live-tracking-notnauts.webp",
   //   project: "Notnauts",
@@ -172,7 +173,8 @@ export const homePageGalleryImageData: GalleryImage[] = [
   // },
   {
     url: "/images/home-page/weekend-guitar-bass-dubs-the-mistons.webp",
-    project: "The Mistons",
+    // project: "The Mistons",
+     project: "Studio",
     date: "May 2025",
     priority: idIncrement(),
     description: "Long weekend of bass and guitar tracking",
@@ -209,7 +211,8 @@ export const homePageGalleryImageData: GalleryImage[] = [
   // },
    {
     url: "/images/home-page/recording-vocals-together-lacephale.webp",
-    project: "L'Acephale",
+    // project: "L'Acephale",
+     project: "Studio",
     date: "Jan. 2024",
     priority: idIncrement(),
     description: "Workshopping vocals together",
@@ -228,13 +231,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Full band rehearsing before live foundation takes",
   // },
-   {
-    url: "/images/home-page/adding-solos-otd.webp",
-    project: "Old Town Diamonds",
-    date: "Oct. 2023",
-    priority: idIncrement(),
-    description: "Overdubbing guitar solos",
-  },
+  //  {
+  //   url: "/images/home-page/adding-solos-otd.webp",
+  //   project: "Old Town Diamonds",
+  //   date: "Oct. 2023",
+  //   priority: idIncrement(),
+  //   description: "Overdubbing guitar solos",
+  // },
   //  {
   //   url: "/images/home-page/laughing-while-finding-am-noise-notnauts.webp",
   //   project: "Notnauts",
@@ -287,12 +290,12 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Box of cosmic racket",
   // },
-  {
-    url: "/images/home-page/glass-ice-pick-hail.webp",
-    project: "Hail",
-    date: "Lost 2020",
-    priority: idIncrement(),
-    description: "Glass becomes a sonic ice pick",
-  },
+  // {
+  //   url: "/images/home-page/glass-ice-pick-hail.webp",
+  //   project: "Hail",
+  //   date: "Lost 2020",
+  //   priority: idIncrement(),
+  //   description: "Glass becomes a sonic ice pick",
+  // },
 
 ];
