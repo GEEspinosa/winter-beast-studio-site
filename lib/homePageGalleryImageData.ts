@@ -51,12 +51,27 @@ export const homePageGalleryImageData: GalleryImage[] = [
     priority: idIncrement(),
     description: "Mic lockerless",
   },
+
+  
+
+
+  
+  
    {
     url: "/images/home-page/control-room-studio.webp",
     project: "Studio",
     date: "2023",
     priority: idIncrement(),
     description: "Control Room",
+  },
+
+    {
+    url: "/images/home-page/yuppie-vineyard-studio.webp",
+    // project: "The Mistons",
+     project: "Studio",
+    date: "2023",
+    priority: idIncrement(),
+    description: "Yuppie Vineyard",
   },
   // {
   //   url: "/images/home-page/brian-guitar-doubling-lacephale.webp",
@@ -80,6 +95,8 @@ export const homePageGalleryImageData: GalleryImage[] = [
     priority: idIncrement(),
     description: "Drums mic'd up",
   },
+
+  
   // {
   //   url: "/images/home-page/christine-key-dubs-otd.webp",
   //   project: "Old Town Diamonds",
@@ -101,13 +118,23 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Danny locked in mid take",
   // },
-  // {
-  //   url: "/images/home-page/hiwatt-the-mistons.webp",
-  //   project: "The Mistons",
-  //   date: "Oct. 2024",
-  //   priority: idIncrement(),
-  //   description: "A beautiful rig",
-  // },
+  {
+    url: "/images/home-page/hiwatt-the-mistons.webp",
+    // project: "The Mistons",
+    project: "Studio",
+    date: "Oct. 2024",
+    priority: idIncrement(),
+    description: "A beautiful rig",
+  },
+
+
+   {
+    url: "/images/home-page/condenser-mics-studio.webp",
+    project: "Studio",
+    date: "2023",
+    priority: idIncrement(),
+    description: "Condensers",
+  },
   // {
   //   url: "/images/home-page/brandon-practicing-between-takes-the-mistons.webp",
   //   project: "The Mistons",
@@ -164,13 +191,34 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Setting up for over dubbing bass tracks",
   // },
-  // {
-  //   url: "/images/home-page/projector-on-the-kit-entrain.webp",
-  //   project: "Entrain",
-  //   date: "Sept. 2023",
-  //   priority: idIncrement(),
-  //   description: "Fall projected on the kit during live tracking",
-  // },
+  {
+    url: "/images/home-page/projector-on-the-kit-entrain.webp",
+    // project: "Entrain",
+      project: "Studio",
+    date: "Sept. 2023",
+    priority: idIncrement(),
+    description: "Fall projected on the kit during live tracking",
+  },
+
+  {
+    url: "/images/home-page/box-of-noise-hail.webp",
+    project: "Studio",
+    date: "Lost 2020",
+    priority: idIncrement(),
+    description: "Box of noise",
+  },
+
+
+   {
+    url: "/images/home-page/over-micd-bin-studio.webp",
+    // project: "Entrain",
+      project: "Studio",
+    date: "2023",
+    priority: idIncrement(),
+    description: "Run the wash bin through the amp",
+  },
+
+
   {
     url: "/images/home-page/weekend-guitar-bass-dubs-the-mistons.webp",
     // project: "The Mistons",
@@ -179,6 +227,9 @@ export const homePageGalleryImageData: GalleryImage[] = [
     priority: idIncrement(),
     description: "Long weekend of bass and guitar tracking",
   },
+
+
+
 
 
   //  {
@@ -209,6 +260,14 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Deep into guitars weekend",
   // },
+
+   {
+    url: "/images/home-page/amps-speakers-studio.webp",
+    project: "Studio",
+    date: "2023",
+    priority: idIncrement(),
+    description: "Amps & Splatter Paint",
+  },
    {
     url: "/images/home-page/recording-vocals-together-lacephale.webp",
     // project: "L'Acephale",
@@ -298,4 +357,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   description: "Glass becomes a sonic ice pick",
   // },
 
+
+
+
+
+ 
+
+  
+
+  
 ];
