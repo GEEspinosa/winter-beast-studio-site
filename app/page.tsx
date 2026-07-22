@@ -622,15 +622,15 @@ export default function Home() {
           />
         </div>
 
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/45" />
 
         <div className="relative z-10 px-6 md:px-12 lg:px-20 pb-20  mx-auto w-full">
-          <p className="text-[20px] uppercase tracking-[0.28em] t">
+          <p className="text-[20px] uppercase tracking-[0.28em] text-zinc-300">
             Recording • Production • Mixing
           </p>
 
           <h1 className="mt-5 text-4xl md:text-6xl font-light tracking-wide font-display">
-            Winterbeast
+            WinterBeast
           </h1>
 
           <p className="mt-6 text-[16px] leading-relaxed text-zinc-300 max-w-xl">
@@ -687,7 +687,7 @@ export default function Home() {
       </section>
 
       {/* PRACTICE */}
-      <section className="relative px-6 md:px-12 lg:px-20 py-24 overflow-hidden border-t border-white/10">
+      {/* <section className="relative px-6 md:px-12 lg:px-20 py-24 overflow-hidden border-t border-white/10">
         <div className="absolute inset-0">
           <img
             src="/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
@@ -702,40 +702,177 @@ export default function Home() {
           <div className="md:col-span-4">
             <p className="text-[20px] uppercase tracking-[0.22em]">Practice</p>
           </div>
+          <div className="md:col-span-8 space-y-12 text-[18px] leading-relaxed">
+            <div>
+              <p className="text-xl leading-relaxed">
+                Records develop through extended collaboration, iteration, and
+                revision rather than a fixed production formula.
+              </p>
+            </div>
 
-          <div className="md:col-span-8 space-y-6 text-[18px] leading-relaxed">
-            <p>
-              Analog front-end into digital multitrack recording and in-the-box
-              mixing. A purposefully selected microphone collection and a modular live room
-              with movable acoustic baffles.
-            </p>
+            <div>
+              <p>
+                Analog front-end into digital multitrack recording and
+                in-the-box mixing. A purposefully selected microphone collection
+                and modular live room provide a flexible foundation for shaping
+                each project.
+              </p>
+            </div>
 
-            <p>
-              Live, overdub, or hybrid tracking with an emphasis on microphones,
-              acoustic space, and sound sources pushing air. Editing, compiling
-              takes, punch-ins, reamping, and layered textures are typical parts
-              of the process, depending on the aims of the project, whether that
-              means faithfully documenting performances or developing
-              album-oriented recordings that extend beyond what could exist on
-              stage.
-            </p>
+            <div>
+              <p className="text-xl leading-relaxed">
+                The recording process follows the needs of the record rather
+                than a predetermined workflow.
+              </p>
 
-            <p>
-              Records develop through extended collaboration, iteration, and
-              revision rather than a fixed production formula.
-            </p>
+              <p className="mt-4">
+                Live, overdub, or hybrid tracking, editing, reamping, and
+                layered textures become part of the process depending on the
+                aims of the project.
+              </p>
+            </div>
 
-            <p className="text-zinc-200">
-              WinterBeast intentionally takes on only a handful of projects each
-              year, focusing on EPs and full-length albums for artists who want
-              to be deeply involved in the process, push beyond
-              {' "good enough"'} takes, explore new directions, and give
-              recordings the time they need to become their strongest versions.
-              Sessions are relaxed, welcoming, and focused, creating the space
-              for artists to be fully present, sink into the process, and take
-              creative risks. The studio becomes a second home for the artists
-              and collaborators who invest themselves in WinterBeast projects.
-            </p>
+            <div>
+              <p className="text-xl leading-relaxed">
+                WinterBeast intentionally takes on only a handful of projects
+                each year.
+              </p>
+
+              <p className="mt-4 text-zinc-200">
+                The studio focuses on EPs and full-length albums for artists who
+                want to be deeply involved in the process, push beyond{" "}
+                {' "good enough"'} takes, explore new directions, and give
+                recordings the time they need to become their strongest
+                versions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/* <section className="relative px-6 md:px-12 lg:px-20 py-16 md:py-20 overflow-hidden border-t border-white/10">
+        <div className="absolute inset-0">
+          <img
+            src="/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
+            className="w-full h-full object-cover object-[center_80%]"
+            alt=""
+          />
+        </div>
+
+        <div className="absolute inset-0 bg-black/65" />
+
+        <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
+          <div className="md:col-span-4">
+            <p className="text-[20px] uppercase tracking-[0.22em]">Practice</p>
+          </div>
+
+          <div className="md:col-span-7 space-y-10 text-[17px] leading-relaxed">
+            <div>
+              <p className="text-xl leading-relaxed">
+                Records develop through extended collaboration, iteration, and
+                revision rather than a fixed production formula.
+              </p>
+
+              <p className="mt-5">
+                Analog front-end into digital multitrack recording and
+                in-the-box mixing. A purposefully selected microphone collection
+                and modular live room provide a flexible foundation for shaping
+                each project.
+              </p>
+            </div>
+
+            <div>
+              <p>
+                The recording process follows the needs of the record rather
+                than a predetermined workflow. Live, overdub, or hybrid
+                tracking, editing, reamping, and layered textures become part of
+                the process depending on the aims of the project.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-xl leading-relaxed">
+                WinterBeast intentionally takes on only a handful of projects
+                each year.
+              </p>
+
+              <p className="mt-5 text-zinc-200">
+                The studio focuses on EPs and full-length albums for artists who
+                want to be deeply involved in the process, push beyond{" "}
+                {' "good enough"'} takes, explore new directions, and give
+                recordings the time they need to become their strongest
+                versions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="relative px-6 md:px-12 lg:px-20 py-20 overflow-hidden border-t border-white/10">
+        <div className="absolute inset-0">
+          <img
+            src="/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
+            className="w-full h-full object-cover object-[center_80%]"
+            alt=""
+          />
+        </div>
+
+        <div className="absolute inset-0 bg-black/65" />
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div className="md:col-span-3">
+              <p className="text-[20px] uppercase tracking-[0.22em]">
+                Practice
+              </p>
+            </div>
+
+            <div className="md:col-span-7 space-y-16">
+              <div className="space-y-5">
+                <p className="text-2xl leading-snug">
+                  Records develop through extended collaboration, iteration, and
+                  revision rather than a fixed production formula.
+                </p>
+
+                <p className="text-[17px] leading-relaxed">
+                  Analog front-end into digital multitrack recording and
+                  in-the-box mixing. A purposefully selected microphone
+                  collection and a modular live room with movable acoustic
+                  baffles provide a flexible environment for shaping each
+                  project.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <p className="text-2xl leading-snug">
+                  The creative process follows the needs of the record rather
+                  than a predetermined workflow.
+                </p>
+
+                <p className="text-[17px] leading-relaxed">
+                  Live, overdub, or hybrid tracking with an emphasis on
+                  microphones, acoustic space, and sound sources pushing air.
+                  Editing, compiling takes, punch-ins, reamping, and layered
+                  textures become part of the process, depending on the aims of
+                  the project.
+                </p>
+              </div>
+
+              <div className="space-y-5">
+                <p className="text-2xl leading-snug">
+                  WinterBeast intentionally takes on only a handful of projects
+                  each year.
+                </p>
+
+                <p className="text-[17px] leading-relaxed text-zinc-200">
+                  The studio focuses on EPs and full-length albums for artists
+                  who want to be deeply involved in the process, push beyond{" "}
+                  {' "good enough"'} takes, explore new directions, and give
+                  recordings the time they need to become their strongest
+                  versions.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -758,6 +895,78 @@ export default function Home() {
       </section> */}
 
       <HomePageGallerySection />
+
+      {/* PHILOSOPHY */}
+      {/* <section className="relative px-6 md:px-12 lg:px-20 py-20 border-t border-white/10">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
+          <div className="md:col-span-3">
+            <p className="text-[20px] uppercase tracking-[0.22em]">
+              Documentation
+            </p>
+          </div>
+
+          <div className="md:col-span-7 space-y-10 text-[17px] leading-relaxed">
+            <div>
+              <p>
+                WinterBeast grew from years of recording with independent
+                artists and hearing a common frustration: the process of making
+                a record often became disconnected from the people creating it.
+                Artists wanted to be involved, to experiment, and to take the
+                time necessary to discover what the record could become, but the
+                process was often shaped around efficiency rather than
+                exploration.
+              </p>
+            </div>
+
+            <div>
+              <p>
+                The studio was created as a different kind of space — one where
+                artists and collaborators can remain deeply involved in the
+                process, where ideas have time to develop, and where the
+                recording environment itself becomes part of the creative work.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-xl leading-relaxed">
+                The studio becomes not only a place to record, but a place for
+                artistic growth.
+              </p>
+
+              <p className="mt-4">
+                A space where artists can experiment, revise, and develop ideas
+                that may not emerge when the process is shaped around immediacy.
+              </p>
+            </div>
+
+            <div>
+              <p className="text-zinc-200">
+                WinterBeast approaches albums as collaborative works rather than
+                services delivered to clients. The goal is to create a place
+                where artists can make records that feel fully their own.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="px-6 md:px-12 lg:px-20 py-20 border-t border-white/10">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
+          <div className="md:col-span-3">
+            <p className="text-[20px] uppercase tracking-[0.22em]">About</p>
+          </div>
+
+          <div className="md:col-span-7 text-[17px] leading-relaxed">
+            <p>
+              WinterBeast is the studio of Gabriel Espinosa, a producer and
+              recording engineer based in Portland, Oregon. Gabriel has spent
+              over a decade recording, producing, and mixing independent music
+              across different scenes and spaces, with a focus on album-oriented
+              projects.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

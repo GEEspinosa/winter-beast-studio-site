@@ -65,14 +65,14 @@ export const homePageGalleryImageData: GalleryImage[] = [
     description: "Control Room",
   },
 
-    {
-    url: "/images/home-page/yuppie-vineyard-studio.webp",
-    // project: "The Mistons",
-     project: "Studio",
-    date: "2023",
-    priority: idIncrement(),
-    description: "Yuppie Vineyard",
-  },
+  //   {
+  //   url: "/images/home-page/yuppie-vineyard-studio.webp",
+  //   // project: "The Mistons",
+  //    project: "Studio",
+  //   date: "2023",
+  //   priority: idIncrement(),
+  //   description: "Yuppie Vineyard",
+  // },
   // {
   //   url: "/images/home-page/brian-guitar-doubling-lacephale.webp",
   //   project: "L'Acephale",
@@ -87,14 +87,14 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Vocal tracking",
   // },
-  {
-    url: "/images/home-page/drums-micd-up-zothique.webp",
-    // project: "Zothique",
-    project: "studio",
-    date: "2023",
-    priority: idIncrement(),
-    description: "Drums mic'd up",
-  },
+  // {
+  //   url: "/images/home-page/drums-micd-up-zothique.webp",
+  //   // project: "Zothique",
+  //   project: "studio",
+  //   date: "2023",
+  //   priority: idIncrement(),
+  //   description: "Drums mic'd up",
+  // },
 
   
   // {
@@ -268,14 +268,14 @@ export const homePageGalleryImageData: GalleryImage[] = [
     priority: idIncrement(),
     description: "Amps & Splatter Paint",
   },
-   {
-    url: "/images/home-page/recording-vocals-together-lacephale.webp",
-    // project: "L'Acephale",
-     project: "Studio",
-    date: "Jan. 2024",
-    priority: idIncrement(),
-    description: "Workshopping vocals together",
-  },
+  //  {
+  //   url: "/images/home-page/recording-vocals-together-lacephale.webp",
+  //   // project: "L'Acephale",
+  //    project: "Studio",
+  //   date: "Jan. 2024",
+  //   priority: idIncrement(),
+  //   description: "Workshopping vocals together",
+  // },
   //  {
   //   url: "/images/home-page/everyone-together-on-vocal-day-the-mistons.webp",
   //   project: "The Mistons",
