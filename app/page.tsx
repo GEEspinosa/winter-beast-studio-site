@@ -829,47 +829,31 @@ export default function Home() {
 
             <div className="md:col-span-7 space-y-16">
               <div className="space-y-5">
-                <p className="text-2xl leading-snug">
+                <p className="text-[17px] leading-relaxed">
                   Records develop through extended collaboration, iteration, and
                   revision rather than a fixed production formula.
                 </p>
 
                 <p className="text-[17px] leading-relaxed">
-                  Analog front-end into digital multitrack recording and
-                  in-the-box mixing. A purposefully selected microphone
-                  collection and a modular live room with movable acoustic
-                  baffles provide a flexible environment for shaping each
-                  project.
-                </p>
-              </div>
-
-              <div className="space-y-5">
-                <p className="text-2xl leading-snug">
-                  The creative process follows the needs of the record rather
-                  than a predetermined workflow.
+                  Analog front-end into digital multitrack recording, in-the-box
+                  mixing. A selected microphone collection and a modular live
+                  room with movable acoustic baffles.
                 </p>
 
                 <p className="text-[17px] leading-relaxed">
-                  Live, overdub, or hybrid tracking with an emphasis on
-                  microphones, acoustic space, and sound sources pushing air.
-                  Editing, compiling takes, punch-ins, reamping, and layered
-                  textures become part of the process, depending on the aims of
-                  the project.
-                </p>
-              </div>
-
-              <div className="space-y-5">
-                <p className="text-2xl leading-snug">
-                  WinterBeast intentionally takes on only a handful of projects
-                  each year.
+                  Live, overdub, or hybrid tracking, with attention to
+                  microphone choice, room acoustics, and source sound. Editing,
+                  comping, punch-ins, reamping, and layered textures are part of
+                  the process as needed, whether the goal is a faithful
+                  document of a performance or a record that goes beyond what
+                  the artist could do live.
                 </p>
 
-                <p className="text-[17px] leading-relaxed text-zinc-200">
-                  The studio focuses on EPs and full-length albums for artists
-                  who want to be deeply involved in the process, push beyond{" "}
-                  {' "good enough"'} takes, explore new directions, and give
-                  recordings the time they need to become their strongest
-                  versions.
+                <p className="text-[17px] leading-relaxed">
+                  WinterBeast takes on a small number of projects each year —
+                  EPs and full-length albums, usually multi-week engagements —
+                  for artists who want to be closely involved in the process and
+                  give the record time to develop.
                 </p>
               </div>
             </div>
@@ -959,10 +943,10 @@ export default function Home() {
           <div className="md:col-span-7 text-[17px] leading-relaxed">
             <p>
               WinterBeast is the studio of Gabriel Espinosa, a producer and
-              recording engineer based in Portland, Oregon. Gabriel has spent
-              over a decade recording, producing, and mixing independent music
-              across different scenes and spaces, with a focus on album-oriented
-              projects.
+              recording engineer based in Portland, Oregon. Over the past decade
+              he's recorded, produced, and mixed albums for select Portland
+              independent artists. Before that, he worked as a freelance audio
+              engineer, with credits including Blondie and Fischerspooner.
             </p>
           </div>
         </div>
