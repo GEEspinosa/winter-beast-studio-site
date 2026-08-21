@@ -680,7 +680,7 @@ export default function HomePageGallerySection() {
       : null;
 
   return (
-    <section className="px-6 md:px-12 lg:px-20 py-16">
+    <section className="px-6 md:px-12 lg:px-20 pt-16 pb-28">
       {/* HEADER */}
       <p className="max-w-6xl mx-auto mt-6 text-[20px] uppercase tracking-[0.22em] mb-10">
         Gallery
