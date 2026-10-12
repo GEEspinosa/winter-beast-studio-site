@@ -285,7 +285,7 @@ export default function Home() {
             <p>
               WinterBeast is the studio of Gabriel Espinosa, a producer and
               recording engineer based in Portland, Oregon. Over the past decade
-              he has recorded, produced, and mixed albums for select Portland
+              he has recorded, produced, and mixed albums for select local and
               independent artists. 
             </p>
 
