@@ -33,7 +33,7 @@ export default function Home() {
           </p>
         </div>
 
-      {/* <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+        {/* <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/images/home-page/WinterBeast black n white blue paint Cover.webp"
@@ -66,18 +66,16 @@ export default function Home() {
       </section>
 
       {/* RELEASES */}
-      {/* <section className="px-6 md:px-12 lg:px-20 py-20">
+      <section className="px-6 md:px-12 lg:px-20 py-20">
         <div className="max-w-6xl mx-auto">
           <p className="text-[20px] uppercase tracking-[0.22em]  mb-10">
             Selected Work
           </p>
           <ReleasesGrid releases={featuredHomepageReleases} />
         </div>
-        
-      </section> */}
+      </section>
 
-
-<section className="px-6 md:px-12 lg:px-20 py-20">
+      {/* <section className="px-6 md:px-12 lg:px-20 py-20">
   <div className="max-w-6xl mx-auto">
 
     <p className="text-[20px] uppercase tracking-[0.22em] mb-10">
@@ -94,7 +92,7 @@ export default function Home() {
     </div>
 
   </div>
-</section>
+</section> */}
 
       {/* PRACTICE */}
       {/* <section className="relative px-6 md:px-12 lg:px-20 py-24 overflow-hidden border-t border-white/10">
@@ -269,10 +267,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute inset-1 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-2 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-3 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-4 border border-white/30 pointer-events-none" />
+        {/* <div className="absolute inset-1 border border-white/30 pointer-events-none" /> */}
+        {/* <div className="absolute inset-2 border border-white/30 pointer-events-none" /> */}
+        {/* // <div className="absolute inset-3 border border-white/30 pointer-events-none" /> */}
+        {/* <div className="absolute inset-4 border border-white/30 pointer-events-none" /> */}
       </section>
 
       <HomePageGallerySection />
@@ -288,16 +286,24 @@ export default function Home() {
               WinterBeast is the studio of Gabriel Espinosa, a producer and
               recording engineer based in Portland, Oregon. Over the past decade
               he has recorded, produced, and mixed albums for select Portland
-              independent artists. Before that, he worked as a freelance audio
-              engineer, with credits including Blondie and Fischerspooner.
+              independent artists. 
             </p>
+
+            {/* <p className="mt-5">
+              <a
+                href="/cv"
+                className="text-zinc-300 underline underline-offset-4 decoration-white/30 hover:text-white hover:decoration-white transition-colors"
+              >
+                Professional CV & Discography →
+              </a>
+            </p> */}
           </div>
         </div>
 
-        <div className="absolute inset-1 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-2 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-3 border border-white/30 pointer-events-none" />
-        <div className="absolute inset-4 border border-white/30 pointer-events-none" />
+        {/* <div className="absolute inset-1 border border-white/30 pointer-events-none" /> */}
+        {/* <div className="absolute inset-2 border border-white/30 pointer-events-none" /> */}
+        {/* <div className="absolute inset-3 border border-white/30 pointer-events-none" /> */}
+        {/* <div className="absolute inset-4 border border-white/30 pointer-events-none" /> */}
       </section>
     </main>
   );

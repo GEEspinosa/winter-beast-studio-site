@@ -2,13 +2,13 @@ import { GalleryImage } from "./types/artist";
 import { idIncrement } from "@/utils/id-increment";
 
 export const homePageGalleryImageData: GalleryImage[] = [
-  // {
-  //   url: "/images/home-page/brian-knife-slide-lacephale.webp",
-  //   project: "L'Acephale",
-  //   date: "Dec. 2023",
-  //   priority: idIncrement(),
-  //   description: "Knife slides on guitar strings",
-  // },
+  {
+    url: "/images/home-page/brian-knife-slide-lacephale.webp",
+    project: "L'Acephale",
+    date: "Dec. 2023",
+    priority: idIncrement(),
+    description: "Knife slides on guitar strings",
+  },
   // {
   //   url: "/images/home-page/paul-bass-synth-dubs-lacephale.webp",
   //   project: "L'Acephale",
@@ -23,13 +23,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Synth interlude tracking",
   // },
-  // {
-  //   url: "/images/home-page/ursula-live-drums-notnauts.webp",
-  //   project: "Notnauts",
-  //   date: "June 2024",
-  //   priority: idIncrement(),
-  //   description: "Live drum tracking",
-  // },
+  {
+    url: "/images/home-page/ursula-live-drums-notnauts.webp",
+    project: "Notnauts",
+    date: "June 2024",
+    priority: idIncrement(),
+    description: "Live drum tracking",
+  },
   // {
   //   url: "/images/home-page/sean-screaming-the-mistons.webp",
   //   project: "The Mistons",
@@ -73,13 +73,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Yuppie Vineyard",
   // },
-  // {
-  //   url: "/images/home-page/brian-guitar-doubling-lacephale.webp",
-  //   project: "L'Acephale",
-  //   date: "Feb 2023",
-  //   priority: idIncrement(),
-  //   description: "Doubling guitars",
-  // },
+  {
+    url: "/images/home-page/brian-guitar-doubling-lacephale.webp",
+    project: "L'Acephale",
+    date: "Feb 2023",
+    priority: idIncrement(),
+    description: "Doubling guitars",
+  },
   //  {
   //   url: "/images/home-page/liz-vocals-lacephale.webp",
   //   project: "L'Acephale",
@@ -87,23 +87,23 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Vocal tracking",
   // },
-  // {
-  //   url: "/images/home-page/drums-micd-up-zothique.webp",
-  //   // project: "Zothique",
-  //   project: "studio",
-  //   date: "2023",
-  //   priority: idIncrement(),
-  //   description: "Drums mic'd up",
-  // },
+  {
+    url: "/images/home-page/drums-micd-up-zothique.webp",
+    // project: "Zothique",
+    project: "studio",
+    date: "2023",
+    priority: idIncrement(),
+    description: "Drums mic'd up",
+  },
 
   
-  // {
-  //   url: "/images/home-page/christine-key-dubs-otd.webp",
-  //   project: "Old Town Diamonds",
-  //   date: "Oct. 2023",
-  //   priority: idIncrement(),
-  //   description: "Finishing touches with key dubs",
-  // },
+  {
+    url: "/images/home-page/christine-key-dubs-otd.webp",
+    project: "Old Town Diamonds",
+    date: "Oct. 2023",
+    priority: idIncrement(),
+    description: "Finishing touches with key dubs",
+  },
   // {
   //   url: "/images/home-page/knock-knock-jokes-listening-back-otd.webp",
   //   project: "Old Town Diamonds",
@@ -156,27 +156,27 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Setting up for live band noise tracking",
   // },
-  // {
-  //   url: "/images/home-page/danny-bass-feedback-lacephale.webp",
-  //   project: "L'Acephale",
-  //   date: "July 2023",
-  //   priority: idIncrement(),
-  //   description: "Bass feedback",
-  // },
-  // {
-  //   url: "/images/home-page/sax-dubs-notnauts.webp",
-  //   project: "Notnauts",
-  //   date: "July 2024",
-  //   priority: idIncrement(),
-  //   description: "Layering sax through amps",
-  // },
-  // {
-  //   url: "/images/home-page/lloyd-live-noise-tracking-hail.webp",
-  //   project: "Hail",
-  //   date: "Lost 2020",
-  //   priority: idIncrement(),
-  //   description: "Group noise tracking",
-  // },
+  {
+    url: "/images/home-page/danny-bass-feedback-lacephale.webp",
+    project: "L'Acephale",
+    date: "July 2023",
+    priority: idIncrement(),
+    description: "Bass feedback",
+  },
+  {
+    url: "/images/home-page/sax-dubs-notnauts.webp",
+    project: "Notnauts",
+    date: "July 2024",
+    priority: idIncrement(),
+    description: "Layering sax through amps",
+  },
+  {
+    url: "/images/home-page/lloyd-live-noise-tracking-hail.webp",
+    project: "Hail",
+    date: "Lost 2020",
+    priority: idIncrement(),
+    description: "Group noise tracking",
+  },
   // {
   //   url: "/images/home-page/brian-live-tracking-notnauts.webp",
   //   project: "Notnauts",
@@ -253,13 +253,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "The crew is kicking it while going over songs",
   // },
-  //  {
-  //   url: "/images/home-page/deep-in-guitar-dub-weekend-entrain.webp",
-  //   project: "Entrain",
-  //   date: "Nov. 2023",
-  //   priority: idIncrement(),
-  //   description: "Deep into guitars weekend",
-  // },
+   {
+    url: "/images/home-page/deep-in-guitar-dub-weekend-entrain.webp",
+    project: "Entrain",
+    date: "Nov. 2023",
+    priority: idIncrement(),
+    description: "Deep into guitars weekend",
+  },
 
    {
     url: "/images/home-page/amps-speakers-studio.webp",
@@ -290,13 +290,13 @@ export const homePageGalleryImageData: GalleryImage[] = [
   //   priority: idIncrement(),
   //   description: "Full band rehearsing before live foundation takes",
   // },
-  //  {
-  //   url: "/images/home-page/adding-solos-otd.webp",
-  //   project: "Old Town Diamonds",
-  //   date: "Oct. 2023",
-  //   priority: idIncrement(),
-  //   description: "Overdubbing guitar solos",
-  // },
+   {
+    url: "/images/home-page/adding-solos-otd.webp",
+    project: "Old Town Diamonds",
+    date: "Oct. 2023",
+    priority: idIncrement(),
+    description: "Overdubbing guitar solos",
+  },
   //  {
   //   url: "/images/home-page/laughing-while-finding-am-noise-notnauts.webp",
   //   project: "Notnauts",
@@ -313,34 +313,34 @@ export const homePageGalleryImageData: GalleryImage[] = [
   // },
 
 
-  // {
-  //   url: "/images/home-page/polishing-lyrics-in-the-studio-the-mistons.webp",
-  //   project: "The Mistons",
-  //   date: "May 2025",
-  //   priority: idIncrement(),
-  //   description: "Polishing lyrics in the studio",
-  // },
-  // {
-  //   url: "/images/home-page/live-takes-refrigerated-nurses.webp",
-  //   project: "Refrigerated Nurses",
-  //   date: "June 2025",
-  //   priority: idIncrement(),
-  //   description: "In the middle of a take",
-  // },
-  // {
-  //   url: "/images/home-page/jams-and-catharsis-after-long-weekend-the-mistons.webp",
-  //   project: "The Mistons",
-  //   date: "May 2025",
-  //   priority: idIncrement(),
-  //   description: "Jams & catharsis after a long weekend",
-  // },
-  // {
-  //   url: "/images/home-page/evening-out-rough-patches-entrain.webp",
-  //   project: "Entrain",
-  //   date: "Sept. 2023",
-  //   priority: idIncrement(),
-  //   description: "Evening out rough patches",
-  // },
+  {
+    url: "/images/home-page/polishing-lyrics-in-the-studio-the-mistons.webp",
+    project: "The Mistons",
+    date: "May 2025",
+    priority: idIncrement(),
+    description: "Polishing lyrics in the studio",
+  },
+  {
+    url: "/images/home-page/live-takes-refrigerated-nurses.webp",
+    project: "Refrigerated Nurses",
+    date: "June 2025",
+    priority: idIncrement(),
+    description: "In the middle of a take",
+  },
+  {
+    url: "/images/home-page/jams-and-catharsis-after-long-weekend-the-mistons.webp",
+    project: "The Mistons",
+    date: "May 2025",
+    priority: idIncrement(),
+    description: "Jams & catharsis after a long weekend",
+  },
+  {
+    url: "/images/home-page/evening-out-rough-patches-entrain.webp",
+    project: "Entrain",
+    date: "Sept. 2023",
+    priority: idIncrement(),
+    description: "Evening out rough patches",
+  },
 
   // {
   //   url: "/images/home-page/box-full-of-racket-hail.webp",
