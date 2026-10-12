@@ -177,9 +177,9 @@ export default function Footer() {
         >
           {/* LEFT */}
           <div className="space-y-1">
-            <p className="uppercase tracking-[0.22em] text-[12px] text-zinc-500">
+            {/* <p className="uppercase tracking-[0.22em] text-[12px] text-zinc-500">
               Winterbeast
-            </p>
+            </p> */}
 
             <p className="text-[13px] text-zinc-200">
               © Gabriel E Espinosa 2026
