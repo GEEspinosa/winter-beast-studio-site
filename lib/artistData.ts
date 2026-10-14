@@ -63,6 +63,10 @@ export const artistData: Artist[] = [
             label: "Bandcamp",
             url: "https://fiadh.bandcamp.com/album/abominations-of-yondo",
           },
+           {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/2QpshdaBMxc2JZqJj3IQWN?si=-dJDTuBdRhW8XKixg51DDg",
+          },
         ],
       },
     ],
