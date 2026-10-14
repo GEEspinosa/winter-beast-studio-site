@@ -72,7 +72,7 @@
 
 // //         <div className="w-full mb-6">
 // //           <img
-// //             src="/images/artist-banners/WB:Artists Cover 2 1048.png"
+// //             src="/winter-beast-studio-site/images/artist-banners/WB:Artists Cover 2 1048.png"
 // //             alt="Artists banner"
 // //             className="w-full object-contain grayscale transition duration-500 border border-white"
 // //             style={{ maxHeight: "500px" }}
