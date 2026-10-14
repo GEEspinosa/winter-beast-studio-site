@@ -35,7 +35,7 @@
 //           </a>
 //         </div>
 
-//         <img src="/winter-beast-studio-site/images/header-footer/sketch-skull.webp" className="invert" />
+//         <img src="/images/header-footer/sketch-skull.webp" className="invert" />
 //       </div>
 //     </footer>
 //   );
@@ -79,7 +79,7 @@
 
 //           {/* Mark */}
 //           <img
-//             src="/winter-beast-studio-site/images/header-footer/sketch-skull.webp"
+//             src="/images/header-footer/sketch-skull.webp"
 //             alt=""
 //             className="
 //               w-12
@@ -135,7 +135,7 @@
 //             </a>
 
 //             <img
-//               src="/winter-beast-studio-site/images/header-footer/sketch-skull.webp"
+//               src="/images/header-footer/sketch-skull.webp"
 //               alt=""
 //               className="
 //       w-16
@@ -222,7 +222,7 @@ export default function Footer() {
             </a>
 
             <img
-              src="/winter-beast-studio-site/images/header-footer/sketch-skull.webp"
+              src="/images/header-footer/sketch-skull.webp"
               alt=""
               className="
                 w-16

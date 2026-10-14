@@ -19,7 +19,7 @@ export default function Header() {
   className="flex items-center gap-3 text-2xl font-semibold text-gray-900"
 >
   <img
-    src="/winter-beast-studio-site/images/header-footer/sketch-skull.webp"
+    src="/images/header-footer/sketch-skull.webp"
     alt="WinterBeast skull logo"
     className="h-8 w-8 object-contain"
   />

@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative min-h-[92vh] flex items-end overflow-hidden ">
         <div className="absolute inset-0">
           <img
-            src="/winter-beast-studio-site/images/home-page/WinterBeast black n white blue paint Cover.webp"
+            src="/images/home-page/WinterBeast black n white blue paint Cover.webp"
             alt="Winterbeast studio"
             className="w-full h-full object-cover object-[center_10%]"
           />
@@ -36,7 +36,7 @@ export default function Home() {
         {/* <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/winter-beast-studio-site/images/home-page/WinterBeast black n white blue paint Cover.webp"
+            src="/images/home-page/WinterBeast black n white blue paint Cover.webp"
             alt="Winterbeast studio"
             className="w-full h-full object-cover object-[center_20%]"
           />
@@ -98,7 +98,7 @@ export default function Home() {
       {/* <section className="relative px-6 md:px-12 lg:px-20 py-24 overflow-hidden border-t border-white/10">
         <div className="absolute inset-0">
           <img
-            src="/winter-beast-studio-site/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
+            src="/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
             className="w-full h-full object-cover object-[center_80%]"
             alt=""
           />
@@ -161,7 +161,7 @@ export default function Home() {
       {/* <section className="relative px-6 md:px-12 lg:px-20 py-16 md:py-20 overflow-hidden border-t border-white/10">
         <div className="absolute inset-0">
           <img
-            src="/winter-beast-studio-site/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
+            src="/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
             className="w-full h-full object-cover object-[center_80%]"
             alt=""
           />
@@ -219,7 +219,7 @@ export default function Home() {
       <section className="relative px-6 md:px-12 lg:px-20 py-20 overflow-hidden border-t border-white/10">
         <div className="absolute inset-0">
           <img
-            src="/winter-beast-studio-site/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
+            src="/images/home-page/winterbeast-homepage-banner-mics-on-floor.webp"
             className="w-full h-full object-cover object-[center_80%]"
             alt=""
           />

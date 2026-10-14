@@ -5,43 +5,43 @@
 // // const artists = [
 // //   {
 // //     name: "Hail",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hail Cover 2.png",
+// //     bannerUrl: "/images/artist-banners/WB: Hail Cover 2.png",
 // //   },
 // //   {
 // //     name: "Old Town Diamonds",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Old Town Diamonds.png",
+// //     bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png",
 // //   },
 // //   {
 // //     name: "Hollow Senses",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hollow Senses Cover.png",
+// //     bannerUrl: "/images/artist-banners/WB: Hollow Senses Cover.png",
 // //   },
 // //   {
 // //     name: "Fliege",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Fliege Cover 3.png",
+// //     bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png",
 // //   },
 // //   {
 // //     name: "L'Acephale",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: LAcephale Cover 4.png",
+// //     bannerUrl: "/images/artist-banners/WB: LAcephale Cover 4.png",
 // //   },
 // //   {
 // //     name: "The Mistons",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: The Mistons Cover Mask 2.png",
+// //     bannerUrl: "/images/artist-banners/WB: The Mistons Cover Mask 2.png",
 // //   },
 // //   {
 // //     name: "Entrain",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Entrain Cover 2.png",
+// //     bannerUrl: "/images/artist-banners/WB: Entrain Cover 2.png",
 // //   },
 // //   {
 // //     name: "Refrigerated Nurses",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Refrigerated Nurses Cover 2.png",
+// //     bannerUrl: "/images/artist-banners/WB: Refrigerated Nurses Cover 2.png",
 // //   },
 // //   {
 // //     name: "Notnauts",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Notnauts Cover Darker.png",
+// //     bannerUrl: "/images/artist-banners/WB: Notnauts Cover Darker.png",
 // //   },
 // //   {
 // //     name: "The Hellcows",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: The Hell Cows Cover_Darker3.png",
+// //     bannerUrl: "/images/artist-banners/WB: The Hell Cows Cover_Darker3.png",
 // //   },
 // //   // ...
 // // ];
@@ -72,7 +72,7 @@
 
 // //         <div className="w-full mb-6">
 // //           <img
-// //             src="/winter-beast-studio-site/winter-beast-studio-site/images/artist-banners/WB:Artists Cover 2 1048.png"
+// //             src="/winter-beast-studio-site/images/artist-banners/WB:Artists Cover 2 1048.png"
 // //             alt="Artists banner"
 // //             className="w-full object-contain grayscale transition duration-500 border border-white"
 // //             style={{ maxHeight: "500px" }}
@@ -132,44 +132,44 @@
 // // const artists = [
 // //   {
 // //     name: "Hail",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hail Cover 2.png",
+// //     bannerUrl: "/images/artist-banners/WB: Hail Cover 2.png",
 // //   },
 // //   {
 // //     name: "Old Town Diamonds",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Old Town Diamonds.png",
+// //     bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png",
 // //   },
 // //   {
 // //     name: "Hollow Senses",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hollow Senses Cover.png",
+// //     bannerUrl: "/images/artist-banners/WB: Hollow Senses Cover.png",
 // //   },
 // //   {
 // //     name: "Fliege",
-// //     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Fliege Cover 3.png",
+// //     bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png",
 // //   },
 
 // //   // {
 // //   //   name: "L'Acephale",
-// //   //   bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: LAcephale Cover 4.png",
+// //   //   bannerUrl: "/images/artist-banners/WB: LAcephale Cover 4.png",
 // //   // },
 // //   // {
 // //   //   name: "The Mistons",
-// //   //   bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: The Mistons Cover Mask 2.png",
+// //   //   bannerUrl: "/images/artist-banners/WB: The Mistons Cover Mask 2.png",
 // //   // },
 // //   // {
 // //   //   name: "Entrain",
-// //   //   bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Entrain Cover 2.png",
+// //   //   bannerUrl: "/images/artist-banners/WB: Entrain Cover 2.png",
 // //   // },
 // //   // {
 // //   //   name: "Refrigerated Nurses",
-// //   //   bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Refrigerated Nurses Cover 2.png",
+// //   //   bannerUrl: "/images/artist-banners/WB: Refrigerated Nurses Cover 2.png",
 // //   // },
 // //   // {
 // //   //   name: "Notnauts",
-// //   //   bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Notnauts Cover Darker.png",
+// //   //   bannerUrl: "/images/artist-banners/WB: Notnauts Cover Darker.png",
 // //   // },
 // //   // {
 // //   //   name: "The Hellcows",
-// //   //   bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: The Hell Cows Cover_Darker3.png",
+// //   //   bannerUrl: "/images/artist-banners/WB: The Hell Cows Cover_Darker3.png",
 // //   // },
 // // ];
 
@@ -210,22 +210,22 @@
 // import ArchiveGrid from "../ArchiveGrid";
 
 // const artists = [
-//   { name: "Hail", bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hail Cover 2.png" },
+//   { name: "Hail", bannerUrl: "/images/artist-banners/WB: Hail Cover 2.png" },
 //   {
 //     name: "Old Town Diamonds",
-//     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Old Town Diamonds.png",
+//     bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png",
 //   },
 //   {
 //     name: "Hollow Senses",
-//     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hollow Senses Cover.png",
+//     bannerUrl: "/images/artist-banners/WB: Hollow Senses Cover.png",
 //   },
 //   {
 //     name: "Fliege",
-//     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Fliege Cover 3.png",
+//     bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png",
 //   },
 //   {
 //     name: "Zothique",
-//     bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Zothique Cover2.webp",
+//     bannerUrl: "/images/artist-banners/WB: Zothique Cover2.webp",
 //   },
 // ];
 
@@ -411,11 +411,11 @@ import { useDirectoryToggle } from "../../context/DirectoryToggleContext";
 import ArchiveGrid from "../ArchiveGrid";
 
 const artists = [
-  { name: "Hail", bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hail Cover 2.png" },
-  { name: "Old Town Diamonds", bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Old Town Diamonds.png" },
-  { name: "Hollow Senses", bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Hollow Senses Cover.png" },
-  { name: "Fliege", bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Fliege Cover 3.png" },
-  { name: "Zothique", bannerUrl: "/winter-beast-studio-site/images/artist-banners/WB: Zothique Cover2.webp" },
+  { name: "Hail", bannerUrl: "/images/artist-banners/WB: Hail Cover 2.png" },
+  { name: "Old Town Diamonds", bannerUrl: "/images/artist-banners/WB: Old Town Diamonds.png" },
+  { name: "Hollow Senses", bannerUrl: "/images/artist-banners/WB: Hollow Senses Cover.png" },
+  { name: "Fliege", bannerUrl: "/images/artist-banners/WB: Fliege Cover 3.png" },
+  { name: "Zothique", bannerUrl: "/images/artist-banners/WB: Zothique Cover2.webp" },
 ];
 
 export default function DocumentationOrientation() {

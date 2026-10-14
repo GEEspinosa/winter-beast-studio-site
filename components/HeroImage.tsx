@@ -18,20 +18,20 @@ export default function HeroImage() {
   // -------------------------
   const heroImages = useMemo(
     () => [
-      "/winter-beast-studio-site/images/home-page-film-icon/cherry-blossom-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/dark-beach-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/tower-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/window-tree-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/yuppie-vineyard-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/netarts-beach-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/gorge-waterfall-wa-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/netarts-crooked-tree-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/black-butte-trees-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/porter-point-beach-stream-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/tabor-tree-glare-shutter-leaves-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/misty-gorge-trees-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/tabor-res-reflection-film-icon.webp",
-      "/winter-beast-studio-site/images/home-page-film-icon/mary-s-young-tree-film-icon.webp"
+      "/images/home-page-film-icon/cherry-blossom-film-icon.webp",
+      "/images/home-page-film-icon/dark-beach-film-icon.webp",
+      "/images/home-page-film-icon/tower-film-icon.webp",
+      "/images/home-page-film-icon/window-tree-film-icon.webp",
+      "/images/home-page-film-icon/yuppie-vineyard-film-icon.webp",
+      "/images/home-page-film-icon/netarts-beach-film-icon.webp",
+      "/images/home-page-film-icon/gorge-waterfall-wa-film-icon.webp",
+      "/images/home-page-film-icon/netarts-crooked-tree-film-icon.webp",
+      "/images/home-page-film-icon/black-butte-trees-film-icon.webp",
+      "/images/home-page-film-icon/porter-point-beach-stream-film-icon.webp",
+      "/images/home-page-film-icon/tabor-tree-glare-shutter-leaves-film-icon.webp",
+      "/images/home-page-film-icon/misty-gorge-trees-film-icon.webp",
+      "/images/home-page-film-icon/tabor-res-reflection-film-icon.webp",
+      "/images/home-page-film-icon/mary-s-young-tree-film-icon.webp"
     ],
     []
   );

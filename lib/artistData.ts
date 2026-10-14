@@ -16,7 +16,7 @@ export const artistData: Artist[] = [
         rlabel: "Fiadh Productions",
         locations: ["WinterBeast", "Dead Air Studios"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/zothique-abominations-of-yondo-album-art3.webp",
+          "/images/album-covers/zothique-abominations-of-yondo-album-art3.webp",
         homepagePriority: 2,
         yourCredits: "Drum Recording & Mixing",
 
@@ -78,7 +78,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Hail",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Hail Cover.png",
+    artistBanner: "/images/artist-banners/WB: Hail Cover.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -89,7 +89,7 @@ export const artistData: Artist[] = [
         year: "2026",
         rlabel: "Fiadh Productions",
         locations: ["WinterBeast", "Sky Onion Mastering"],
-        albumArtUrl: "/winter-beast-studio-site/images/album-covers/hail-child-temp-album-art.webp",
+        albumArtUrl: "/images/album-covers/hail-child-temp-album-art.webp",
         homepagePriority: 1,
         yourCredits: "Production, Recording, & Mixing",
 
@@ -149,7 +149,7 @@ export const artistData: Artist[] = [
         year: "2024",
         rlabel: "Fiadh Productions",
         locations: ["WinterBeast", "Sky Onion Mastering"],
-        albumArtUrl: "/winter-beast-studio-site/images/album-covers/hail-transgression-album-art.jpeg",
+        albumArtUrl: "/images/album-covers/hail-transgression-album-art.jpeg",
         homepagePriority: 3,
         yourCredits: "Production, Recording, & Mixing",
 
@@ -211,7 +211,7 @@ export const artistData: Artist[] = [
         year: "2023",
         rlabel: "Fiadh Productions",
         locations: ["WinterBeast", "Sky Onion Mastering"],
-        albumArtUrl: "/winter-beast-studio-site/images/album-covers/hail-we-are-nothing-album-art.jpeg",
+        albumArtUrl: "/images/album-covers/hail-we-are-nothing-album-art.jpeg",
         homepagePriority: 5,
         yourCredits: "Production, Recording, & Mixing",
 
@@ -275,7 +275,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Old Town Diamonds",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Old Town Diamonds.png",
+    artistBanner: "/images/artist-banners/WB: Old Town Diamonds.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -286,7 +286,7 @@ export const artistData: Artist[] = [
         year: "2024",
         rlabel: "",
         locations: ["WinterBeast", "Sky Onion Mastering"],
-        albumArtUrl: "/winter-beast-studio-site/images/album-covers/otd-40-miles-album-art2.webp",
+        albumArtUrl: "/images/album-covers/otd-40-miles-album-art2.webp",
         homepagePriority: 4,
         yourCredits: "Production, Recording, & Mixing",
         trackListing: [
@@ -354,7 +354,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast", "Sky Onion Mastering"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/Old Town Diamonds_A Pale Horse2.webp",
+          "/images/album-covers/Old Town Diamonds_A Pale Horse2.webp",
         homepagePriority: 6,
         yourCredits: "Production, Engineering, & Mixing",
          trackListing: [
@@ -434,7 +434,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Hollow Senses",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Hollow Senses Cover.png",
+    artistBanner: "/images/artist-banners/WB: Hollow Senses Cover.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -446,7 +446,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast", "Archaic Sound", "Telegraph Mastering"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/hollow-senses-taurobolium-album-art2.webp",
+          "/images/album-covers/hollow-senses-taurobolium-album-art2.webp",
         homepagePriority: 7,
         yourCredits: "Mixing & Noise/Synthesis Interludes Recording",
 
@@ -511,7 +511,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Fliege",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Fliege Cover 2.png",
+    artistBanner: "/images/artist-banners/WB: Fliege Cover 2.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -523,7 +523,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast", "AudioSiege", "Various Locations"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         homepagePriority: 8,
         yourCredits: "Mixing & Vocal Recording",
 
@@ -612,7 +612,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "L'Acephale",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: LAcephale Cover 4.png",
+    artistBanner: "/images/artist-banners/WB: LAcephale Cover 4.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -624,7 +624,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
         links: [],
       },
@@ -637,7 +637,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "The Mistons",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: The Mistons Cover Mask.png",
+    artistBanner: "/images/artist-banners/WB: The Mistons Cover Mask.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -649,7 +649,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
         links: [],
       },
@@ -662,7 +662,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Entrain",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Entrain Cover 2.png",
+    artistBanner: "/images/artist-banners/WB: Entrain Cover 2.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -674,7 +674,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
         links: [],
       },
@@ -687,7 +687,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Refrigerated Nurses",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Refrigerated Nurses Cover.png",
+    artistBanner: "/images/artist-banners/WB: Refrigerated Nurses Cover.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -699,7 +699,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
         links: [],
       },
@@ -712,7 +712,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "The Hellcows",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
+    artistBanner: "/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -724,7 +724,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
         links: [],
       },
@@ -737,7 +737,7 @@ export const artistData: Artist[] = [
 
   {
     artistName: "Notnauts",
-    artistBanner: "/winter-beast-studio-site/images/artist-banners/WB: Notnauts Cover Darker.png",
+    artistBanner: "/images/artist-banners/WB: Notnauts Cover Darker.png",
     overview:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     output: [
@@ -749,7 +749,7 @@ export const artistData: Artist[] = [
         rlabel: "",
         locations: ["WinterBeast"],
         albumArtUrl:
-          "/winter-beast-studio-site/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
         yourCredits: "Engineer and Mixer",
         links: [],
       },
