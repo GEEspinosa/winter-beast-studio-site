@@ -610,153 +610,449 @@ export const artistData: Artist[] = [
     },
   },
 
-  {
-    artistName: "L'Acephale",
-    artistBanner: "/images/artist-banners/WB: LAcephale Cover 4.png",
-    overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    output: [
-      {
-        selectOutputName: "Untitled LP (WIP)",
-        artistName: "L'Acephale",
-        outputName: "Untitled LP",
-        year: "Unreleased",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Engineer and Mixer",
-        links: [],
-      },
-    ],
-    media: {
-      photos: [],
-      videos: [],
-    },
-  },
+  // {
+  //   artistName: "L'Acephale",
+  //   artistBanner: "/images/artist-banners/WB: LAcephale Cover 4.png",
+  //   overview:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   output: [
+  //     {
+  //       selectOutputName: "Untitled LP (WIP)",
+  //       artistName: "L'Acephale",
+  //       outputName: "Untitled LP",
+  //       year: "Unreleased",
+  //       rlabel: "",
+  //       locations: ["WinterBeast"],
+  //       albumArtUrl:
+  //         "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+  //       yourCredits: "Engineer and Mixer",
+  //       links: [],
+  //     },
+  //   ],
+  //   media: {
+  //     photos: [],
+  //     videos: [],
+  //   },
+  // },
 
-  {
-    artistName: "The Mistons",
-    artistBanner: "/images/artist-banners/WB: The Mistons Cover Mask.png",
-    overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    output: [
-      {
-        selectOutputName: "Untitled LP (WIP)",
-        artistName: "The Mistons",
-        outputName: "Untitled LP",
-        year: "Unreleased",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Engineer and Mixer",
-        links: [],
-      },
-    ],
-    media: {
-      photos: [],
-      videos: [],
-    },
-  },
+  // {
+  //   artistName: "The Mistons",
+  //   artistBanner: "/images/artist-banners/WB: The Mistons Cover Mask.png",
+  //   overview:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   output: [
+  //     {
+  //       selectOutputName: "Untitled LP (WIP)",
+  //       artistName: "The Mistons",
+  //       outputName: "Untitled LP",
+  //       year: "Unreleased",
+  //       rlabel: "",
+  //       locations: ["WinterBeast"],
+  //       albumArtUrl:
+  //         "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+  //       yourCredits: "Engineer and Mixer",
+  //       links: [],
+  //     },
+  //   ],
+  //   media: {
+  //     photos: [],
+  //     videos: [],
+  //   },
+  // },
 
-  {
-    artistName: "Entrain",
-    artistBanner: "/images/artist-banners/WB: Entrain Cover 2.png",
-    overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    output: [
-      {
-        selectOutputName: "Untitled LP (WIP)",
-        artistName: "Entrain",
-        outputName: "Untitled LP",
-        year: "Unreleased",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Engineer and Mixer",
-        links: [],
-      },
-    ],
-    media: {
-      photos: [],
-      videos: [],
-    },
-  },
+  // {
+  //   artistName: "Entrain",
+  //   artistBanner: "/images/artist-banners/WB: Entrain Cover 2.png",
+  //   overview:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   output: [
+  //     {
+  //       selectOutputName: "Untitled LP (WIP)",
+  //       artistName: "Entrain",
+  //       outputName: "Untitled LP",
+  //       year: "Unreleased",
+  //       rlabel: "",
+  //       locations: ["WinterBeast"],
+  //       albumArtUrl:
+  //         "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+  //       yourCredits: "Engineer and Mixer",
+  //       links: [],
+  //     },
+  //   ],
+  //   media: {
+  //     photos: [],
+  //     videos: [],
+  //   },
+  // },
 
-  {
-    artistName: "Refrigerated Nurses",
-    artistBanner: "/images/artist-banners/WB: Refrigerated Nurses Cover.png",
-    overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    output: [
-      {
-        selectOutputName: "Untitled LP (WIP)",
-        artistName: "Refrigerated Nurses",
-        outputName: "Untitled LP",
-        year: "Unreleased",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Engineer and Mixer",
-        links: [],
-      },
-    ],
-    media: {
-      photos: [],
-      videos: [],
-    },
-  },
+  // {
+  //   artistName: "Refrigerated Nurses",
+  //   artistBanner: "/images/artist-banners/WB: Refrigerated Nurses Cover.png",
+  //   overview:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   output: [
+  //     {
+  //       selectOutputName: "Untitled LP (WIP)",
+  //       artistName: "Refrigerated Nurses",
+  //       outputName: "Untitled LP",
+  //       year: "Unreleased",
+  //       rlabel: "",
+  //       locations: ["WinterBeast"],
+  //       albumArtUrl:
+  //         "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+  //       yourCredits: "Engineer and Mixer",
+  //       links: [],
+  //     },
+  //   ],
+  //   media: {
+  //     photos: [],
+  //     videos: [],
+  //   },
+  // },
 
-  {
-    artistName: "The Hellcows",
-    artistBanner: "/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
-    overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    output: [
-      {
-        selectOutputName: "Singles (WIP)",
-        artistName: "The Hellcows",
-        outputName: "Untitled Singles",
-        year: "Unreleased",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Engineer and Mixer",
-        links: [],
-      },
-    ],
-    media: {
-      photos: [],
-      videos: [],
-    },
-  },
+  // {
+  //   artistName: "The Hellcows",
+  //   artistBanner: "/images/artist-banners/WB: The Hell Cows Cover_Darker 2.png",
+  //   overview:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   output: [
+  //     {
+  //       selectOutputName: "Singles (WIP)",
+  //       artistName: "The Hellcows",
+  //       outputName: "Untitled Singles",
+  //       year: "Unreleased",
+  //       rlabel: "",
+  //       locations: ["WinterBeast"],
+  //       albumArtUrl:
+  //         "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+  //       yourCredits: "Engineer and Mixer",
+  //       links: [],
+  //     },
+  //   ],
+  //   media: {
+  //     photos: [],
+  //     videos: [],
+  //   },
+  // },
 
-  {
-    artistName: "Notnauts",
-    artistBanner: "/images/artist-banners/WB: Notnauts Cover Darker.png",
-    overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    output: [
-      {
-        selectOutputName: "Untitled LP (WIP)",
-        artistName: "The Hellcows",
-        outputName: "Untitled LP",
-        year: "Unreleased",
-        rlabel: "",
-        locations: ["WinterBeast"],
-        albumArtUrl:
-          "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
-        yourCredits: "Engineer and Mixer",
-        links: [],
-      },
-    ],
-    media: {
-      photos: [],
-      videos: [],
+  // {
+  //   artistName: "Notnauts",
+  //   artistBanner: "/images/artist-banners/WB: Notnauts Cover Darker.png",
+  //   overview:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   output: [
+  //     {
+  //       selectOutputName: "Untitled LP (WIP)",
+  //       artistName: "The Hellcows",
+  //       outputName: "Untitled LP",
+  //       year: "Unreleased",
+  //       rlabel: "",
+  //       locations: ["WinterBeast"],
+  //       albumArtUrl:
+  //         "/images/album-covers/fliege-the-invisible-seam-album-art.jpeg",
+  //       yourCredits: "Engineer and Mixer",
+  //       links: [],
+  //     },
+  //   ],
+  //   media: {
+  //     photos: [],
+  //     videos: [],
+  //   },
+  // },
+
+
+  ///// pre-winterbeast
+
+
+
+  
+{
+  artistName: "Kolotov Mocktail",
+  artistBanner: "/images/album-covers/kolotov-mocktails-ivy-hall-album-art.webp",
+  overview:
+    "A release from the earlier freelance years, before the development of WinterBeast.",
+  output: [
+    {
+      selectOutputName: "Ivy Hall (2019)",
+      outputName: "Ivy Hall",
+      artistName: "Kolotov Mocktail",
+      year: "2019",
+      archivePriority: 1,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/kolotov-mocktails-ivy-hall-album-art.webp",
+      yourCredits: "Mixing",
+      links: [],
     },
-  },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "L'Acephale",
+  artistBanner: "/images/album-covers/lacephale-self-titled-album-art.webp",
+  overview:
+    "Recorded during the earlier freelance years, before the development of WinterBeast.",
+  output: [
+    {
+      selectOutputName: "L'Acephale (2019)",
+      outputName: "L'Acephale",
+      artistName: "L'Acephale",
+      year: "2019",
+      archivePriority: 2,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/lacephale-self-titled-album-art.webp",
+      yourCredits: "Production, Recording, & Mixing",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Twin Perish",
+  artistBanner: "/images/album-covers/twin-perish-blue-pour-album-art.webp",
+  overview:
+    "An earlier release from the freelance years, preceding the establishment of WinterBeast.",
+  output: [
+    {
+      selectOutputName: "Blue Pour EP (2018)",
+      outputName: "Blue Pour EP",
+      artistName: "Twin Perish",
+      year: "2018",
+      archivePriority: 3,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/twin-perish-blue-pour-album-art.webp",
+      yourCredits: "Composing, Production, Recording, & Mixing",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Bulldog Shadow",
+  artistBanner: "/images/album-covers/bulldog-shadow-album-art.webp",
+  overview:
+    "An earlier production and engineering project from the freelance years.",
+  output: [
+    {
+      selectOutputName: "24-Hour Drunk (2016)",
+      outputName: "24-Hour Drunk",
+      artistName: "Bulldog Shadow",
+      year: "2016",
+      archivePriority: 4,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl: "/images/album-covers/bulldog-shadow-album-art.webp",
+      yourCredits: "Production, Recording, & Mixing",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Night Surgeon",
+  artistBanner: "/images/album-covers/night-surgeon-day-for-night-album-art.webp",
+  overview:
+    "A series of projects from the earlier freelance years, spanning production, engineering, and mixing.",
+  output: [
+    {
+      selectOutputName: "Gondola Crimewave (2014)",
+      outputName: "Gondola Crimewave",
+      artistName: "Night Surgeon",
+      year: "2014",
+      archivePriority: 5,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/night-surgeon-gondola-crimewave-album-art.webp",
+      yourCredits: "Production, Recording, & Mixing",
+      links: [],
+    },
+    {
+      selectOutputName: "Night Surgeon EP (2013)",
+      outputName: "Night Surgeon EP",
+      artistName: "Night Surgeon",
+      year: "2013",
+      archivePriority: 6,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/night-surgeon-self-titled-album-art.webp",
+      yourCredits: "Production, Recording, & Mixing",
+      links: [],
+    },
+    {
+      selectOutputName: "Day for Night (2011)",
+      outputName: "Day for Night",
+      artistName: "Night Surgeon",
+      year: "2011",
+      archivePriority: 8,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/night-surgeon-day-for-night-album-art.webp",
+      yourCredits: "Production, Recording, & Mixing",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Steelhymen",
+  artistBanner: "/images/album-covers/steelhymen-album-art.webp",
+  overview:
+    "An earlier engineering and mixing project from the freelance years.",
+  output: [
+    {
+      selectOutputName: "0 || 0/0 (2012)",
+      outputName: "0 || 0/0",
+      artistName: "Steelhymen",
+      year: "2012",
+      archivePriority: 7,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl: "/images/album-covers/steelhymen-album-art.webp",
+      yourCredits: "Recording & Mixing",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Blondie",
+  artistBanner: "/images/album-covers/blondie-panic-of-girls-album-art.webp",
+  overview:
+    "An engineering credit from the earlier freelance years.",
+  output: [
+    {
+      selectOutputName: "Panic of Girls (2011)",
+      outputName: "Panic of Girls",
+      artistName: "Blondie",
+      year: "2011",
+      archivePriority: 9,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/blondie-panic-of-girls-album-art.webp",
+      yourCredits: "Recording",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Shalants",
+  artistBanner: "/images/album-covers/shalants-self-titled-album-art.webp",
+  overview:
+    "An earlier engineering and mixing project from the freelance years.",
+  output: [
+    {
+      selectOutputName: "Self-Titled (2011)",
+      outputName: "Self-Titled",
+      artistName: "Shalants",
+      year: "2011",
+      archivePriority: 10,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/shalants-self-titled-album-art.webp",
+      yourCredits: "Recording & Mixing",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Caseyspooner",
+  artistBanner: "/images/album-covers/casey-spooner-album-art.webp",
+  overview:
+    "An engineering project from the earlier freelance years.",
+  output: [
+    {
+      selectOutputName: "Adult Contemporary (2011)",
+      outputName: "Adult Contemporary",
+      artistName: "Caseyspooner",
+      year: "2011",
+      archivePriority: 11,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl: "/images/album-covers/casey-spooner-album-art.webp",
+      yourCredits: "Recording",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Fischerspooner",
+  artistBanner: "/images/album-covers/fischerspooner-best-revenge-album-art.webp",
+  overview:
+    "An engineering project from the earlier freelance years, before WinterBeast.",
+  output: [
+    {
+      selectOutputName: "Entertainment (2009)",
+      outputName: "Entertainment",
+      artistName: "Fischerspooner",
+      year: "2009",
+      archivePriority: 12,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/fischerspooner-best-revenge-album-art.webp",
+      yourCredits: "Recording",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Mobile",
+  artistBanner: "/images/album-covers/mobile-tales-from-the-city-album-art.webp",
+  overview:
+    "An engineering project from the early freelance years in Brooklyn / NYC.",
+  output: [
+    {
+      selectOutputName: "Tales from The City (2008)",
+      outputName: "Tales from The City",
+      artistName: "Mobile",
+      year: "2008",
+      archivePriority: 13,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/mobile-tales-from-the-city-album-art.webp",
+      yourCredits: "Recording",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+{
+  artistName: "Stab The Matador",
+  artistBanner: "/images/album-covers/stab-the-matador-doctor-album-art.webp",
+  overview:
+    "An early freelance engineering project from 2007.",
+  output: [
+    {
+      selectOutputName: "Doctor EP (2007)",
+      outputName: "Doctor EP",
+      artistName: "Stab The Matador",
+      year: "2007",
+      archivePriority: 14,
+      rlabel: "",
+      locations: ["Brooklyn / NYC"],
+      albumArtUrl:
+        "/images/album-covers/stab-the-matador-doctor-album-art.webp",
+      yourCredits: "Recording",
+      links: [],
+    },
+  ],
+  media: { photos: [], videos: [] },
+},
+
+
 ];

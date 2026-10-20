@@ -2,6 +2,8 @@ import HeroImage from "@/components/HeroImage";
 import ReleasesGrid from "@/components/ReleasesGrid";
 import { featuredHomepageReleases } from "@/lib/selectors/featuredHomepageReleasesSelector";
 import HomePageGallerySection from "@/components/HomePageGallerySection";
+import ExpandableReleases from "@/components/ExpandableReleases";
+import { preWinterBeastReleases } from "@/lib/selectors/PreWinterBeastReleasesSelector";
 
 export default function Home() {
   return (
@@ -66,14 +68,26 @@ export default function Home() {
       </section>
 
       {/* RELEASES */}
-      <section className="px-6 md:px-12 lg:px-20 py-20">
+      {/* <section className="px-6 md:px-12 lg:px-20 py-20">
         <div className="max-w-6xl mx-auto">
           <p className="text-[20px] uppercase tracking-[0.22em]  mb-10">
             Selected Work
           </p>
           <ReleasesGrid releases={featuredHomepageReleases} />
         </div>
-      </section>
+      </section> */}
+
+      <section className="px-6 md:px-12 lg:px-20 py-20">
+  <div className="max-w-6xl mx-auto">
+    <p className="text-[20px] uppercase tracking-[0.22em] mb-10">
+      Selected Work
+    </p>
+
+    <ReleasesGrid releases={featuredHomepageReleases} />
+
+    <ExpandableReleases releases={preWinterBeastReleases} />
+  </div>
+</section>
 
       {/* <section className="px-6 md:px-12 lg:px-20 py-20">
   <div className="max-w-6xl mx-auto">

@@ -12,6 +12,7 @@ export type Album = {
   locations: string[];
   albumArtUrl: string;
   homepagePriority?: number;
+  archivePriority?: number;
   yourCredits: string;
   links: AlbumLink[];
   format?: string;
