@@ -779,11 +779,16 @@ export const artistData: Artist[] = [
       year: "2019",
       archivePriority: 1,
       rlabel: "",
-      locations: ["Brooklyn / NYC"],
+      locations: ["Portland, OR"],
       albumArtUrl:
         "/images/album-covers/kolotov-mocktails-ivy-hall-album-art.webp",
       yourCredits: "Mixing",
-      links: [],
+      links: [
+        {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/218Mm1fSAHmLlMrsychGcK?si=6UrpO2BVQLq3nc3ZaJnLTA",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -801,11 +806,20 @@ export const artistData: Artist[] = [
       year: "2019",
       archivePriority: 2,
       rlabel: "",
-      locations: ["Brooklyn / NYC"],
+      locations: ["Portland, Oregon"],
       albumArtUrl:
         "/images/album-covers/lacephale-self-titled-album-art.webp",
       yourCredits: "Production, Recording, & Mixing",
-      links: [],
+      links: [
+        {
+            label: "Bandcamp",
+            url: "https://lacephale.bandcamp.com/album/lac-phale",
+          },
+         {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/7AaJDknvqHSlk16aXzNiMI?si=WPQbrapQSSKbx3SfMcV9Kw",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -827,7 +841,16 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/twin-perish-blue-pour-album-art.webp",
       yourCredits: "Composing, Production, Recording, & Mixing",
-      links: [],
+      links: [
+        {
+            label: "Bandcamp",
+            url: "https://twinperish.bandcamp.com/album/blue-pour",
+          },
+         {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/1WvmRJY47BK0VuuhHNJlEc?si=1bDku5l3TOuNLdD6PRyLgg",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -848,7 +871,12 @@ export const artistData: Artist[] = [
       locations: ["Brooklyn / NYC"],
       albumArtUrl: "/images/album-covers/bulldog-shadow-album-art.webp",
       yourCredits: "Production, Recording, & Mixing",
-      links: [],
+      links: [
+        {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/7GLqu4erjotSs5XzxM75ot?si=CJLeJDXgTjOG2-IhPBkUVw",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -870,7 +898,16 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/night-surgeon-gondola-crimewave-album-art.webp",
       yourCredits: "Production, Recording, & Mixing",
-      links: [],
+      links: [
+        {
+            label: "Bandcamp",
+            url: "https://nightsurgeon.bandcamp.com/album/gondola-crimewave-ep",
+          },
+          {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/1LCLrDqVORf8NgB5AfRxVT?si=FaouVD50R8-H0nddpAPNLg",
+          },
+      ],
     },
     {
       selectOutputName: "Night Surgeon EP (2013)",
@@ -883,7 +920,16 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/night-surgeon-self-titled-album-art.webp",
       yourCredits: "Production, Recording, & Mixing",
-      links: [],
+      links: [
+         {
+            label: "Bandcamp",
+            url: "https://nightsurgeon.bandcamp.com/album/night-surgeon",
+          },
+          {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/23tznxJyKnEmQZAmRarBr9?si=WNrvYiCRRzWlW9QKzV9LGA",
+          },
+      ],
     },
     {
       selectOutputName: "Day for Night (2011)",
@@ -896,7 +942,12 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/night-surgeon-day-for-night-album-art.webp",
       yourCredits: "Production, Recording, & Mixing",
-      links: [],
+      links: [
+        {
+            label: "Bandcamp",
+            url: "https://nightsurgeon.bandcamp.com/album/day-for-night",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -917,7 +968,10 @@ export const artistData: Artist[] = [
       locations: ["Brooklyn / NYC"],
       albumArtUrl: "/images/album-covers/steelhymen-album-art.webp",
       yourCredits: "Recording & Mixing",
-      links: [],
+      links: [{
+            label: "Bandcamp",
+            url: "https://steelhymen.bandcamp.com/album/0-0-0",
+          },],
     },
   ],
   media: { photos: [], videos: [] },
@@ -939,7 +993,12 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/blondie-panic-of-girls-album-art.webp",
       yourCredits: "Recording",
-      links: [],
+      links: [
+        {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/3taJK6ccQov0Z5FlKox65t?si=VV45BDD6QdynBx4yW4t4ig",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -1004,7 +1063,12 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/fischerspooner-best-revenge-album-art.webp",
       yourCredits: "Recording",
-      links: [],
+      links: [
+        {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/5FK8OnEdj1u8rHisO2dy3M?si=L_quUf0jRKe87SdI4TKQEA",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
@@ -1026,7 +1090,12 @@ export const artistData: Artist[] = [
       albumArtUrl:
         "/images/album-covers/mobile-tales-from-the-city-album-art.webp",
       yourCredits: "Recording",
-      links: [],
+      links: [
+        {
+            label: "Spotify",
+            url: "https://open.spotify.com/album/7uFuJrDydmZE6I6QYjodpA?si=4IRwrJ18QN-4HrOzVMBvyg",
+          },
+      ],
     },
   ],
   media: { photos: [], videos: [] },
