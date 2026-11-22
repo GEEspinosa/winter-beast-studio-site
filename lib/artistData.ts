@@ -854,7 +854,7 @@ export const artistData: Artist[] = [
     output: [
       {
         selectOutputName: "Blue Pour EP (2018)",
-        outputName: "Blue Pour EP",
+        outputName: "Blue Pour",
         artistName: "Twin Perish",
         year: "2018",
         archivePriority: 3,
@@ -890,7 +890,7 @@ export const artistData: Artist[] = [
         year: "2016",
         archivePriority: 4,
         rlabel: "",
-        locations: ["Brooklyn / NYC"],
+        locations: [""],
         albumArtUrl: "/images/album-covers/bulldog-shadow-album-art.webp",
         yourCredits: "Production, Recording, & Mixing",
         links: [
@@ -917,7 +917,7 @@ export const artistData: Artist[] = [
         year: "2014",
         archivePriority: 5,
         rlabel: "",
-        locations: ["Brooklyn / NYC"],
+        locations: [""],
         albumArtUrl:
           "/images/album-covers/night-surgeon-gondola-crimewave-album-art.webp",
         yourCredits: "Production, Recording, & Mixing",
@@ -934,7 +934,7 @@ export const artistData: Artist[] = [
       },
       {
         selectOutputName: "Night Surgeon EP (2013)",
-        outputName: "Night Surgeon EP",
+        outputName: "Night Surgeon",
         artistName: "Night Surgeon",
         year: "2013",
         archivePriority: 6,
@@ -961,7 +961,7 @@ export const artistData: Artist[] = [
         year: "2011",
         archivePriority: 8,
         rlabel: "",
-        locations: ["Brooklyn / NYC"],
+        locations: [""],
         albumArtUrl:
           "/images/album-covers/night-surgeon-day-for-night-album-art.webp",
         yourCredits: "Production, Recording, & Mixing",
@@ -988,7 +988,7 @@ export const artistData: Artist[] = [
         year: "2012",
         archivePriority: 7,
         rlabel: "",
-        locations: ["Brooklyn / NYC"],
+        locations: [""],
         albumArtUrl: "/images/album-covers/steelhymen-album-art.webp",
         yourCredits: "Recording & Mixing",
         links: [
@@ -1035,7 +1035,7 @@ export const artistData: Artist[] = [
     output: [
       {
         selectOutputName: "Self-Titled (2011)",
-        outputName: "Self-Titled",
+        outputName: "Shalants",
         artistName: "Shalants",
         year: "2011",
         archivePriority: 10,
